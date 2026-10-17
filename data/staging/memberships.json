@@ -1,0 +1,3336 @@
+[
+ {
+  "entity": "300308.SZ",
+  "label": "20260630",
+  "revenue": 41777860000.0,
+  "revenue_source": {
+   "call_id": "623e65528199",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光通信收发模块",
+    "revenue": 41355212182.06,
+    "rank": 1,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "specific",
+    "keyword": "光通信收发模块",
+    "share": 0.9898834497999658
+   },
+   {
+    "name": "其他业务",
+    "revenue": 422649612.97,
+    "rank": 2,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.010116593166093238
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": 0.9898834497999658,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光通信收发模块",
+      "revenue": 41355212182.06,
+      "rank": 1,
+      "source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "module",
+      "kind": "specific",
+      "keyword": "光通信收发模块",
+      "share": 0.9898834497999658
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "中际旭创",
+  "role": "core"
+ },
+ {
+  "entity": "300502.SZ",
+  "label": "20260630",
+  "revenue": 20909750000.0,
+  "revenue_source": {
+   "call_id": "9f775ca11cbd",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光互联产品",
+    "revenue": 20882640848.88,
+    "rank": 1,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "module",
+    "kind": "specific",
+    "keyword": "光互联产品",
+    "share": 0.9987035162486401
+   },
+   {
+    "name": "组件",
+    "revenue": 27106113.32,
+    "rank": 2,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "组件",
+    "share": 0.0012963384698525808
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": 0.9987035162486401,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光互联产品",
+      "revenue": 20882640848.88,
+      "rank": 1,
+      "source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "module",
+      "kind": "specific",
+      "keyword": "光互联产品",
+      "share": 0.9987035162486401
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "新易盛",
+  "role": "core"
+ },
+ {
+  "entity": "002281.SZ",
+  "label": "20260630",
+  "revenue": 6609670000.0,
+  "revenue_source": {
+   "call_id": "fc9a2feda392",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "接入和数据",
+    "revenue": 4310103082.43,
+    "rank": 1,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "接入和数据",
+    "share": 0.652090510181295
+   },
+   {
+    "name": "传输",
+    "revenue": 2283334437.83,
+    "rank": 2,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "传输",
+    "share": 0.3454536214107512
+   },
+   {
+    "name": "其他",
+    "revenue": 13573391.37,
+    "rank": 3,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.002053565665154236
+   },
+   {
+    "name": "其他业务收入",
+    "revenue": 2659853.73,
+    "rank": 4,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00040241853678020235
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": null,
+    "share_upper": 0.652090510181295,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_1ab200837a",
+     "ev_b6a382b20f"
+    ],
+    "items": [
+     {
+      "name": "接入和数据",
+      "revenue": 4310103082.43,
+      "rank": 1,
+      "source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "module",
+      "kind": "generic",
+      "keyword": "接入和数据",
+      "share": 0.652090510181295
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "光迅科技",
+  "role": "core"
+ },
+ {
+  "entity": "000988.SZ",
+  "label": "20260630",
+  "revenue": 7821760000.0,
+  "revenue_source": {
+   "call_id": "717f724286c3",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光电器件系列产品",
+    "revenue": 3802830759.38,
+    "rank": 1,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "光电器件",
+    "share": 0.486186070574909
+   },
+   {
+    "name": "激光加工系列成套设备",
+    "revenue": 1929259839.78,
+    "rank": 2,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.24665290673454568
+   },
+   {
+    "name": "敏感元器件",
+    "revenue": 1878737403.87,
+    "rank": 3,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.24019369091738943
+   },
+   {
+    "name": "租赁及其他",
+    "revenue": 210931097.81,
+    "rank": 4,
+    "source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "af33fdfc3bb7",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.02696721681693123
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": null,
+    "share_upper": 0.486186070574909,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_7d575ee8eb",
+     "ev_7d575ee8eb",
+     "ev_7d575ee8eb",
+     "ev_498a731c06",
+     "ev_498a731c06",
+     "ev_1cb48efa0f",
+     "ev_1cb48efa0f",
+     "ev_83ff506682",
+     "ev_8e8a28bb0b",
+     "ev_53ae987527",
+     "ev_53ae987527",
+     "ev_e13f2fc1f0",
+     "ev_1541406bfc",
+     "ev_1fb006561c"
+    ],
+    "items": [
+     {
+      "name": "光电器件系列产品",
+      "revenue": 3802830759.38,
+      "rank": 1,
+      "source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "af33fdfc3bb7",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "module",
+      "kind": "generic",
+      "keyword": "光电器件",
+      "share": 0.486186070574909
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "华工科技",
+  "role": "core"
+ },
+ {
+  "entity": "603083.SH",
+  "label": "20251231",
+  "revenue": 4823410000.0,
+  "revenue_source": {
+   "call_id": "2e1a57eb771b",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 2
+  },
+  "items": [
+   {
+    "name": "电信宽带终端",
+    "revenue": 1992407158.65,
+    "rank": 1,
+    "source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.41307024670305864
+   },
+   {
+    "name": "高速光组件与光模块",
+    "revenue": 1675383015.45,
+    "rank": 2,
+    "source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "module",
+    "kind": "specific",
+    "keyword": "光模块",
+    "share": 0.3473441020875273
+   },
+   {
+    "name": "无线网络设备",
+    "revenue": 1153962178.57,
+    "rank": 3,
+    "source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "switch_server",
+    "kind": "generic",
+    "keyword": "网络设备",
+    "share": 0.23924198410875291
+   },
+   {
+    "name": "其他业务",
+    "revenue": 1653344.97,
+    "rank": 4,
+    "source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "4ef6158cd683",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00034277512589640937
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": 0.3473441020875273,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "高速光组件与光模块",
+      "revenue": 1675383015.45,
+      "rank": 2,
+      "source": {
+       "call_id": "4ef6158cd683",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "4ef6158cd683",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "module",
+      "kind": "specific",
+      "keyword": "光模块",
+      "share": 0.3473441020875273
+     }
+    ],
+    "role": "主"
+   },
+   {
+    "segment": "switch_server",
+    "share": null,
+    "share_upper": 0.23924198410875291,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "无线网络设备",
+      "revenue": 1153962178.57,
+      "rank": 3,
+      "source": {
+       "call_id": "4ef6158cd683",
+       "column": "主营构成-项目收入(按产品)（排名：第3名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "4ef6158cd683",
+       "column": "主营构成-项目名称(按产品)（排名：第3名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "switch_server",
+      "kind": "generic",
+      "keyword": "网络设备",
+      "share": 0.23924198410875291
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": "module",
+  "name": "剑桥科技",
+  "role": "core"
+ },
+ {
+  "entity": "301205.SZ",
+  "label": "20260630",
+  "revenue": 696240000.0,
+  "revenue_source": {
+   "call_id": "d658d35a36a9",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光模块",
+    "revenue": 690065646.32,
+    "rank": 1,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "module",
+    "kind": "specific",
+    "keyword": "光模块",
+    "share": 0.9911318601631622
+   },
+   {
+    "name": "其他业务",
+    "revenue": 6177694.45,
+    "rank": 2,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.008872938139147421
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": 0.9911318601631622,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光模块",
+      "revenue": 690065646.32,
+      "rank": 1,
+      "source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "module",
+      "kind": "specific",
+      "keyword": "光模块",
+      "share": 0.9911318601631622
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "联特科技",
+  "role": "core"
+ },
+ {
+  "entity": "300548.SZ",
+  "label": "20260630",
+  "revenue": 1688450000.0,
+  "revenue_source": {
+   "call_id": "ee00dbe94c26",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "数据通信、消费及工业互联市场",
+    "revenue": 1480185038.44,
+    "rank": 1,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "数据通信",
+    "share": 0.8766531661820013
+   },
+   {
+    "name": "电信市场",
+    "revenue": 202353849.03,
+    "rank": 2,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "电信市场",
+    "share": 0.1198459232017531
+   },
+   {
+    "name": "其他业务",
+    "revenue": 5906893.4,
+    "rank": 3,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0034984117978027187
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": null,
+    "share_upper": 0.8766531661820013,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_e1fef978e5",
+     "ev_e1fef978e5"
+    ],
+    "items": [
+     {
+      "name": "数据通信、消费及工业互联市场",
+      "revenue": 1480185038.44,
+      "rank": 1,
+      "source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "module",
+      "kind": "generic",
+      "keyword": "数据通信",
+      "share": 0.8766531661820013
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "module",
+  "name": "长芯博创",
+  "role": "core"
+ },
+ {
+  "entity": "688498.SH",
+  "label": "20260630",
+  "revenue": 925150000.0,
+  "revenue_source": {
+   "call_id": "34b6c5be6897",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "数据中心类产品",
+    "revenue": 774216640.48,
+    "rank": 1,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "optical_chip",
+    "kind": "override",
+    "keyword": null,
+    "reason": "源杰科技主营为光芯片（iFinD 主营业务字段），数据中心类产品即数通用激光器芯片",
+    "share": 0.8368552564232827
+   },
+   {
+    "name": "电信市场类",
+    "revenue": 148436958.93,
+    "rank": 2,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "optical_chip",
+    "kind": "override",
+    "keyword": null,
+    "reason": "同上，电信市场类为电信用光芯片",
+    "share": 0.16044636970221046
+   },
+   {
+    "name": "技术服务及其他",
+    "revenue": 1713146.35,
+    "rank": 3,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0018517498243528078
+   },
+   {
+    "name": "其他类产品",
+    "revenue": 783716.8,
+    "rank": 4,
+    "source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "621a5c7166a6",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0008471240339404421
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_chip",
+    "share": 0.9973016261254932,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "数据中心类产品",
+      "revenue": 774216640.48,
+      "rank": 1,
+      "source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "optical_chip",
+      "kind": "override",
+      "keyword": null,
+      "reason": "源杰科技主营为光芯片（iFinD 主营业务字段），数据中心类产品即数通用激光器芯片",
+      "share": 0.8368552564232827
+     },
+     {
+      "name": "电信市场类",
+      "revenue": 148436958.93,
+      "rank": 2,
+      "source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "621a5c7166a6",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "optical_chip",
+      "kind": "override",
+      "keyword": null,
+      "reason": "同上，电信市场类为电信用光芯片",
+      "share": 0.16044636970221046
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "optical_chip",
+  "name": "源杰科技",
+  "role": "core"
+ },
+ {
+  "entity": "688048.SH",
+  "label": "20260630",
+  "revenue": 391020000.0,
+  "revenue_source": {
+   "call_id": "47ca52d86794",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "高功率单管系列",
+    "revenue": 195093359.98,
+    "rank": 1,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.4989344790036315
+   },
+   {
+    "name": "光通信芯片系列",
+    "revenue": 166345140.8,
+    "rank": 2,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "optical_chip",
+    "kind": "specific",
+    "keyword": "光通信芯片",
+    "share": 0.42541338243568105
+   },
+   {
+    "name": "高功率巴条系列",
+    "revenue": 10212928.62,
+    "rank": 3,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.02611868605186435
+   },
+   {
+    "name": "废料销售",
+    "revenue": 10094938.6,
+    "rank": 4,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.02581693672957905
+   },
+   {
+    "name": "其他",
+    "revenue": 6340537.7,
+    "rank": 5,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第5名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第5名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.016215379520229146
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_chip",
+    "share": 0.42541338243568105,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光通信芯片系列",
+      "revenue": 166345140.8,
+      "rank": 2,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "optical_chip",
+      "kind": "specific",
+      "keyword": "光通信芯片",
+      "share": 0.42541338243568105
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "optical_chip",
+  "name": "长光华芯",
+  "role": "core"
+ },
+ {
+  "entity": "688313.SH",
+  "label": "20260630",
+  "revenue": 1495490000.0,
+  "revenue_source": {
+   "call_id": "d0cd99f2fb42",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光纤连接器",
+    "revenue": 761535806.84,
+    "rank": 1,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光纤连接器",
+    "share": 0.5092215974964728
+   },
+   {
+    "name": "AWG芯片系列产品",
+    "revenue": 383274323.46,
+    "rank": 2,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "optical_chip",
+    "kind": "specific",
+    "keyword": "AWG芯片",
+    "share": 0.25628678457228066
+   },
+   {
+    "name": "线缆材料",
+    "revenue": 136652628.16,
+    "rank": 3,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.09137649075553832
+   },
+   {
+    "name": "室内光缆",
+    "revenue": 97523424.81,
+    "rank": 4,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.06521168634360644
+   },
+   {
+    "name": "DFB激光器芯片系列产品",
+    "revenue": 48901452.76,
+    "rank": 5,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第5名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第5名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "optical_chip",
+    "kind": "specific",
+    "keyword": "激光器芯片",
+    "share": 0.03269928435496058
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_component",
+    "share": 0.5092215974964728,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光纤连接器",
+      "revenue": 761535806.84,
+      "rank": 1,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光纤连接器",
+      "share": 0.5092215974964728
+     }
+    ],
+    "role": "主"
+   },
+   {
+    "segment": "optical_chip",
+    "share": 0.2889860689272412,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "AWG芯片系列产品",
+      "revenue": 383274323.46,
+      "rank": 2,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "optical_chip",
+      "kind": "specific",
+      "keyword": "AWG芯片",
+      "share": 0.25628678457228066
+     },
+     {
+      "name": "DFB激光器芯片系列产品",
+      "revenue": 48901452.76,
+      "rank": 5,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第5名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第5名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "optical_chip",
+      "kind": "specific",
+      "keyword": "激光器芯片",
+      "share": 0.03269928435496058
+     }
+    ],
+    "role": "次"
+   }
+  ],
+  "primary": "optical_component",
+  "name": "仕佳光子",
+  "role": "core"
+ },
+ {
+  "entity": "600703.SH",
+  "label": "20260630",
+  "revenue": 6467560000.0,
+  "revenue_source": {
+   "call_id": "7cec6b604e38",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "LED外延芯片",
+    "revenue": 3103432008.83,
+    "rank": 1,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "optical_chip",
+    "kind": "generic",
+    "keyword": "芯片",
+    "share": 0.4798458783266023
+   },
+   {
+    "name": "LED应用产品",
+    "revenue": 1683449085.79,
+    "rank": 2,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.2602912204587201
+   },
+   {
+    "name": "集成电路芯片",
+    "revenue": 1267945631.0,
+    "rank": 3,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "optical_chip",
+    "kind": "generic",
+    "keyword": "芯片",
+    "share": 0.19604698387026948
+   },
+   {
+    "name": "材料、废料销售",
+    "revenue": 354728078.55,
+    "rank": 4,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.05484728066689756
+   },
+   {
+    "name": "租金、物业、服务、利息收入",
+    "revenue": 58008204.81,
+    "rank": 5,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第5名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第5名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.008969101919425564
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_chip",
+    "share": null,
+    "share_upper": 0.4798458783266023,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_4a40485e81",
+     "ev_2444aa1b20"
+    ],
+    "items": [
+     {
+      "name": "LED外延芯片",
+      "revenue": 3103432008.83,
+      "rank": 1,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "optical_chip",
+      "kind": "generic",
+      "keyword": "芯片",
+      "share": 0.4798458783266023
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "optical_chip",
+  "name": "三安光电",
+  "role": "core"
+ },
+ {
+  "entity": "300394.SZ",
+  "label": "20260630",
+  "revenue": 2827940000.0,
+  "revenue_source": {
+   "call_id": "107df100b006",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光无源器件",
+    "revenue": 1530364516.33,
+    "rank": 1,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光无源器件",
+    "share": 0.5411587644469119
+   },
+   {
+    "name": "光有源器件",
+    "revenue": 1259923042.78,
+    "rank": 2,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光有源器件",
+    "share": 0.44552679433792797
+   },
+   {
+    "name": "其他业务",
+    "revenue": 37651189.26,
+    "rank": 3,
+    "source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "c4f76e90d97f",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.013313998620904263
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_component",
+    "share": 0.9866855587848399,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光无源器件",
+      "revenue": 1530364516.33,
+      "rank": 1,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光无源器件",
+      "share": 0.5411587644469119
+     },
+     {
+      "name": "光有源器件",
+      "revenue": 1259923042.78,
+      "rank": 2,
+      "source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "c4f76e90d97f",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光有源器件",
+      "share": 0.44552679433792797
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "optical_component",
+  "name": "天孚通信",
+  "role": "core"
+ },
+ {
+  "entity": "300620.SZ",
+  "label": "20260630",
+  "revenue": 1031660000.0,
+  "revenue_source": {
+   "call_id": "1d2bab4d10bc",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光通讯器件",
+    "revenue": 601822297.41,
+    "rank": 1,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光通讯器件",
+    "share": 0.5833533309520578
+   },
+   {
+    "name": "光纤激光器件",
+    "revenue": 378780271.21,
+    "rank": 2,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光器件",
+    "share": 0.36715610880522653
+   },
+   {
+    "name": "其他业务",
+    "revenue": 51059637.24,
+    "rank": 3,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.049492698408390365
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_component",
+    "share": 0.9505094397572843,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光通讯器件",
+      "revenue": 601822297.41,
+      "rank": 1,
+      "source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光通讯器件",
+      "share": 0.5833533309520578
+     },
+     {
+      "name": "光纤激光器件",
+      "revenue": 378780271.21,
+      "rank": 2,
+      "source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目收入(按产品)（排名：第2名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目名称(按产品)（排名：第2名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光器件",
+      "share": 0.36715610880522653
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "optical_component",
+  "name": "光库科技",
+  "role": "core"
+ },
+ {
+  "entity": "300570.SZ",
+  "label": "20260630",
+  "revenue": 1000910000.0,
+  "revenue_source": {
+   "call_id": "e9397030fd37",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "光器件产品",
+    "revenue": 958899886.28,
+    "rank": 1,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": "optical_component",
+    "kind": "specific",
+    "keyword": "光器件",
+    "share": 0.9580280807265388
+   },
+   {
+    "name": "其他",
+    "revenue": 40398513.79,
+    "rank": 2,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.040361784566044896
+   },
+   {
+    "name": "光传感",
+    "revenue": 1613136.22,
+    "rank": 3,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0016116696006633962
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_component",
+    "share": 0.9580280807265388,
+    "basis": "分产品收入",
+    "items": [
+     {
+      "name": "光器件产品",
+      "revenue": 958899886.28,
+      "rank": 1,
+      "source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 3
+      },
+      "name_source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 3
+      },
+      "segment": "optical_component",
+      "kind": "specific",
+      "keyword": "光器件",
+      "share": 0.9580280807265388
+     }
+    ],
+    "role": "主"
+   }
+  ],
+  "primary": "optical_component",
+  "name": "太辰光",
+  "role": "core"
+ },
+ {
+  "entity": "003031.SZ",
+  "label": "20260630",
+  "revenue": 2210800000.0,
+  "revenue_source": {
+   "call_id": "fa38a75194d0",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "电子陶瓷材料及元件",
+    "revenue": 1650594191.65,
+    "rank": 1,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "substrate",
+    "kind": "generic",
+    "keyword": "电子陶瓷材料及元件",
+    "share": 0.7466049356115434
+   },
+   {
+    "name": "第三代半导体器件及模块",
+    "revenue": 770847851.54,
+    "rank": 2,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.3486737160937217
+   },
+   {
+    "name": "内部抵销",
+    "revenue": -210641068.96,
+    "rank": 3,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": -0.09527821103672879
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "substrate",
+    "share": null,
+    "share_upper": 0.7466049356115434,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_d8b89c6873",
+     "ev_4ced661400",
+     "ev_4ced661400",
+     "ev_794bdab793"
+    ],
+    "items": [
+     {
+      "name": "电子陶瓷材料及元件",
+      "revenue": 1650594191.65,
+      "rank": 1,
+      "source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "substrate",
+      "kind": "generic",
+      "keyword": "电子陶瓷材料及元件",
+      "share": 0.7466049356115434
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "substrate",
+  "name": "中瓷电子",
+  "role": "core"
+ },
+ {
+  "entity": "002463.SZ",
+  "label": "20260630",
+  "revenue": 13689430000.0,
+  "revenue_source": {
+   "call_id": "7adc05f02e7c",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "企业通讯市场板",
+    "revenue": 11330137462.0,
+    "rank": 1,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "substrate",
+    "kind": "generic",
+    "keyword": "企业通讯市场板",
+    "share": 0.8276558967027846
+   },
+   {
+    "name": "汽车板",
+    "revenue": 1438141833.0,
+    "rank": 2,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.10505490973692842
+   },
+   {
+    "name": "销售材料",
+    "revenue": 693049838.0,
+    "rank": 3,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.05062663953137567
+   },
+   {
+    "name": "工业控制及其他",
+    "revenue": 226199887.0,
+    "rank": 4,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.01652368922592102
+   },
+   {
+    "name": "租金收入",
+    "revenue": 1829018.0,
+    "rank": 5,
+    "source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目收入(按产品)（排名：第5名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "cf329facb8a6",
+     "column": "主营构成-项目名称(按产品)（排名：第5名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00013360804650010993
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "substrate",
+    "share": null,
+    "share_upper": 0.8276558967027846,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "企业通讯市场板",
+      "revenue": 11330137462.0,
+      "rank": 1,
+      "source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "cf329facb8a6",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "substrate",
+      "kind": "generic",
+      "keyword": "企业通讯市场板",
+      "share": 0.8276558967027846
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "沪电股份",
+  "role": "core"
+ },
+ {
+  "entity": "300476.SZ",
+  "label": "20251231",
+  "revenue": 19292310000.0,
+  "revenue_source": {
+   "call_id": "8acae50e77c6",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 2
+  },
+  "items": [
+   {
+    "name": "PCB制造",
+    "revenue": 18083689287.38,
+    "rank": 1,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "substrate",
+    "kind": "generic",
+    "keyword": "PCB",
+    "share": 0.9373522034105818
+   },
+   {
+    "name": "其他",
+    "revenue": 1208624169.98,
+    "rank": 2,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.06264797579864724
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "substrate",
+    "share": null,
+    "share_upper": 0.9373522034105818,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "PCB制造",
+      "revenue": 18083689287.38,
+      "rank": 1,
+      "source": {
+       "call_id": "8bc034953a04",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "8bc034953a04",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "substrate",
+      "kind": "generic",
+      "keyword": "PCB",
+      "share": 0.9373522034105818
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "胜宏科技",
+  "role": "core"
+ },
+ {
+  "entity": "002975.SZ",
+  "label": "20260630",
+  "revenue": 1121660000.0,
+  "revenue_source": {
+   "call_id": "7b2f1358a09a",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "工业自动化设备",
+    "revenue": 954382956.37,
+    "rank": 1,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "equipment",
+    "kind": "generic",
+    "keyword": "自动化设备",
+    "share": 0.8508665338605281
+   },
+   {
+    "name": "设备配件",
+    "revenue": 97112248.95,
+    "rank": 2,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.08657904262432467
+   },
+   {
+    "name": "技术服务",
+    "revenue": 68896696.38,
+    "rank": 3,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0614238685341369
+   },
+   {
+    "name": "其他",
+    "revenue": 1270864.59,
+    "rank": 4,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0011330212274664338
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "equipment",
+    "share": null,
+    "share_upper": 0.8508665338605281,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "工业自动化设备",
+      "revenue": 954382956.37,
+      "rank": 1,
+      "source": {
+       "call_id": "317d1a6f460b",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "317d1a6f460b",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "equipment",
+      "kind": "generic",
+      "keyword": "自动化设备",
+      "share": 0.8508665338605281
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "博杰股份",
+  "role": "core"
+ },
+ {
+  "entity": "000938.SZ",
+  "label": "20260630",
+  "revenue": 63515820000.0,
+  "revenue_source": {
+   "call_id": "36b31c270c7e",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "ICT基础设施及服务(原数字化基础设施及服务)",
+    "revenue": 50927318228.77,
+    "rank": 1,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "switch_server",
+    "kind": "generic",
+    "keyword": "ICT基础设施",
+    "share": 0.8018052546400251
+   },
+   {
+    "name": "IT产品分销与供应链服务",
+    "revenue": 14600263817.03,
+    "rank": 2,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.22986814650318615
+   },
+   {
+    "name": "其他业务收入",
+    "revenue": 149624895.75,
+    "rank": 3,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00235571068357458
+   },
+   {
+    "name": "内部抵销",
+    "revenue": -2161382872.07,
+    "rank": 4,
+    "source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "317d1a6f460b",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": -0.03402904775644871
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "switch_server",
+    "share": null,
+    "share_upper": 0.8018052546400251,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "ICT基础设施及服务(原数字化基础设施及服务)",
+      "revenue": 50927318228.77,
+      "rank": 1,
+      "source": {
+       "call_id": "317d1a6f460b",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "317d1a6f460b",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "switch_server",
+      "kind": "generic",
+      "keyword": "ICT基础设施",
+      "share": 0.8018052546400251
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "紫光股份",
+  "role": "core"
+ },
+ {
+  "entity": "601138.SH",
+  "label": "20251231",
+  "revenue": 902887190000.0,
+  "revenue_source": {
+   "call_id": "86c42a627dd7",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 2
+  },
+  "items": [
+   {
+    "name": "3C电子产品",
+    "revenue": 901224002000.0,
+    "rank": 1,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.9981579226968543
+   },
+   {
+    "name": "销售材料及废料",
+    "revenue": 866179000.0,
+    "rank": 2,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00095934354766956
+   },
+   {
+    "name": "服务收入",
+    "revenue": 455490000.0,
+    "rank": 3,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0005044816285409919
+   },
+   {
+    "name": "租金收入",
+    "revenue": 341517000.0,
+    "rank": 4,
+    "source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "8bc034953a04",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0003782499118189948
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "switch_server",
+    "share": null,
+    "basis": "仅配置假设（无证据）",
+    "evidence": [],
+    "items": [],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "工业富联",
+  "role": "core"
+ },
+ {
+  "entity": "600171.SH",
+  "label": "20260630",
+  "revenue": 1605930000.0,
+  "revenue_source": {
+   "call_id": "0cc3a4905221",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "集成电路产品",
+    "revenue": 1595344625.07,
+    "rank": 1,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "electrical_chip",
+    "kind": "generic",
+    "keyword": "集成电路",
+    "share": 0.9934085701556107
+   },
+   {
+    "name": "租赁业务",
+    "revenue": 9774555.85,
+    "rank": 2,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.006086539170449521
+   },
+   {
+    "name": "其他业务",
+    "revenue": 622552.96,
+    "rank": 3,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.000387658839426376
+   },
+   {
+    "name": "技术开发服务",
+    "revenue": 188679.25,
+    "rank": 4,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0001174890873201198
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "electrical_chip",
+    "share": null,
+    "share_upper": 0.9934085701556107,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "集成电路产品",
+      "revenue": 1595344625.07,
+      "rank": 1,
+      "source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "electrical_chip",
+      "kind": "generic",
+      "keyword": "集成电路",
+      "share": 0.9934085701556107
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "上海贝岭",
+  "role": "concept_sample"
+ },
+ {
+  "entity": "688381.SH",
+  "label": "20260630",
+  "revenue": 228850000.0,
+  "revenue_source": {
+   "call_id": "0df6cb4599f8",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "电源管理",
+    "revenue": 138490482.9,
+    "rank": 1,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "electrical_chip",
+    "kind": "generic",
+    "keyword": "电源管理",
+    "share": 0.6051583259777147
+   },
+   {
+    "name": "信号链",
+    "revenue": 90329981.92,
+    "rank": 2,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": "electrical_chip",
+    "kind": "generic",
+    "keyword": "信号链",
+    "share": 0.3947126149005899
+   },
+   {
+    "name": "其他业务",
+    "revenue": 32660.17,
+    "rank": 3,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 2
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 2
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00014271431068385405
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "electrical_chip",
+    "share": null,
+    "share_upper": 0.6051583259777147,
+    "basis": "泛口径分部 + 文本佐证",
+    "evidence": [
+     "ev_393c868d69"
+    ],
+    "items": [
+     {
+      "name": "电源管理",
+      "revenue": 138490482.9,
+      "rank": 1,
+      "source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 2
+      },
+      "name_source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 2
+      },
+      "segment": "electrical_chip",
+      "kind": "generic",
+      "keyword": "电源管理",
+      "share": 0.6051583259777147
+     }
+    ],
+    "verified": true,
+    "role": "主"
+   }
+  ],
+  "primary": "electrical_chip",
+  "name": "帝奥微",
+  "role": "concept_sample"
+ },
+ {
+  "entity": "002273.SZ",
+  "label": "20260630",
+  "revenue": 3478180000.0,
+  "revenue_source": {
+   "call_id": "66046c706491",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "消费电子",
+    "revenue": 2917784378.13,
+    "rank": 1,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.8388825127307961
+   },
+   {
+    "name": "汽车电子(AR+)",
+    "revenue": 321449179.7,
+    "rank": 2,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.09241878790056869
+   },
+   {
+    "name": "反光材料",
+    "revenue": 211879242.95,
+    "rank": 3,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.060916698661368875
+   },
+   {
+    "name": "其他业务收入",
+    "revenue": 27063704.71,
+    "rank": 4,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 3
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 3
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.0077809960122822855
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "optical_component",
+    "share": null,
+    "basis": "仅配置假设（无证据）",
+    "evidence": [],
+    "items": [],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "水晶光电",
+  "role": "concept_sample"
+ },
+ {
+  "entity": "002055.SZ",
+  "label": "20260630",
+  "revenue": 2154240000.0,
+  "revenue_source": {
+   "call_id": "aae1e0032629",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "家电线束及连接组件",
+    "revenue": 901037187.96,
+    "rank": 1,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "组件",
+    "share": 0.4182622121769162
+   },
+   {
+    "name": "精密连接器及组件",
+    "revenue": 552569073.53,
+    "rank": 2,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "组件",
+    "share": 0.25650302358604427
+   },
+   {
+    "name": "其他精密组件及其他业务收入",
+    "revenue": 391570814.34,
+    "rank": 3,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": "module",
+    "kind": "generic",
+    "keyword": "组件",
+    "share": 0.18176749774398396
+   },
+   {
+    "name": "汽车电气系统",
+    "revenue": 309064733.76,
+    "rank": 4,
+    "source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "3152ff1514ef",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.14346810650623887
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "module",
+    "share": null,
+    "share_upper": 0.4182622121769162,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "家电线束及连接组件",
+      "revenue": 901037187.96,
+      "rank": 1,
+      "source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 1
+      },
+      "name_source": {
+       "call_id": "3152ff1514ef",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 1
+      },
+      "segment": "module",
+      "kind": "generic",
+      "keyword": "组件",
+      "share": 0.4182622121769162
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "ST得润",
+  "role": "concept_sample"
+ },
+ {
+  "entity": "688328.SH",
+  "label": "20260630",
+  "revenue": 435190000.0,
+  "revenue_source": {
+   "call_id": "29b825af3666",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "半导体自动化设备",
+    "revenue": 181691702.92,
+    "rank": 1,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": "equipment",
+    "kind": "generic",
+    "keyword": "自动化设备",
+    "share": 0.4174997194788483
+   },
+   {
+    "name": "平板显示模组设备",
+    "revenue": 151153506.79,
+    "rank": 2,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.3473276196373997
+   },
+   {
+    "name": "核心零部件",
+    "revenue": 100320796.07,
+    "rank": 3,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.23052183200441184
+   },
+   {
+    "name": "其他业务",
+    "revenue": 2023067.74,
+    "rank": 4,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第4名）",
+     "table": 1,
+     "row": 0
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第4名）",
+     "table": 0,
+     "row": 0
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.00464869997012799
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "equipment",
+    "share": null,
+    "share_upper": 0.4174997194788483,
+    "basis": "泛口径分部（无文本佐证，待验证）",
+    "evidence": [],
+    "items": [
+     {
+      "name": "半导体自动化设备",
+      "revenue": 181691702.92,
+      "rank": 1,
+      "source": {
+       "call_id": "fe8785745075",
+       "column": "主营构成-项目收入(按产品)（排名：第1名）",
+       "table": 1,
+       "row": 0
+      },
+      "name_source": {
+       "call_id": "fe8785745075",
+       "column": "主营构成-项目名称(按产品)（排名：第1名）",
+       "table": 0,
+       "row": 0
+      },
+      "segment": "equipment",
+      "kind": "generic",
+      "keyword": "自动化设备",
+      "share": 0.4174997194788483
+     }
+    ],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "深科达",
+  "role": "concept_sample"
+ },
+ {
+  "entity": "300812.SZ",
+  "label": "20260630",
+  "revenue": 271360000.0,
+  "revenue_source": {
+   "call_id": "f21b82e030e1",
+   "column": "营业收入（单位：元）",
+   "table": 0,
+   "row": 0
+  },
+  "items": [
+   {
+    "name": "平板显示专用设备类",
+    "revenue": 236949852.56,
+    "rank": 1,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第1名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第1名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.8731937373231132
+   },
+   {
+    "name": "半导体设备类",
+    "revenue": 28982088.5,
+    "rank": 2,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第2名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第2名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.10680309736143868
+   },
+   {
+    "name": "配件、维修及其他",
+    "revenue": 5427398.69,
+    "rank": 3,
+    "source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目收入(按产品)（排名：第3名）",
+     "table": 1,
+     "row": 1
+    },
+    "name_source": {
+     "call_id": "fe8785745075",
+     "column": "主营构成-项目名称(按产品)（排名：第3名）",
+     "table": 0,
+     "row": 1
+    },
+    "segment": null,
+    "kind": "none",
+    "keyword": null,
+    "share": 0.02000073220076651
+   }
+  ],
+  "memberships": [
+   {
+    "segment": "equipment",
+    "share": null,
+    "basis": "仅配置假设（无证据）",
+    "evidence": [],
+    "items": [],
+    "verified": false,
+    "role": "候选"
+   }
+  ],
+  "primary": null,
+  "name": "易天股份",
+  "role": "concept_sample"
+ }
+]

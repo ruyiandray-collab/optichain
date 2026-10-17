@@ -10,39 +10,46 @@ layers:
       - id: optical_chip
         name: 光芯片
         desc: 激光器芯片（EML / DFB / CW / VCSEL）、探测器芯片（PD / APD）
-        product_keywords: [光芯片, 激光器芯片, 探测器芯片, EML, DFB, VCSEL, CW光源, 数据中心类产品, 电信市场类]
+        text_keywords: [光芯片, 激光器芯片, EML, DFB, CW光源, 探测器芯片, VCSEL]
+        product_keywords: [光芯片, 光通信芯片, 激光器芯片, 探测器芯片, EML, DFB, VCSEL, CW光源, AWG芯片]
         generic_items: [激光器, 芯片]
       - id: electrical_chip
         name: 电芯片
         desc: DSP、Driver、TIA、CDR、光模块电源和模拟芯片
+        text_keywords: [DSP, TIA, Driver, 驱动芯片, 光模块电源, 光模块专用, 光模块客户, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [DSP, TIA, 驱动芯片, CDR, 光模块专用]
         generic_items: [模拟芯片, 集成电路, 电源管理, 信号链]
       - id: optical_component
         name: 光器件 / 光引擎组件
         desc: 光有源和无源器件、FAU、透镜、隔离器、MPO 连接器
-        product_keywords: [光有源器件, 光无源器件, 光器件, 光纤连接器, 光引擎, 无源器件, 有源器件, 光纤器件]
+        text_keywords: [FAU, 透镜, 隔离器, 光引擎, 无源器件, 有源器件, MPO, 光纤连接器, 光器件, ELS, 应用于光模块, 用于光模块, 光模块中的产品]
+        product_keywords: [光有源器件, 光无源器件, 光器件, 光通讯器件, 光纤连接器, 光引擎, 无源器件, 有源器件, 光纤器件, 光组件]
         generic_items: [连接器, 光学元件, 光学元器件]
       - id: substrate
         name: 封装材料与基板
         desc: 陶瓷外壳 / 基板、高速 PCB
+        text_keywords: [陶瓷外壳, 陶瓷基板, 光模块用陶瓷, 高速PCB, 交换机板, 服务器板, 高多层, HDI, 光模块PCB, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [光通信器件外壳, 光模块陶瓷]
         generic_items: [电子陶瓷材料及元件, 印制电路板, PCB, 企业通讯市场板]
       - id: equipment
         name: 设备
         desc: 耦合、贴片、测试设备
+        text_keywords: [耦合设备, 光模块测试, 光模块自动测试, 贴片设备, 光模块设备, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [光模块测试, 耦合设备]
-        generic_items: [自动化设备, 智能装备, 测试设备]
+        generic_items: [自动化设备, 智能装备, 测试设备, 半导体自动化设备]
   - id: midstream
     name: 中游
     segments:
       - id: module
         name: 光模块（可插拔 / LPO）
         desc: 400G / 800G / 1.6T 数通光模块，电信光模块
+        text_keywords: [光模块, 收发模块, 800G, 1.6T, 硅光模块, LPO]
         product_keywords: [光模块, 光通信收发模块, 光互联产品, 收发模块, 光通信模块, 数通]
-        generic_items: [光通信, 组件, 通信设备]
+        generic_items: [光通信, 组件, 通信设备, 接入和数据, 传输, 数据通信, 电信市场, 光电器件]
       - id: cpo
         name: CPO / NPO 光引擎
         desc: 共封装光学，目前多处于研发或送样阶段
+        text_keywords: [CPO, NPO, 共封装]
         product_keywords: [CPO, NPO, 共封装]
         generic_items: []
   - id: downstream
@@ -51,21 +58,22 @@ layers:
       - id: switch_server
         name: 交换机 / AI 服务器 / GPU
         desc: 光模块的直接采购方或系统方
+        text_keywords: [交换机, 服务器, AI服务器, 算力服务器]
         product_keywords: [交换机, 服务器, 云计算设备, 数据中心]
         generic_items: [网络设备, ICT基础设施]
       - id: cloud
         name: 云厂商（需求方）
         desc: 资本开支是光模块需求的源头
+        text_keywords: []
         product_keywords: []
         generic_items: []
 
-concepts:
-  - id: cpo
-    name: 共封装光学(CPO)
-    ifind_concept: 共封装光学(CPO)
-    stage_keywords:
-      revenue: [收入, 营收, 营业收入, 占比]
-      order: [批量出货, 量产, 批量供货, 订单, 大批量, 规模收入, 实现销售, 客户认证, 通过验证, 扩产, 募投]
-      rnd: [研发, 送样, 小批量, 开发中, 验证中, 样品, 预研, 储备]
-      talk: [关注, 布局, 可应用于, 有望, 积极, 探索, 储备技术]
-      deny: [不涉及, 未开展, 尚未, 没有相关, 暂无, 未形成收入, 澄清]
+# 单公司映射：项目名本身不含产品词，但可以由公司主营确定。每条都要写理由和依据字段。
+item_overrides:
+  - {entity: 688498.SH, item: 数据中心类产品, segment: optical_chip,
+     reason: "源杰科技主营为光芯片（iFinD 主营业务字段），数据中心类产品即数通用激光器芯片", evidence_field: cn_profile.主营业务}
+  - {entity: 688498.SH, item: 电信市场类, segment: optical_chip,
+     reason: "同上，电信市场类为电信用光芯片", evidence_field: cn_profile.主营业务}
+
+
+# 概念定义与阶段词表只在 pipeline/grade.py（CONCEPTS / STAGE_WORDS / DENY_WORDS）维护，避免两处口径不一致。

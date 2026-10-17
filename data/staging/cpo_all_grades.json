@@ -1,0 +1,2794 @@
+[
+ {
+  "entity": "600703.SH",
+  "name": "三安光电",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "300308.SZ",
+  "name": "中际旭创",
+  "grade": "B",
+  "basis": "正式来源·order",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "300548.SZ",
+  "name": "长芯博创",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "000938.SZ",
+  "name": "紫光股份",
+  "grade": "C",
+  "basis": "非正式来源·order",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "301165.SZ",
+  "name": "锐捷网络",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_0ef93a9296",
+    "quote": "锐捷网络通过发挥在产品研发创新上的优势,推出了应用CPO技术的数据中心交换机,参与编写了COBO的CPO交换机设计白皮书",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "600183.SH",
+  "name": "生益科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "603459.SH",
+  "name": "红板科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "603083.SH",
+  "name": "剑桥科技",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "002938.SZ",
+  "name": "鹏鼎控股",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "000725.SZ",
+  "name": "京东方A",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688519.SH",
+  "name": "南亚新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_b224713a71",
+    "quote": "针对现在最高端的 1.6T 光模块及 CPO 光电共封装产品南亚新材的 NY-6666/NY-8888 Low CTE 系列等材料相较于普通材料具有更低热膨胀系数能更好适配高多阶 HDI技术与 Msap 制程，同时可以有效的提高 CPO 产品的 良率。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "603228.SH",
+  "name": "景旺电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "300857.SZ",
+  "name": "协创数据",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "002384.SZ",
+  "name": "东山精密",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "601869.SH",
+  "name": "长飞光纤",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "001389.SZ",
+  "name": "广合科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "300620.SZ",
+  "name": "光库科技",
+  "grade": "D",
+  "basis": "正式来源·talk",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "002179.SZ",
+  "name": "中航光电",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": true,
+  "trace": [
+   {
+    "evidence_id": "ev_6f661afcc3",
+    "quote": "公司已成立CPO研制团队，并积极与产业链上下游厂家进行沟通合作，加速进行800G、1.6T等CPO产品研制和核心技术的突破",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2025-09-11",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)",
+    "review": "LLM 建议阶段 rnd ≠ 规则阶段 talk，按较保守的 talk 展示"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "600584.SH",
+  "name": "长电科技",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_bee416292a",
+    "quote": "公司在CPO领域积极布局，已与多家客户开展合作，提供全面的CPO解决方案与配套产能。",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "talk",
+    "formal": true,
+    "source_kind": "ifind_concept",
+    "origin_kind": "ir",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-04-11",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   },
+   {
+    "evidence_id": "ev_bee416292a",
+    "quote": "长电科技采用XDFOI先进封装工艺的光引擎产品，于近期完成客户样品交付并在客户端通过测试。",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": true,
+    "source_kind": "ifind_concept",
+    "origin_kind": "ir",
+    "stale": false,
+    "grade": "C",
+    "date": "2026-04-11",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "603296.SH",
+  "name": "华勤技术",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": true,
+  "trace": [
+   {
+    "evidence_id": "ev_1d5e9a676d",
+    "quote": "在共封装光学方面，公司已具备基于CPO（共封装光学）技术的高速互连及散热等关键技术的工程化能力，目前正紧跟行业发展趋势进行相关技术储备。",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-07-02",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)",
+    "review": "LLM 建议阶段 rnd ≠ 规则阶段 talk，按较保守的 talk 展示"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "600522.SH",
+  "name": "中天科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688498.SH",
+  "name": "源杰科技",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "000988.SZ",
+  "name": "华工科技",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300408.SZ",
+  "name": "三环集团",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "300661.SZ",
+  "name": "圣邦股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688183.SH",
+  "name": "生益电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "301689.SZ",
+  "name": "电科思仪",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "301660.SZ",
+  "name": "粤芯半导体",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_ae4e1c18e3",
+    "quote": "并正在导入3.2T NPO产品",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688469.SH",
+  "name": "芯联集成",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "002156.SZ",
+  "name": "通富微电",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_2dda84ab7b",
+    "quote": "公司在光电合封（CPO）领域的技术研发取得突破性进展，相关产品已通过初步可靠性测试。",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "unspecified",
+    "stale": false,
+    "grade": "D",
+    "date": "2025-08-29",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688525.SH",
+  "name": "佰维存储",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": true,
+  "trace": [
+   {
+    "evidence_id": "ev_3e0bdcc8cd",
+    "quote": "公司OEC产品目前正在与客户合作开发6.4TNPO的光引擎封装，预计2026年第四季度完成研发。",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-09-22",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)",
+    "review": "LLM 建议阶段 rnd ≠ 规则阶段 talk，按较保守的 talk 展示"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688313.SH",
+  "name": "仕佳光子",
+  "grade": "B",
+  "basis": "正式来源·order",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "601138.SH",
+  "name": "工业富联",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300757.SZ",
+  "name": "罗博特科",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "001309.SZ",
+  "name": "德明利",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "002436.SZ",
+  "name": "兴森科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "002475.SZ",
+  "name": "立讯精密",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_22c00542af",
+    "quote": "目前公司在高速互联产品相关技术上拥有广泛且深度的专利布局，并积极主导或参与相关行业标准的制定，如CPO光互联标准",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "600601.SH",
+  "name": "方正科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "600487.SH",
+  "name": "亨通光电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688808.SH",
+  "name": "联讯仪器",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "300394.SZ",
+  "name": "天孚通信",
+  "grade": "B",
+  "basis": "正式来源·order",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "300476.SZ",
+  "name": "胜宏科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "002600.SZ",
+  "name": "领益智造",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "002281.SZ",
+  "name": "光迅科技",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300502.SZ",
+  "name": "新易盛",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "603501.SH",
+  "name": "豪威集团",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "688396.SH",
+  "name": "华润微",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "ebfd3e0c1cf4"
+ },
+ {
+  "entity": "003031.SZ",
+  "name": "中瓷电子",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "002273.SZ",
+  "name": "水晶光电",
+  "grade": "C",
+  "basis": "正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "002049.SZ",
+  "name": "紫光国微",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002456.SZ",
+  "name": "欧菲光",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688025.SH",
+  "name": "杰普特",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_d9e46bd117",
+    "quote": "在未来CPO架构中，其单设备用量可达传统光模块的3-5倍，将为公司带来广阔的增量市场空间。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688123.SH",
+  "name": "聚辰股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688668.SH",
+  "name": "鼎通科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_86ff34a050",
+    "quote": "紧跟行业1.6T及CPO技术发展趋势",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688536.SH",
+  "name": "思瑞浦",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "000021.SZ",
+  "name": "深科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "600699.SH",
+  "name": "均胜电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300456.SZ",
+  "name": "赛微电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "601231.SH",
+  "name": "环旭电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "001267.SZ",
+  "name": "汇绿生态",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_0a4fef8581",
+    "quote": "公司的控股子公司武汉钧恒是一家专业从事以光模块、AOC和光引擎为主的光通信产品的研发、生产和销售的企业。",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2025-09-16",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002025.SZ",
+  "name": "航天电器",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_e313486d9d",
+    "quote": "公司有CPO光模块系列产品，具前该产品处于向市场推广阶段。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002222.SZ",
+  "name": "福晶科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300285.SZ",
+  "name": "国瓷材料",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002185.SZ",
+  "name": "华天科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_44c1661b5e",
+    "quote": "公司已掌握光电共封装技术",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "000636.SZ",
+  "name": "风华高科",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "920045.BJ",
+  "name": "蘅东光",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_e7cb7f5758",
+    "quote": "已开发CPO无源内连光器件系列产品",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688195.SH",
+  "name": "腾景科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688167.SH",
+  "name": "炬光科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_1ace3fba09",
+    "quote": "在数据通信领域，标的公司基于折射光学原理制备硅或熔融石英基材的微纳光学元器件，常用于通信光模块、硅光模块，如光发射模块（TOSA）、光接收模块（ROSA）、光子集成电路（PIC）、共封装光学器件（CPO）等产品中激光光源的高效准直、聚焦或光纤耦合",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300684.SZ",
+  "name": "中石科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688629.SH",
+  "name": "华丰科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300570.SZ",
+  "name": "太辰光",
+  "grade": "B",
+  "basis": "正式来源·order",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "002138.SZ",
+  "name": "顺络电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688205.SH",
+  "name": "德科立",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_2278006fcf",
+    "quote": "公司有研究 800G 及 CPO（Co-Package Optic 共封装）等更高速率小型化长距离光收发模块的技术方案。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002980.SZ",
+  "name": "华盛昌",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_93d7b8bacf",
+    "quote": "伽蓝特专注于仪器仪表测试测量行业中的光通信模块和光芯片测试领域",
+    "result": "丢弃：引文未提及概念"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300814.SZ",
+  "name": "中富电路",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "301511.SZ",
+  "name": "德福科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "301205.SZ",
+  "name": "联特科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300811.SZ",
+  "name": "铂科新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "600105.SH",
+  "name": "永鼎股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002815.SZ",
+  "name": "崇达技术",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "603920.SH",
+  "name": "世运电路",
+  "grade": "C",
+  "basis": "非正式来源·order",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_1f0dc49683",
+    "quote": "公司在CPO（光电共封装）领域具备相关产品布局，目前部分产品已经实现量产交付。",
+    "stage": "order",
+    "rule_stage": "order",
+    "llm_stage": "order",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "C",
+    "date": "2025-12-11",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "600498.SH",
+  "name": "烽火通信",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "300903.SZ",
+  "name": "科翔股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688099.SH",
+  "name": "晶晨股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "688048.SH",
+  "name": "长光华芯",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "000062.SZ",
+  "name": "深圳华强",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "002429.SZ",
+  "name": "兆驰股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "605358.SH",
+  "name": "立昂微",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "000733.SZ",
+  "name": "振华科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "19363b90f48d"
+ },
+ {
+  "entity": "600171.SH",
+  "name": "上海贝岭",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300131.SZ",
+  "name": "英唐智控",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300319.SZ",
+  "name": "麦捷科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300726.SZ",
+  "name": "宏达电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300102.SZ",
+  "name": "乾照光电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301251.SZ",
+  "name": "威尔高",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "600410.SH",
+  "name": "华胜天成",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301366.SZ",
+  "name": "一博科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301123.SZ",
+  "name": "奕东电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "000823.SZ",
+  "name": "超声电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "002967.SZ",
+  "name": "广电计量",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_823a378188",
+    "quote": "已研发出光模块、硅光光引擎与CPO共封装光学等关键光器件检测技术及一站式解决方案",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-04-23",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "600114.SH",
+  "name": "东睦股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688388.SH",
+  "name": "嘉元科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "000070.SZ",
+  "name": "特发信息",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_0b5f54141f",
+    "quote": "在光连接器领域，特发信息攻克基于CPO技术的高密度高集成多芯MPO插芯关键技术，有效解决数据中心布线难题，提升了企业在光连接器领域的竞争力。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603306.SH",
+  "name": "华懋科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300852.SZ",
+  "name": "四会富仕",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603328.SH",
+  "name": "依顿电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688127.SH",
+  "name": "蓝特光学",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301312.SZ",
+  "name": "智立方",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_19050536c7",
+    "quote": "公司在光通信CPO半导体领域推出了多款设备，包括光芯片排巴机、摆盘机、光芯片AOI设备、高精度固晶机等，设备已进入行业技术路线领先的硅光领域。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688332.SH",
+  "name": "中科蓝讯",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300323.SZ",
+  "name": "华灿光电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603031.SH",
+  "name": "安孚科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_3af4d01e05",
+    "quote": "共同推进1.6T/3.2T光模块核心芯片、光电共封装（CPO）解决方案以及OCS光子芯片等产品的市场化落地与客户导入。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688400.SH",
+  "name": "凌云光",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "002957.SZ",
+  "name": "科瑞技术",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688102.SH",
+  "name": "斯瑞新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603118.SH",
+  "name": "共进股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688097.SH",
+  "name": "博众精工",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301029.SZ",
+  "name": "怡合达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_74b110195d",
+    "quote": "公司有向CPO领域厂商提供部分零部件，但占比较低，主要包括电子电气类、直线运动零件、传动零部件等类别产品。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300083.SZ",
+  "name": "创世纪",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "002792.SZ",
+  "name": "通宇通讯",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300077.SZ",
+  "name": "国民技术",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "601137.SH",
+  "name": "博威合金",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301132.SZ",
+  "name": "满坤科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300913.SZ",
+  "name": "兆龙互连",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688531.SH",
+  "name": "日联科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688143.SH",
+  "name": "长盈通",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301338.SZ",
+  "name": "凯格精机",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "002906.SZ",
+  "name": "华阳集团",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300602.SZ",
+  "name": "飞荣达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "002396.SZ",
+  "name": "星网锐捷",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_79d9e0f3c3",
+    "quote": "公司控股子公司锐捷网络通过发挥在产品研发创新上的优势，推出了应用CPO技术的数据中心交换机",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300607.SZ",
+  "name": "拓斯达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_18bf25bc05",
+    "quote": "公司拟以自有资金或自筹资金 14, 700 万元， 通过受让来勒光电原股东张朋勇、 郭欢欢及武汉来勒所持部分股权的方式， 取得标的公司合计 49%的股权。",
+    "result": "丢弃：引文未提及概念"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603936.SH",
+  "name": "博敏电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688003.SH",
+  "name": "天准科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688516.SH",
+  "name": "奥特维",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301128.SZ",
+  "name": "强瑞技术",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301183.SZ",
+  "name": "东田微",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301095.SZ",
+  "name": "广立微",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688270.SH",
+  "name": "ST臻镭",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603203.SH",
+  "name": "快克智能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603773.SH",
+  "name": "沃格光电",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_1e377e4e44",
+    "quote": "参与产业链关于CPO的研发和应用",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "unspecified",
+    "stale": false,
+    "grade": "D",
+    "date": "2025-01-28",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "600933.SH",
+  "name": "爱柯迪",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688807.SH",
+  "name": "优迅股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "301319.SZ",
+  "name": "唯特偶",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_c3d82145d8",
+    "quote": "公司主要产品可用于 PCB 主板 SMT 、 TOSA/ROSA光器件与 COB 光引擎焊接",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "talk",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "unspecified",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-06-08",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300657.SZ",
+  "name": "弘信电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "603738.SH",
+  "name": "泰晶科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688813.SH",
+  "name": "泰金新能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "300679.SZ",
+  "name": "电连技术",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "3e089b2f169a"
+ },
+ {
+  "entity": "688381.SH",
+  "name": "帝奥微",
+  "grade": "D",
+  "basis": "正式来源·talk",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": true
+ },
+ {
+  "entity": "688328.SH",
+  "name": "深科达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "000818.SZ",
+  "name": "航锦科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688655.SH",
+  "name": "迅捷兴",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "301085.SZ",
+  "name": "亚康股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300101.SZ",
+  "name": "振芯科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_a1348d8d9f",
+    "quote": "公司聚焦特定行业应用场景，融合先进封装与微组装技术，正在推出用于SiP集成的CPO光模块、用于板级集成的NPO光模块",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "603386.SH",
+  "name": "骏亚科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300709.SZ",
+  "name": "精研科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002897.SZ",
+  "name": "意华股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688757.SH",
+  "name": "胜科纳米",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_8c5b7dc44a",
+    "quote": "公司具备光器件的检测分析能力，在光器件领域掌握针对CPO工艺特点、光引擎可靠性等的创新技术",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300480.SZ",
+  "name": "光力科技",
+  "grade": "C",
+  "basis": "非正式来源·order",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_549b59f21d",
+    "quote": "公司12寸高精密切割设备适用于超薄晶圆，支持晶圆全切和DBG半切工艺，同时支持先进封装制程中的Edge Trimming工艺，可服务于CPO共封装光学等算力中心数据互联网场景和紧凑型封装的可穿戴设备等领域，该设备已形成正式销售订单。",
+    "stage": "order",
+    "rule_stage": "order",
+    "llm_stage": "order",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "C",
+    "date": "2026-02-03",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "603052.SH",
+  "name": "可川科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002741.SZ",
+  "name": "光华科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002036.SZ",
+  "name": "联创电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300802.SZ",
+  "name": "矩子科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002796.SZ",
+  "name": "世嘉科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002635.SZ",
+  "name": "安洁科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300252.SZ",
+  "name": "金信诺",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688662.SH",
+  "name": "富信科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688685.SH",
+  "name": "迈信林",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688518.SH",
+  "name": "联赢激光",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "600103.SH",
+  "name": "青山纸业",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "605058.SH",
+  "name": "澳弘电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300708.SZ",
+  "name": "聚灿光电",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_a94c193eea",
+    "quote": "近日，聚灿光电首批CPO光芯片样品正式送样重要客户，原型机交付节点按期达成。",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "unspecified",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-09-14",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688371.SH",
+  "name": "菲沃泰",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002579.SZ",
+  "name": "中京电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300976.SZ",
+  "name": "达瑞电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "301282.SZ",
+  "name": "金禄电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "603267.SH",
+  "name": "鸿远电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002515.SZ",
+  "name": "金字火腿",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002993.SZ",
+  "name": "奥海科技",
+  "grade": "D",
+  "basis": "非正式来源·talk",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_4ef42d08cd",
+    "quote": "公司围绕电源及电能转换领域，在CPO交换机电源、大功率AI服务器电源、HVDC、Power Shelf及SST等方向均有布局",
+    "stage": "talk",
+    "rule_stage": "talk",
+    "llm_stage": "talk",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "hdy",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-08-04",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "301013.SZ",
+  "name": "利和兴",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300964.SZ",
+  "name": "本川智能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002023.SZ",
+  "name": "海特高新",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300739.SZ",
+  "name": "明阳电路",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "603011.SH",
+  "name": "合锻智能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002787.SZ",
+  "name": "华源控股",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "603220.SH",
+  "name": "中贝通信",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_5c6c551d02",
+    "quote": "公司子公司中贝光电围绕AI、智能驾驶等方向开展光电子器件产品研发制造，主要应用于数据中心、通信、车用雷达等领域，产品包括XPO（LPO、NPO、CPO等）无源连接、车载激光雷达的无源组件等。",
+    "result": "无阶段词，不计"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "600184.SH",
+  "name": "光电股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688522.SH",
+  "name": "纳睿雷达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "301419.SZ",
+  "name": "阿莱德",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300303.SZ",
+  "name": "聚飞光电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "301628.SZ",
+  "name": "强达电路",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "300790.SZ",
+  "name": "宇瞳光学",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688170.SH",
+  "name": "德龙激光",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_280035bac4",
+    "quote": "为光通信行业客户提供激光切割、 钻孔、 分板、 蚀刻、 植球、 焊接、键合类激光加工解决方案及自动化点胶装配、 耦合、 分选、 AOI 检测、 性能测试等解决方案",
+    "result": "丢弃：引文未提及概念"
+   }
+  ],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002194.SZ",
+  "name": "武汉凡谷",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002902.SZ",
+  "name": "铭普光磁",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "688312.SH",
+  "name": "燕麦科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "e179d5cfc33a"
+ },
+ {
+  "entity": "002055.SZ",
+  "name": "ST得润",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "300812.SZ",
+  "name": "易天股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": true,
+  "single_source": false,
+  "needs_review": false
+ },
+ {
+  "entity": "603803.SH",
+  "name": "瑞斯康达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300652.SZ",
+  "name": "雷迪克",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300287.SZ",
+  "name": "飞利信",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300571.SZ",
+  "name": "平治信息",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "688226.SH",
+  "name": "威腾电气",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300351.SZ",
+  "name": "永贵电器",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_95b70cd70f",
+    "quote": "民用数据中心及光模块领域是该产品的推广方向",
+    "result": "丢弃：引文未提及概念"
+   }
+  ],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920821.BJ",
+  "name": "则成电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920178.BJ",
+  "name": "锐翔智能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300632.SZ",
+  "name": "光莆股份",
+  "grade": "D",
+  "basis": "非正式来源·rnd",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [
+   {
+    "evidence_id": "ev_e469a51f71",
+    "quote": "并拟进一步合作，共同投资设立合资公司，主要从事光引擎产品、车载光通信模块、星间光通信模块、OCS、OIO等前沿光通信技术及关键产品的研发、制造及销售以及海外交付的PIC芯片封测及销售等业务。",
+    "stage": "rnd",
+    "rule_stage": "rnd",
+    "llm_stage": "rnd",
+    "formal": false,
+    "source_kind": "ifind_concept",
+    "origin_kind": "unspecified",
+    "stale": false,
+    "grade": "D",
+    "date": "2026-04-28",
+    "source_name": "iFinD 概念解析·共封装光学(CPO)"
+   }
+  ],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "002161.SZ",
+  "name": "远望谷",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300460.SZ",
+  "name": "ST惠伦",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "603330.SH",
+  "name": "天洋新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920981.BJ",
+  "name": "晶赛科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "301041.SZ",
+  "name": "金百泽",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "002184.SZ",
+  "name": "海得控制",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "003028.SZ",
+  "name": "振邦智能",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920157.BJ",
+  "name": "宇特光电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300447.SZ",
+  "name": "全信股份",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920060.BJ",
+  "name": "万源通",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "301172.SZ",
+  "name": "君逸数码",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920083.BJ",
+  "name": "金戈新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "300310.SZ",
+  "name": "宜通世纪",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "301517.SZ",
+  "name": "陕西华达",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "688307.SH",
+  "name": "中润光学",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "603960.SH",
+  "name": "克来机电",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "920509.BJ",
+  "name": "同惠电子",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "688609.SH",
+  "name": "九联科技",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "688379.SH",
+  "name": "华光新材",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ },
+ {
+  "entity": "301387.SZ",
+  "name": "光大同创",
+  "grade": "E",
+  "basis": "无证据",
+  "in_universe": false,
+  "single_source": true,
+  "needs_review": false,
+  "trace": [],
+  "concept_call_id": "c46bea4dc86e"
+ }
+]

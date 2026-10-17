@@ -1,0 +1,150 @@
+{
+ "distribution": {
+  "optical_interconnect": {
+   "rule_only": {
+    "A": 10,
+    "B": 9,
+    "C": 6,
+    "D": 1,
+    "E": 0
+   },
+   "llm_plus_rule": {
+    "A": 10,
+    "B": 7,
+    "C": 7,
+    "D": 1,
+    "E": 1
+   }
+  },
+  "cpo": {
+   "rule_only": {
+    "A": 0,
+    "B": 6,
+    "C": 13,
+    "D": 4,
+    "E": 3
+   },
+   "llm_plus_rule": {
+    "A": 0,
+    "B": 4,
+    "C": 7,
+    "D": 7,
+    "E": 8
+   }
+  }
+ },
+ "changed": [
+  {
+   "name": "联特科技",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "关键词：CPO + 1.6T样品 + 800G量产 + 外销近九成。",
+   "llm_quote": null
+  },
+  {
+   "name": "长芯博创",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "D",
+   "rule_only_quote": "| | 2026-06-15 | 异动提醒： 更多>> 长芯博创11:11分触及涨停，分析或为：光通信+CPO+高速铜缆 涨停分析 ▼收起▲ 光通信+CPO+高速铜缆 行业原因： 中信建投6月15日研报指出， 近日SemiAnalysis提出CPO的规模量产时间可能推迟至2028年乃至2029年，但CPO节奏放慢意味着NPO可能加速推进。",
+   "llm_quote": "据2026年4月15日业绩说明会，公司将持续关注CPO共封装光学等技术发展趋势，结合自身能力做好相关技术和业务储备。"
+  },
+  {
+   "name": "源杰科技",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "D",
+   "rule_only_quote": "我们认为，源杰科技300mw以上、配套北美GPU大客户的CPO产品的CW激光器即将通过认证，预计2027年开始出货，2028年有望迎来爆发式增长，开启公司市值新征程。",
+   "llm_quote": "面向下一代光互联技术，源杰科技正积极卡位NPO（近封装光学）与CPO（共封装光学）时代的光源价值。"
+  },
+  {
+   "name": "三安光电",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "D",
+   "rule_only_quote": "直接深度受益800G光模块放量+1.6T迭代+CPO技术落地三重红利。",
+   "llm_quote": "一边提前储备CPO专用短距、集成化光芯片"
+  },
+  {
+   "name": "光库科技",
+   "concept": "cpo",
+   "rule_only": "B",
+   "llm_plus_rule": "D",
+   "rule_only_quote": "标的公司已在LPO（线性直驱可插拔）、CPO（共封装光学）、硅光集成等下一代技术路线完成前瞻性布局，率先参与重点客户的产品验证及量产能力评估工作。",
+   "llm_quote": "标的公司已在LPO（线性直驱可插拔）、CPO（共封装光学）、硅光集成等下一代技术路线完成前瞻性布局"
+  },
+  {
+   "name": "中瓷电子",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "D",
+   "rule_only_quote": "2、英伟达宣布全球首款200G/lane CPO以太网交换机进入量产，硅光CPO技术从实验室走向规模化商用。",
+   "llm_quote": "CPO用陶瓷基板已进入研发冲刺阶段，预计三年内实现量产"
+  },
+  {
+   "name": "沪电股份",
+   "concept": "optical_interconnect",
+   "rule_only": "C",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "新易盛（300502）：国内少数能批量交付100G、400G光模块的企业，掌握CPO晶圆级封装工艺，硅光方案成本优势明显，800G产品及1.6T可插拔模块通过验证，中报预增超300%。",
+   "llm_quote": null
+  },
+  {
+   "name": "沪电股份",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "仕佳光子（688313）：CPO上游PLC分路器+光芯片龙头，供货800G光模块组件，技术壁垒高，是国产替代核心标的，2025年一季度营收和归母净利润大幅增长。",
+   "llm_quote": null
+  },
+  {
+   "name": "胜宏科技",
+   "concept": "cpo",
+   "rule_only": "D",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "业务亮点在于率先布局高速光引擎封装技术，在硅光模块、CPO相关封装领域积累了深厚技术储备，同时绑定海内外头部客户，订单能见度高。",
+   "llm_quote": null
+  },
+  {
+   "name": "博杰股份",
+   "concept": "cpo",
+   "rule_only": "C",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "一、海外龙头业绩高增，光互联落地提速 根据英伟达官网公告，英伟达CPO 交换机率先量产，标志着CPO 技术正式从实验室走向大规模商业化部署。",
+   "llm_quote": null
+  },
+  {
+   "name": "工业富联",
+   "concept": "optical_interconnect",
+   "rule_only": "B",
+   "llm_plus_rule": "C",
+   "rule_only_quote": "2026年第一季度，800G及以上高速交换机出货量同比增长 1.6倍，环比增长46%，CPO全光交换机样机开始出货。",
+   "llm_quote": "CPO全光交换机已实现样机交货，高速交换机市场占有率稳居行业前列"
+  },
+  {
+   "name": "水晶光电",
+   "concept": "optical_interconnect",
+   "rule_only": "B",
+   "llm_plus_rule": "C",
+   "rule_only_quote": "目前CPO尚未到大规模应用的关键时期，工程实现、大规模量产可靠性仍存在较多待解决问题，相关产品预计到“十五五”后...",
+   "llm_quote": "满足 800G/1.6T 光模块及未来 AI 集群光互连需求。目前正在开发中。"
+  },
+  {
+   "name": "水晶光电",
+   "concept": "cpo",
+   "rule_only": "B",
+   "llm_plus_rule": "C",
+   "rule_only_quote": "目前CPO尚未到大规模应用的关键时期，工程实现、大规模量产可靠性仍存在较多待解决问题，相关产品预计到“十五五”后...",
+   "llm_quote": "CPO 共封装-硅透镜研发项目研发并量产满足 CPO 光引擎厂商需求的高品质硅透镜器件，构建起具备行业领先水平的硅基微透镜阵列规模化生产能力，实现产品性能与量产效率的双重突破，满足 800G/1.6T 光模块及未来 AI 集群光互连需求。目前正在开发中。"
+  },
+  {
+   "name": "易天股份",
+   "concept": "cpo",
+   "rule_only": "D",
+   "llm_plus_rule": "E",
+   "rule_only_quote": "光模块CPO概念股其他的还有： 通宇通讯：主要从事移动通信天线、动中通天线、射频器件、光模块等产品的研发、生产、销售和服务业务，致力于为国内外移动通信运营商、设备集成商提供通信天线、射频器件产品及综合解决方案。",
+   "llm_quote": null
+  }
+ ]
+}
