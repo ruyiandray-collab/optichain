@@ -3,6 +3,7 @@
 > 从产业环节走到原始证据：区分“有收入 / 有订单 / 在研发 / 仅表态”，每个数字都能回查到接口调用记录。
 > **不构成投资建议。数据非实时**：行情和估值截至快照的数据截止日，财务截至最新报告期，页面顶部常驻提示。
 
+- 源代码：https://github.com/ruyiandray-collab/optichain
 - 线上地址：**https://optichain.pages.dev**（Cloudflare Pages；问答接口为 Pages Function `/api/ask`，无需登录）
 - 文档：[数据探测](docs/data_probe.md) · [方案](docs/proposal.md) · [风险清单](docs/risks.md) · [需求核对](docs/requirements_check.md) · [测试说明](docs/test_plan.md) · [测试结果](docs/test_results.md) · [线上问答检查](docs/live_qa_results.md) · [AI 使用与验证记录](docs/ai_log.md) · [数据契约](docs/snapshot_schema.md)
 

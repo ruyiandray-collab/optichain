@@ -278,3 +278,9 @@
 - 自动化测试脚本被 Cloudflare 机器人防护拦截（Python 默认 User-Agent 返回 403），给脚本加上明确的 User-Agent 后正常。
 - 最终线上稳定性检查（`scripts/live_qa_check.py`，结果自动生成到 `docs/live_qa_results.md`）：**14 / 14 通过**，包括 4 个研究问题各重复 2–4 次、未覆盖公司、投资建议。
 - 反思：线上的模型输出有随机性，本地单次实测通过不代表稳定。所以在生产环境对每个问题重复提问来测稳定性，这一步发现了本地没暴露的误拦。
+
+## 2026-10-17 · GitHub 仓库
+
+- Ray 决定：扶摇本版不接（README 改成如实描述：开发期间会话里没有扶摇接口，扶摇 MCP 是开发开始后才另行安装的）；仓库公开，`data/staging/` 一并提交，便于评审完整复现数字溯源测试。
+- 推送前对全部 126 个受跟踪文件做了程序化密钥扫描（DeepSeek key、iFinD 密钥、`~/.claude.json` 里各 MCP 服务的请求头，以及通用 `sk-` 格式），全部未命中。
+- 仓库：https://github.com/ruyiandray-collab/optichain（公开，主页指向线上地址）。

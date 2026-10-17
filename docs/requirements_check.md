@@ -86,7 +86,7 @@
 | 交付项 | 状态 |
 |---|---|
 | Web URL | ✅ https://optichain.pages.dev（2026-10-17 部署，线上问答检查 14 / 14 通过） |
-| 源码仓库 + README | ⚠️ README 已完成；本地 git；GitHub 远程仓库没建（需要你确认仓库名和公开范围） |
+| 源码仓库 + README | ✅ https://github.com/ruyiandray-collab/optichain（公开，含 data/staging，Ray 已确认）；README 已完成 |
 | 演示视频脚本 + 分镜 | ✅ `docs/demo_script.md`（旁白里的数字由脚本从快照读出） |
 | ai_log.md | ✅ 持续维护（每个里程碑一段草稿） |
 | test_plan.md | ✅ |
