@@ -1,0 +1,21 @@
+[
+ {"id":"s16_mainbiz_h1b","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2026年中报主营构成(按产品)项目名称、项目收入、项目毛利率"},"purpose":"重试半年报分产品"},
+ {"id":"s17_q_series","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创在2025-03-31、2025-06-30、2025-09-30、2025-12-31、2026-03-31、2026-06-30的单季度营业收入"},"purpose":"重试季度序列(枚举日期)"},
+ {"id":"s18_peer_mainbiz","server":"stock","tool":"get_stock_financials","params":{"query":"新易盛、天孚通信、源杰科技、中瓷电子2025-12-31主营构成(按产品)项目名称与项目收入"},"purpose":"多公司分产品"},
+ {"id":"s19_bad_entity","server":"stock","tool":"get_stock_financials","params":{"query":"旭创光电XYZ有限公司2025-12-31的营业收入"},"purpose":"异常:不存在主体"},
+ {"id":"s20_future_period","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2027-12-31的营业收入"},"purpose":"异常:未来报告期"},
+ {"id":"s21_cpo_split","server":"stock","tool":"search_stocks","params":{"query":"CPO概念股中总市值大于500亿的股票"},"purpose":"概念分页绕行(按市值切片)"},
+ {"id":"s22_lpo","server":"stock","tool":"search_stocks","params":{"query":"属于光模块概念的股票"},"purpose":"光模块概念"},
+ {"id":"g08_capex","server":"global_stock","tool":"global_stock_financial","params":{"query":"微软、Alphabet、亚马逊、Meta在最新报告期的资本性支出(购建固定资产支付的现金)"},"purpose":"云厂商Capex"},
+ {"id":"g09_capex_series","server":"global_stock","tool":"global_stock_financial","params":{"query":"Meta在2025-03-31、2025-06-30、2025-09-30、2025-12-31、2026-03-31、2026-06-30的单季度资本性支出"},"purpose":"Capex季度序列"},
+ {"id":"g10_cohr_fy","server":"global_stock","tool":"global_stock_financial","params":{"query":"Coherent在2026-06-30、2025-06-30的营业收入、毛利率、研发费用"},"purpose":"海外财年口径"},
+ {"id":"g11_nvda","server":"global_stock","tool":"global_stock_financial","params":{"query":"英伟达最新报告期的营业收入、数据中心业务收入"},"purpose":"英伟达"},
+ {"id":"g12_aaoi","server":"global_stock","tool":"global_stock_profile","params":{"query":"AAOI、Credo、Astera Labs的主营业务、上市地点"},"purpose":"其他海外可比"},
+ {"id":"n08_trending","server":"news","tool":"search_trending_news","params":{"keyword":"光模块","industry_name":"通信","time_scope":"近一周","sensitive":"全部","size":5},"purpose":"热点(合法枚举)"},
+ {"id":"n09_export_ctl","server":"news","tool":"search_news","params":{"query":"美国 出口管制 光模块 光芯片 关税 影响","time_start":"2026-01-01","time_end":"2026-10-17","size":5},"purpose":"政策变量"},
+ {"id":"n10_empty","server":"news","tool":"search_notice","params":{"query":"中际旭创 年度报告","time_start":"2030-01-01","time_end":"2030-02-01","size":5},"purpose":"异常:空时间窗"},
+ {"id":"n11_oversize","server":"news","tool":"search_notice","params":{"query":"中际旭创 年度报告","time_start":"2026-01-01","time_end":"2026-10-17","size":50},"purpose":"异常:size超上限"},
+ {"id":"n12_deny","server":"news","tool":"search_notice","params":{"query":"澄清公告 光模块 CPO 不涉及 未开展相关业务","time_start":"2025-01-01","time_end":"2026-10-17","size":10},"purpose":"E级:公司否认/澄清"},
+ {"id":"e06_chipprice","server":"edb","tool":"search_edb","params":{"query":"磷化铟 衬底 价格"},"purpose":"上游材料价格"},
+ {"id":"e07_pcb","server":"edb","tool":"get_edb_data","params":{"query":"激光器,激光二极管除外(901320)出口金额当月值 202501-202608"},"purpose":"EDB取数2"}
+]

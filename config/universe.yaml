@@ -1,0 +1,47 @@
+# 公司全集。segment_seed 是“待验证的初始假设”，最终归属由 M2 按分产品收入和文本证据裁定。
+# role: core = 产业链主体；concept_sample = 概念可信度样本（来自 iFinD CPO 概念成分，s12/s21）；demand = 需求侧
+snapshot_cutoff: "2026-10-16"   # 最近交易日；财务口径最新为 2026 半年报
+report_periods: ["20250331", "20250630", "20250930", "20251231", "20260331", "20260630"]
+
+cn:
+  - {code: 300308.SZ, name: 中际旭创, segment_seed: module, role: core}
+  - {code: 300502.SZ, name: 新易盛, segment_seed: module, role: core}
+  - {code: 002281.SZ, name: 光迅科技, segment_seed: module, role: core}
+  - {code: 000988.SZ, name: 华工科技, segment_seed: module, role: core}
+  - {code: 603083.SH, name: 剑桥科技, segment_seed: module, role: core}
+  - {code: 301205.SZ, name: 联特科技, segment_seed: module, role: core}
+  - {code: 300548.SZ, name: 长芯博创, segment_seed: module, role: core}
+  - {code: 688498.SH, name: 源杰科技, segment_seed: optical_chip, role: core}
+  - {code: 688048.SH, name: 长光华芯, segment_seed: optical_chip, role: core}
+  - {code: 688313.SH, name: 仕佳光子, segment_seed: optical_chip, role: core}
+  - {code: 600703.SH, name: 三安光电, segment_seed: optical_chip, role: core}
+  - {code: 300394.SZ, name: 天孚通信, segment_seed: optical_component, role: core}
+  - {code: 300620.SZ, name: 光库科技, segment_seed: optical_component, role: core}
+  - {code: 300570.SZ, name: 太辰光, segment_seed: optical_component, role: core}
+  - {code: 003031.SZ, name: 中瓷电子, segment_seed: substrate, role: core}
+  - {code: 002463.SZ, name: 沪电股份, segment_seed: substrate, role: core}
+  - {code: 300476.SZ, name: 胜宏科技, segment_seed: substrate, role: core}
+  - {code: 002975.SZ, name: 博杰股份, segment_seed: equipment, role: core}
+  - {code: 000938.SZ, name: 紫光股份, segment_seed: switch_server, role: core}
+  - {code: 601138.SH, name: 工业富联, segment_seed: switch_server, role: core}
+  # 概念可信度样本（CPO 概念成分里，概念解析来源各不相同）
+  - {code: 600171.SH, name: 上海贝岭, segment_seed: electrical_chip, role: concept_sample}
+  - {code: 688381.SH, name: 帝奥微, segment_seed: electrical_chip, role: concept_sample}
+  - {code: 002273.SZ, name: 水晶光电, segment_seed: optical_component, role: concept_sample}
+  - {code: 002055.SZ, name: ST得润, segment_seed: optical_component, role: concept_sample}
+  - {code: 688328.SH, name: 深科达, segment_seed: equipment, role: concept_sample}
+  - {code: 300812.SZ, name: 易天股份, segment_seed: equipment, role: concept_sample}
+
+global:
+  - {code: COHR.N, name: Coherent, segment_seed: module, role: core, cik: "0000820318"}
+  - {code: LITE.O, name: Lumentum, segment_seed: optical_chip, role: core, cik: "0001633978"}
+  - {code: FN.N, name: Fabrinet, segment_seed: optical_component, role: core, cik: "0001408710"}
+  - {code: AAOI.O, name: Applied Optoelectronics, ifind_name: 应用光电, segment_seed: module, role: core, cik: "0001158114"}
+  - {code: AVGO.O, name: Broadcom, segment_seed: electrical_chip, role: core, cik: "0001730168"}
+  - {code: MRVL.O, name: Marvell, segment_seed: electrical_chip, role: core, cik: "0001835632"}
+  - {code: CRDO.O, name: Credo, segment_seed: electrical_chip, role: core, cik: "0001807794"}
+  - {code: NVDA.O, name: NVIDIA, segment_seed: switch_server, role: core, cik: "0001045810"}
+  - {code: MSFT.O, name: Microsoft, segment_seed: cloud, role: demand, cik: "0000789019"}
+  - {code: GOOGL.O, name: Alphabet, segment_seed: cloud, role: demand, cik: "0001652044"}
+  - {code: AMZN.O, name: Amazon, segment_seed: cloud, role: demand, cik: "0001018724"}
+  - {code: META.O, name: Meta, segment_seed: cloud, role: demand, cik: "0001326801"}

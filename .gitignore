@@ -1,0 +1,13 @@
+# 密钥与本地环境
+.env
+*.key
+# iFinD 原始返回不进公开仓库（数据授权）；只保留调用元数据与页面所需短片段
+data/probe_raw/
+data/cache/
+# Python / Node
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+web/dist/
+.wrangler/

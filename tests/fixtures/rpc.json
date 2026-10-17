@@ -1,0 +1,46 @@
+{
+ "ok": {
+  "id": 10,
+  "jsonrpc": "2.0",
+  "result": {
+   "content": [
+    {
+     "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"trade_time_description\":\"# 行情衍生指标日期提示\\n\\n当前时间是 13:07:22 ，由于本工具输出的行情类指标为日频指标，若请求时间早于当日收盘时间，则所有行情数据以及当日依赖行情数据计算的指标（如市值、估值、技术指标），实际使用的是昨日收盘后数据计算，每日日频数据更新时间一般在 15:05-15:15，请注意甄别\",\"answer\":\"|证券代码|证券简称|日期|市盈率(PE,TTM)|市净率(PB,最新)|总市值（单位：元）|\\n|---|---|---|---|---|---|\\n|300308.SZ|中际旭创|20261016|38.5855|20.484|7904.2456亿|\",\"indicators_params\":{\"总市值\":{\"交易日期\":\"最新\",\"单位\":\" 元\"},\"市盈率(PE,TTM)\":{\"交易日期\":\"最新\",\"TTM基准日\":\"报表公告日期\"},\"市净率(PB,最新)\":{\"交易日期\":\"最新\",\"基准日\":\"报表截止日期\"}}}}",
+     "type": "text"
+    }
+   ]
+  }
+ },
+ "empty": {
+  "id": 6,
+  "jsonrpc": "2.0",
+  "result": {
+   "content": [
+    {
+     "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"查询结果为空\",\"indicators_params\":{}}}",
+     "type": "text"
+    }
+   ]
+  }
+ },
+ "empty_news": {
+  "id": 5,
+  "jsonrpc": "2.0",
+  "result": {
+   "content": [
+    {
+     "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":\"# 查询结果\\n抱歉，本次新闻搜索结果为空\\n# 可能原因\\n-1.时间参数区间过于严格，导致期间没有符合要求的相关新闻\\n-2.搜索内容的参数内容过长或表述过于具体，为匹配到符合要求的内容\"}",
+     "type": "text"
+    }
+   ]
+  }
+ },
+ "bad_args": {
+  "id": 9,
+  "jsonrpc": "2.0",
+  "error": {
+   "message": "Invalid arguments: Argument time_scope must be set in enums value",
+   "code": -32602
+  }
+ }
+}

@@ -1,0 +1,17 @@
+[
+ {"id":"s01_info","server":"stock","tool":"get_stock_info","params":{"query":"中际旭创的公司名称、上市日期、所属申万行业、所属同花顺行业、主营业务简介"},"purpose":"基本资料/行业分类/主营业务"},
+ {"id":"s02_summary","server":"stock","tool":"get_stock_summary","params":{"query":"中际旭创的行业分类与主营业务"},"purpose":"摘要：行业分类+主营"},
+ {"id":"s03_mainbiz","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2025-12-31主营构成按产品分类的营业收入及收入占比"},"purpose":"分产品收入(A级证据关键)"},
+ {"id":"s04_mainbiz_h1","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2026-06-30主营构成按产品分类的营业收入、毛利率"},"purpose":"最新半年报分产品"},
+ {"id":"s05_mainbiz_region","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2025-12-31主营构成按地区分类的营业收入及占比"},"purpose":"境内外收入(汇率/关税传导)"},
+ {"id":"s06_fin","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2026-06-30的营业总收入、归母净利润、销售毛利率、营业收入同比增长率"},"purpose":"核心财务"},
+ {"id":"s07_fin_series","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2023-03-31至2026-06-30每个季度的单季度营业收入和单季度毛利率"},"purpose":"财务时间序列(历史对照)"},
+ {"id":"s08_val","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2026-10-16的市盈率TTM、市净率、总市值"},"purpose":"估值"},
+ {"id":"s09_quote","server":"stock","tool":"get_stock_performance","params":{"query":"中际旭创20260901-20261016的收盘价和涨跌幅"},"purpose":"日频行情"},
+ {"id":"s10_rt","server":"stock","tool":"stock_highfreq_quotes","params":{"symbols":"300308.SZ","indicators":"最新价,涨跌幅,总市值,市盈率TTM","data_mode":"real_time"},"purpose":"实时快照(周六非交易日)"},
+ {"id":"s11_events","server":"stock","tool":"get_stock_events","params":{"query":"中际旭创最近一次定向增发的募集资金用途和募投项目"},"purpose":"募投/扩产(B级证据)"},
+ {"id":"s12_pick_concept","server":"stock","tool":"search_stocks","params":{"query":"CPO概念股"},"purpose":"概念成分(概念宇宙)"},
+ {"id":"s13_pick_biz","server":"stock","tool":"search_stocks","params":{"query":"主营业务包含光芯片的股票"},"purpose":"按主营选股(上游)"},
+ {"id":"s14_shareholder","server":"stock","tool":"get_stock_shareholders","params":{"query":"中际旭创前5大股东持股比例"},"purpose":"股东(非核心)"},
+ {"id":"s15_rd","server":"stock","tool":"get_stock_financials","params":{"query":"中际旭创2025-12-31的研发费用、研发费用占营业收入比例、存货、前五大客户销售额占比"},"purpose":"研发/客户集中度"}
+]
