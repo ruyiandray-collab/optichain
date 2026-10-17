@@ -7,6 +7,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -89,10 +90,18 @@
   "entity": "300308.SZ",
   "name": "中际旭创",
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "in_universe": true,
   "single_source": false,
-  "needs_review": true,
+  "needs_review": false,
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "CPO 已有收入但仅 2.0 百万元，且与 XPO、NPO 合并披露于高速光模块项下，非定期报告单独产品项，不够 A",
+   "status": "applied"
+  },
   "search_scope": null
  },
  {
@@ -103,6 +112,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -113,6 +123,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -123,6 +134,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_0ef93a9296",
@@ -182,6 +194,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -235,6 +248,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -284,10 +298,18 @@
   "entity": "603083.SH",
   "name": "剑桥科技",
   "grade": "C",
-  "basis": "正式来源·研发/送样",
+  "basis": "正式来源·研发/送样；已人工复核，维持",
   "in_universe": true,
   "single_source": false,
-  "needs_review": true,
+  "needs_review": false,
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "外接光源“中标、计划 2026Q1 发货”只见于调研记录，公告称 CPO 光引擎与 ELSFP 处于研发设计阶段、尚无收入，2026 半年报只写 NPO 定制开发与送样；无公告或定期报告确认发货，维持 C",
+   "status": "applied"
+  },
   "search_scope": null
  },
  {
@@ -298,6 +320,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -351,6 +374,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -404,6 +428,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_b224713a71",
@@ -463,6 +488,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -516,6 +542,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -569,6 +596,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -622,6 +650,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -675,6 +704,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -728,6 +758,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -738,6 +769,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_6f661afcc3",
@@ -768,6 +800,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_bee416292a",
@@ -798,6 +831,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_1d5e9a676d",
@@ -828,6 +862,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -881,6 +916,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -891,6 +927,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -901,6 +938,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -954,6 +992,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1007,6 +1046,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1060,6 +1100,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1113,6 +1154,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_ae4e1c18e3",
@@ -1172,6 +1214,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1225,6 +1268,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_2dda84ab7b",
@@ -1255,6 +1299,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_3e0bdcc8cd",
@@ -1285,6 +1330,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -1295,6 +1341,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -1305,6 +1352,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_4d12e05dd1",
@@ -1364,6 +1412,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1417,6 +1466,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1470,6 +1520,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_22c00542af",
@@ -1529,6 +1580,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1582,6 +1634,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1635,6 +1688,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1688,6 +1742,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -1698,6 +1753,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -1784,6 +1840,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1837,6 +1894,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -1847,6 +1905,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -1857,6 +1916,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1910,6 +1970,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "ebfd3e0c1cf4",
   "search_scope": [
@@ -1963,16 +2024,25 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
   "entity": "002273.SZ",
   "name": "水晶光电",
   "grade": "C",
-  "basis": "二手转述（iFinD 概念解析）·研发/送样",
+  "basis": "二手转述（iFinD 概念解析）·研发/送样；已人工复核，维持",
   "in_universe": true,
   "single_source": false,
-  "needs_review": true,
+  "needs_review": false,
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "C 来自 iFinD 概念解析转述；复核片段为媒体转述年报，非正式来源上限 D；正式调研记录 ev_88fa09bd17 亦支持 C",
+   "status": "applied"
+  },
   "search_scope": null
  },
  {
@@ -1983,6 +2053,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2036,6 +2107,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2089,6 +2161,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_d9e46bd117",
@@ -2148,6 +2221,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2201,6 +2275,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_86ff34a050",
@@ -2260,6 +2335,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2313,6 +2389,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2366,6 +2443,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2419,6 +2497,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2472,6 +2551,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2525,6 +2605,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_0a4fef8581",
@@ -2555,6 +2636,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_e313486d9d",
@@ -2614,6 +2696,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2667,6 +2750,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2720,6 +2804,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_44c1661b5e",
@@ -2779,6 +2864,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2832,6 +2918,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_e7cb7f5758",
@@ -2891,6 +2978,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -2944,6 +3032,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_1ace3fba09",
@@ -3003,6 +3092,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3056,6 +3146,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3105,10 +3196,18 @@
   "entity": "300570.SZ",
   "name": "太辰光",
   "grade": "C",
-  "basis": "正式来源·研发/送样",
+  "basis": "正式来源·研发/送样；已人工复核，维持",
   "in_universe": true,
   "single_source": false,
-  "needs_review": true,
+  "needs_review": false,
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "订单增长说的是光柔性板、MDC 等连接产品，原文未称 CPO 订单，LLM 判 B 属过度解读",
+   "status": "applied"
+  },
   "search_scope": null
  },
  {
@@ -3119,6 +3218,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3172,6 +3272,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_2278006fcf",
@@ -3231,6 +3332,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3284,6 +3386,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3337,6 +3440,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3390,6 +3494,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -3476,6 +3581,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3529,6 +3635,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3582,6 +3689,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3635,6 +3743,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_1f0dc49683",
@@ -3665,6 +3774,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3718,6 +3828,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3771,6 +3882,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3824,6 +3936,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -3910,6 +4023,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -3963,6 +4077,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -4016,6 +4131,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -4069,6 +4185,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "19363b90f48d",
   "search_scope": [
@@ -4122,6 +4239,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -4132,6 +4250,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4185,6 +4304,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4238,6 +4358,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4291,6 +4412,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_4db5b7677c",
@@ -4350,6 +4472,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4403,6 +4526,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4456,6 +4580,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4509,6 +4634,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4562,6 +4688,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4615,6 +4742,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_823a378188",
@@ -4645,6 +4773,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4698,6 +4827,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4751,6 +4881,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_0b5f54141f",
@@ -4810,6 +4941,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4863,6 +4995,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4916,6 +5049,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -4969,6 +5103,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5022,6 +5157,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_19050536c7",
@@ -5081,6 +5217,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5134,6 +5271,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5187,6 +5325,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_3af4d01e05",
@@ -5246,6 +5385,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_5ea534248c",
@@ -5305,6 +5445,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5358,6 +5499,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5411,6 +5553,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5464,6 +5607,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5517,6 +5661,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_74b110195d",
@@ -5576,6 +5721,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5629,6 +5775,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5682,6 +5829,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5735,6 +5883,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5788,6 +5937,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5841,6 +5991,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5894,6 +6045,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -5947,6 +6099,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6000,6 +6153,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6053,6 +6207,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6106,6 +6261,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6159,6 +6315,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_79d9e0f3c3",
@@ -6218,6 +6375,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_18bf25bc05",
@@ -6277,6 +6435,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6330,6 +6489,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6383,6 +6543,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6436,6 +6597,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6489,6 +6651,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6542,6 +6705,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6595,6 +6759,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6648,6 +6813,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6701,6 +6867,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_1e377e4e44",
@@ -6731,6 +6898,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6784,6 +6952,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6837,6 +7006,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": true,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_c3d82145d8",
@@ -6868,6 +7038,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6921,6 +7092,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -6974,6 +7146,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -7027,6 +7200,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "3e089b2f169a",
   "search_scope": [
@@ -7080,6 +7254,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": null
  },
  {
@@ -7090,6 +7265,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -7176,6 +7352,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7229,6 +7406,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7282,6 +7460,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7335,6 +7514,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_a1348d8d9f",
@@ -7394,6 +7574,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7447,6 +7628,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7500,6 +7682,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7553,6 +7736,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_8c5b7dc44a",
@@ -7612,6 +7796,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_549b59f21d",
@@ -7642,6 +7827,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7695,6 +7881,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7748,6 +7935,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7801,6 +7989,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7854,6 +8043,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7907,6 +8097,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -7960,6 +8151,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8013,6 +8205,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8066,6 +8259,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8119,6 +8313,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8172,6 +8367,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8225,6 +8421,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8278,6 +8475,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": true,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_a94c193eea",
@@ -8309,6 +8507,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_2ebba07376",
@@ -8368,6 +8567,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8421,6 +8621,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8474,6 +8675,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8527,6 +8729,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8580,6 +8783,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8633,6 +8837,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_4ef42d08cd",
@@ -8663,6 +8868,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8716,6 +8922,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8769,6 +8976,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8822,6 +9030,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8875,6 +9084,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8928,6 +9138,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -8981,6 +9192,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_5c6c551d02",
@@ -9040,6 +9252,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9093,6 +9306,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9146,6 +9360,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9199,6 +9414,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9252,6 +9468,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9305,6 +9522,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9358,6 +9576,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9411,6 +9630,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9464,6 +9684,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9517,6 +9738,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "e179d5cfc33a",
   "search_scope": [
@@ -9570,6 +9792,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -9656,6 +9879,7 @@
   "in_universe": true,
   "single_source": false,
   "needs_review": false,
+  "manual_review": null,
   "search_scope": [
    {
     "tool": "search_stocks",
@@ -9742,6 +9966,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -9795,6 +10020,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -9848,6 +10074,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -9901,6 +10128,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -9954,6 +10182,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10007,6 +10236,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_95b70cd70f",
@@ -10066,6 +10296,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10119,6 +10350,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10172,6 +10404,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [
    {
     "evidence_id": "ev_e469a51f71",
@@ -10202,6 +10435,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10255,6 +10489,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10308,6 +10543,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10361,6 +10597,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10414,6 +10651,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10467,6 +10705,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10520,6 +10759,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10573,6 +10813,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10626,6 +10867,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10679,6 +10921,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10732,6 +10975,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10785,6 +11029,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10838,6 +11083,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10891,6 +11137,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10944,6 +11191,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -10997,6 +11245,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -11050,6 +11299,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -11103,6 +11353,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -11156,6 +11407,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [
@@ -11209,6 +11461,7 @@
   "in_universe": false,
   "single_source": true,
   "needs_review": false,
+  "manual_review": null,
   "trace": [],
   "concept_call_id": "c46bea4dc86e",
   "search_scope": [

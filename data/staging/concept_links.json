@@ -272,7 +272,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_2e830e25c6",
@@ -313,7 +313,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -354,7 +354,16 @@
   },
   "name": "中际旭创",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；规则补抽的招股书收入表述主语为公司本身，口径正确",
+   "status": "applied"
+  }
  },
  {
   "entity": "300308.SZ",
@@ -633,7 +642,7 @@
     "review": "规则补抽的收入表述（LLM 漏抽），待复核主语与口径"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_2e830e25c6",
@@ -674,7 +683,7 @@
   ],
   "conflict": null,
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "best_evidence": "ev_4e75dfecee",
   "best": {
    "evidence_id": "ev_4e75dfecee",
@@ -696,7 +705,16 @@
   },
   "name": "中际旭创",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "B",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "CPO 已有收入但仅 2.0 百万元，且与 XPO、NPO 合并披露于高速光模块项下，非定期报告单独产品项，不够 A",
+   "status": "applied"
+  }
  },
  {
   "entity": "300502.SZ",
@@ -1405,7 +1423,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_c3ffb191ac",
@@ -1464,7 +1482,7 @@
   ],
   "conflict": null,
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "best_evidence": "ev_49fbac1ae5",
   "best": {
    "evidence_id": "ev_49fbac1ae5",
@@ -1485,7 +1503,16 @@
   },
   "name": "光迅科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "B",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "2024 年报研发项目进度“部分产品开始交付”应为 B（规则漏判），最终等级不变",
+   "status": "applied"
+  }
  },
  {
   "entity": "002281.SZ",
@@ -2075,7 +2102,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_7d575ee8eb",
@@ -2152,7 +2179,7 @@
   ],
   "conflict": null,
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "best_evidence": "ev_1cb48efa0f",
   "best": {
    "evidence_id": "ev_1cb48efa0f",
@@ -2173,7 +2200,16 @@
   },
   "name": "华工科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "B",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "“海外工厂已正式投产”“批量出货”应为 B（规则漏判），最终等级不变",
+   "status": "applied"
+  }
  },
  {
   "entity": "000988.SZ",
@@ -2631,7 +2667,7 @@
     "review": "规则补抽的收入表述（LLM 漏抽），待复核主语与口径"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_13c87523ca",
@@ -2744,7 +2780,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20251231",
@@ -2785,7 +2821,16 @@
   },
   "name": "剑桥科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；复核片段讲的是 CPO 尚无收入，与光互联整体无关",
+   "status": "applied"
+  }
  },
  {
   "entity": "603083.SH",
@@ -3091,7 +3136,7 @@
     "review": "规则补抽的收入表述（LLM 漏抽），待复核主语与口径"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_b6a1f6a766",
@@ -3258,7 +3303,7 @@
   ],
   "conflict": null,
   "grade": "C",
-  "basis": "正式来源·研发/送样",
+  "basis": "正式来源·研发/送样；已人工复核，维持",
   "best_evidence": "ev_2ae22f7a60",
   "best": {
    "evidence_id": "ev_2ae22f7a60",
@@ -3279,7 +3324,16 @@
   },
   "name": "剑桥科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "C",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "外接光源“中标、计划 2026Q1 发货”只见于调研记录，公告称 CPO 光引擎与 ELSFP 处于研发设计阶段、尚无收入，2026 半年报只写 NPO 定制开发与送样；无公告或定期报告确认发货，维持 C",
+   "status": "applied"
+  }
  },
  {
   "entity": "301205.SZ",
@@ -3489,7 +3543,7 @@
     "result": "丢弃：引文未提及概念"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_48c18f9d6d",
@@ -3530,7 +3584,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -3571,7 +3625,16 @@
   },
   "name": "联特科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；复核片段只是主营业务介绍",
+   "status": "applied"
+  }
  },
  {
   "entity": "301205.SZ",
@@ -4225,7 +4288,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_79d92f140a",
@@ -4248,7 +4311,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -4314,7 +4377,16 @@
   },
   "name": "源杰科技",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；复核片段只是主营业务介绍",
+   "status": "applied"
+  }
  },
  {
   "entity": "688498.SH",
@@ -4573,7 +4645,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_582952f086",
@@ -4668,7 +4740,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -4709,7 +4781,16 @@
   },
   "name": "长光华芯",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；风险提示中“后期订单交付受……影响”是假设性措辞，规则误判为 B，不影响最终等级",
+   "status": "applied"
+  }
  },
  {
   "entity": "688048.SH",
@@ -5746,7 +5827,7 @@
     "result": "丢弃：引文未提及概念"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_f8763c92cb",
@@ -5769,7 +5850,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -5833,7 +5914,16 @@
   },
   "name": "天孚通信",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；复核片段只是主营业务介绍",
+   "status": "applied"
+  }
  },
  {
   "entity": "300394.SZ",
@@ -6403,7 +6493,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_10db1a2a42",
@@ -6426,7 +6516,7 @@
   ],
   "conflict": null,
   "grade": "A",
-  "basis": "分产品收入",
+  "basis": "分产品收入；已人工复核，维持",
   "a_detail": {
    "grade": "A",
    "label": "20260630",
@@ -6467,7 +6557,16 @@
   },
   "name": "太辰光",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "A",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "A",
+   "final_grade": "A",
+   "reason": "A 来自分产品收入；“800G 送样及客户认证”为 C，规则判断正确",
+   "status": "applied"
+  }
  },
  {
   "entity": "300570.SZ",
@@ -6600,7 +6699,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_f95180eaec",
@@ -6623,7 +6722,7 @@
   ],
   "conflict": null,
   "grade": "C",
-  "basis": "正式来源·研发/送样",
+  "basis": "正式来源·研发/送样；已人工复核，维持",
   "best_evidence": "ev_c9c0aa21af",
   "best": {
    "evidence_id": "ev_c9c0aa21af",
@@ -6644,7 +6743,16 @@
   },
   "name": "太辰光",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "C",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "订单增长说的是光柔性板、MDC 等连接产品，原文未称 CPO 订单，LLM 判 B 属过度解读",
+   "status": "applied"
+  }
  },
  {
   "entity": "003031.SZ",
@@ -6914,7 +7022,7 @@
     "source_name": "节前冰点确认 节后反弹在即 光通信持续强化 持续关注CPO、OCS等细分方向"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_d8b89c6873",
@@ -7009,7 +7117,7 @@
   ],
   "conflict": null,
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "best_evidence": "ev_794bdab793",
   "best": {
    "evidence_id": "ev_794bdab793",
@@ -7030,7 +7138,16 @@
   },
   "name": "中瓷电子",
   "role": "core",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "B",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "“订单饱满，产能持续释放”“快速扩产”应为 B（规则漏判），最终等级不变",
+   "status": "applied"
+  }
  },
  {
   "entity": "003031.SZ",
@@ -8368,7 +8485,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_b16dae968a",
@@ -8409,7 +8526,7 @@
   ],
   "conflict": null,
   "grade": "C",
-  "basis": "正式来源·研发/送样",
+  "basis": "正式来源·研发/送样；已人工复核，维持",
   "best_evidence": "ev_ca16c97909",
   "best": {
    "evidence_id": "ev_ca16c97909",
@@ -8430,7 +8547,16 @@
   },
   "name": "上海贝岭",
   "role": "concept_sample",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "C",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "份额提升限于接入网与中低速光模块；高速光模块仍在开发新产品，对 AI 光互联只算 C",
+   "status": "applied"
+  }
  },
  {
   "entity": "600171.SH",
@@ -8801,7 +8927,7 @@
     "source_name": "帝奥微涨4.86%"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_36d0212ba1",
@@ -8824,7 +8950,7 @@
   ],
   "conflict": null,
   "grade": "B",
-  "basis": "正式来源·订单/量产/扩产",
+  "basis": "正式来源·订单/量产/扩产；已人工复核，维持",
   "best_evidence": "ev_393c868d69",
   "best": {
    "evidence_id": "ev_393c868d69",
@@ -8845,7 +8971,16 @@
   },
   "name": "帝奥微",
   "role": "concept_sample",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "B",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "B",
+   "final_grade": "B",
+   "reason": "光模块专用模拟前端“在开发布局中”为 C（LLM 正确），最终 B 另有依据",
+   "status": "applied"
+  }
  },
  {
   "entity": "688381.SH",
@@ -9068,7 +9203,7 @@
     "result": "无阶段词，不计"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_88fa09bd17",
@@ -9108,30 +9243,40 @@
    }
   ],
   "conflict": null,
-  "grade": "D",
-  "basis": "非正式来源·研发/送样",
-  "best_evidence": "ev_f1a7a010b1",
+  "grade": "C",
+  "basis": "人工复核改定（规则等级 D）",
+  "best_evidence": "ev_88fa09bd17",
   "best": {
-   "evidence_id": "ev_f1a7a010b1",
-   "quote": "根据2025年年报：CPO 共封装-硅透镜研发项目研发并量产满足 CPO 光引擎厂商需求的高品质硅透镜器件， 构建起具备行业领先水平的硅基微透镜阵列规模化生产能力，实现产品性能与量产效率的双重突破，满足 800G/1.6T 光模块及未来 AI 集群光互连需求。目前正在开发中。",
-   "stage": "rnd",
-   "rule_stage": "rnd",
+   "evidence_id": "ev_88fa09bd17",
+   "quote": "公司上半年完成光通信市场深度调研与技术研判，上半年全面进入产品开发与技术储备阶段，确立“3+2”核心产品策略，聚焦滤片类、透镜类、棱镜类核心元器件，以及适配CPO领域的玻璃基板、波导类产品。",
+   "stage": "talk",
+   "rule_stage": "talk",
    "secondhand": false,
    "llm_stage": "rnd",
    "llm_grade": "C",
-   "llm_reason": "年报研发项目，尚在开发中",
-   "formal": false,
-   "source_kind": "news",
-   "origin_kind": "hdy_media",
+   "llm_reason": "正式IR记录披露光通信产品开发与技术储备",
+   "formal": true,
+   "source_kind": "notice",
+   "origin_kind": "ir",
    "stale": false,
    "grade": "D",
-   "date": "2026-09-21",
-   "source_name": "水晶光电涨0.55%，成交额6.37亿元，后市是否有机会？",
+   "date": "2026-08-25",
+   "source_name": "水晶光电：2026年8月24日投资者关系活动记录表",
    "review": "LLM 建议等级 C ≠ 规则等级 D（以规则为准）"
   },
   "name": "水晶光电",
   "role": "concept_sample",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "D",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "D",
+   "final_grade": "C",
+   "reason": "2026-08-24 投资者关系活动记录表（正式来源）称上半年全面进入产品开发与技术储备阶段，含适配 CPO 的玻璃基板、波导类产品；调研纪要中的研发属 C，规则未识别“进入产品开发阶段”",
+   "status": "applied",
+   "evidence": "ev_88fa09bd17"
+  }
  },
  {
   "entity": "002273.SZ",
@@ -9247,7 +9392,7 @@
     "source_name": "水晶光电涨2.43%，成交额15.09亿元，今日主力净流入-3046.93万"
    }
   ],
-  "needs_review": true,
+  "needs_review": false,
   "review_items": [
    {
     "evidence_id": "ev_f1a7a010b1",
@@ -9288,7 +9433,7 @@
   ],
   "conflict": null,
   "grade": "C",
-  "basis": "二手转述（iFinD 概念解析）·研发/送样",
+  "basis": "二手转述（iFinD 概念解析）·研发/送样；已人工复核，维持",
   "best_evidence": "ev_9b083a3dca",
   "best": {
    "evidence_id": "ev_9b083a3dca",
@@ -9309,7 +9454,16 @@
   },
   "name": "水晶光电",
   "role": "concept_sample",
-  "extractor": "llm"
+  "extractor": "llm",
+  "rule_grade": "C",
+  "manual_review": {
+   "reviewer": "Ray",
+   "reviewed_at": "2026-10-18",
+   "rule_grade": "C",
+   "final_grade": "C",
+   "reason": "C 来自 iFinD 概念解析转述；复核片段为媒体转述年报，非正式来源上限 D；正式调研记录 ev_88fa09bd17 亦支持 C",
+   "status": "applied"
+  }
  },
  {
   "entity": "002055.SZ",

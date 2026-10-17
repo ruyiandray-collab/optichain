@@ -1,0 +1,60 @@
+# 人工复核记录：规则等级与 LLM 建议不一致（或规则补抽）而标“待人工复核”的分级，由人逐条核对原文后在这里落定。
+# 应用方式见 pipeline/manual_review.py：
+#   - 只有当前规则等级 == rule_grade，且当前触发复核的证据都在 reviewed_evidence 里，才应用 final_grade；
+#   - 否则（重跑后规则或证据变了）复核作废，仍标“待复核”，页面注明“复核已过期”。
+# 页面保留规则等级（rule_grade）与复核人、日期、理由；初审建议与逐条理由见 docs/review_17.md。
+reviewer: Ray
+reviewed_at: "2026-10-18"
+reviews:
+  - {entity: 300308.SZ, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_2e830e25c6, ev_4e75dfecee],
+     reason: "A 来自分产品收入；规则补抽的招股书收入表述主语为公司本身，口径正确"}
+  - {entity: 300308.SZ, concept: cpo, rule_grade: B, final_grade: B,
+     reviewed_evidence: [ev_2e830e25c6, ev_4e75dfecee],
+     reason: "CPO 已有收入但仅 2.0 百万元，且与 XPO、NPO 合并披露于高速光模块项下，非定期报告单独产品项，不够 A"}
+  - {entity: 002281.SZ, concept: optical_interconnect, rule_grade: B, final_grade: B,
+     reviewed_evidence: [ev_546b43ff0e, ev_b6a382b20f, ev_c3ffb191ac],
+     reason: "2024 年报研发项目进度“部分产品开始交付”应为 B（规则漏判），最终等级不变"}
+  - {entity: 000988.SZ, concept: optical_interconnect, rule_grade: B, final_grade: B,
+     reviewed_evidence: [ev_498a731c06, ev_7d575ee8eb, ev_e570192efd],
+     reason: "“海外工厂已正式投产”“批量出货”应为 B（规则漏判），最终等级不变"}
+  - {entity: 603083.SH, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_13c87523ca, ev_1dff808112, ev_5ecec93983, ev_a70a6786cf],
+     reason: "A 来自分产品收入；复核片段讲的是 CPO 尚无收入，与光互联整体无关"}
+  - {entity: 603083.SH, concept: cpo, rule_grade: C, final_grade: C,
+     reviewed_evidence: [ev_13c87523ca, ev_1dff808112, ev_3b9a347a7e, ev_5ecec93983, ev_a70a6786cf, ev_b6a1f6a766, ev_b6acb6dcb9],
+     reason: "外接光源“中标、计划 2026Q1 发货”只见于调研记录，公告称 CPO 光引擎与 ELSFP 处于研发设计阶段、尚无收入，2026 半年报只写 NPO 定制开发与送样；无公告或定期报告确认发货，维持 C"}
+  - {entity: 301205.SZ, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_48c18f9d6d, ev_c028efddf0],
+     reason: "A 来自分产品收入；复核片段只是主营业务介绍"}
+  - {entity: 688498.SH, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_79d92f140a],
+     reason: "A 来自分产品收入；复核片段只是主营业务介绍"}
+  - {entity: 688048.SH, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_10e2d15e31, ev_3e43001ebd, ev_582952f086, ev_68288bfd70, ev_d30b6c6c0e],
+     reason: "A 来自分产品收入；风险提示中“后期订单交付受……影响”是假设性措辞，规则误判为 B，不影响最终等级"}
+  - {entity: 300394.SZ, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_f8763c92cb],
+     reason: "A 来自分产品收入；复核片段只是主营业务介绍"}
+  - {entity: 300570.SZ, concept: optical_interconnect, rule_grade: A, final_grade: A,
+     reviewed_evidence: [ev_10db1a2a42],
+     reason: "A 来自分产品收入；“800G 送样及客户认证”为 C，规则判断正确"}
+  - {entity: 300570.SZ, concept: cpo, rule_grade: C, final_grade: C,
+     reviewed_evidence: [ev_f95180eaec],
+     reason: "订单增长说的是光柔性板、MDC 等连接产品，原文未称 CPO 订单，LLM 判 B 属过度解读"}
+  - {entity: 003031.SZ, concept: optical_interconnect, rule_grade: B, final_grade: B,
+     reviewed_evidence: [ev_19c87b526c, ev_4ced661400, ev_7910be5a28, ev_cadbe7596c, ev_d8b89c6873],
+     reason: "“订单饱满，产能持续释放”“快速扩产”应为 B（规则漏判），最终等级不变"}
+  - {entity: 600171.SH, concept: optical_interconnect, rule_grade: C, final_grade: C,
+     reviewed_evidence: [ev_365466c271, ev_b16dae968a],
+     reason: "份额提升限于接入网与中低速光模块；高速光模块仍在开发新产品，对 AI 光互联只算 C"}
+  - {entity: 688381.SH, concept: optical_interconnect, rule_grade: B, final_grade: B,
+     reviewed_evidence: [ev_36d0212ba1],
+     reason: "光模块专用模拟前端“在开发布局中”为 C（LLM 正确），最终 B 另有依据"}
+  - {entity: 002273.SZ, concept: optical_interconnect, rule_grade: D, final_grade: C,
+     reviewed_evidence: [ev_88fa09bd17, ev_f1a7a010b1],
+     evidence_for_final: ev_88fa09bd17,
+     reason: "2026-08-24 投资者关系活动记录表（正式来源）称上半年全面进入产品开发与技术储备阶段，含适配 CPO 的玻璃基板、波导类产品；调研纪要中的研发属 C，规则未识别“进入产品开发阶段”"}
+  - {entity: 002273.SZ, concept: cpo, rule_grade: C, final_grade: C,
+     reviewed_evidence: [ev_a4512f9001, ev_f1a7a010b1],
+     reason: "C 来自 iFinD 概念解析转述；复核片段为媒体转述年报，非正式来源上限 D；正式调研记录 ev_88fa09bd17 亦支持 C"}

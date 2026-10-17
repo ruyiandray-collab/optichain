@@ -41,12 +41,13 @@ function Empty({ children = '该部分数据生成中 / 暂无数据' }: {
 <p>{children}</p>
 <a href="#/changes">查看更新与校验 →</a>
 </div>; }
-function Badge({ grade, review, conflict }: {
+function Badge({ grade, review, conflict, mr }: {
     grade?: string;
     review?: boolean;
     conflict?: any;
+    mr?: any;
 }) { return <span className="badges">
-<span className={`badge grade-${grade || 'unknown'}`}>{grade ? `${grade} · ${gradeNames[grade] || grade}` : '未分级'}</span>{review && <span className="flag">待复核</span>}{conflict && <span className="flag danger">证据冲突</span>}</span>; }
+<span className={`badge grade-${grade || 'unknown'}`}>{grade ? `${grade} · ${gradeNames[grade] || grade}` : '未分级'}</span>{review && <span className="flag">{mr?.status === 'stale' ? '待复核 · 复核已过期' : '待复核'}</span>}{mr?.status === 'applied' && <span className="flag reviewed" title={`${mr.reviewer} ${mr.reviewed_at}`}>已人工复核</span>}{conflict && <span className="flag danger">证据冲突</span>}</span>; }
 function Value({ data, at, unit }: {
     data: any;
     at: string;
@@ -190,16 +191,17 @@ function Overview({ meta, taxonomy }: {
 <span className={`role ${m.role === '候选' ? 'candidate' : ''}`}>{m.role === 'minor' ? '次' : m.role}</span>{m.share != null ? <Value data={m.share} unit="ratio" at={`companies.json#/${i}/attribution/memberships/${j}/share`}/> : m.share_upper != null ? <span>占比上限 <Value data={m.share_upper} unit="ratio" at={`companies.json#/${i}/attribution/memberships/${j}/share_upper`}/>
 </span> : <span className="muted">占比未提供</span>}</div>
 <p className="small muted"><Text value={m.basis} at={j >= 0 ? `companies.json#/${i}/attribution/memberships/${j}/basis` : `companies.json#/${i}/attribution/basis`}/></p>{j >= 0 && <MembershipEvidence membership={m} at={`companies.json#/${i}/attribution/memberships/${j}`}/>}{c.grades && <div className="card-grades">
-<span>光互联 <Badge grade={c.grades.optical_interconnect?.grade} review={c.grades.optical_interconnect?.needs_review} conflict={c.grades.optical_interconnect?.conflict}/>
+<span>光互联 <Badge grade={c.grades.optical_interconnect?.grade} review={c.grades.optical_interconnect?.needs_review} conflict={c.grades.optical_interconnect?.conflict} mr={c.grades.optical_interconnect?.manual_review}/>
 </span>
-<span>CPO <Badge grade={c.grades.cpo?.grade} review={c.grades.cpo?.needs_review} conflict={c.grades.cpo?.conflict}/>
+<span>CPO <Badge grade={c.grades.cpo?.grade} review={c.grades.cpo?.needs_review} conflict={c.grades.cpo?.conflict} mr={c.grades.cpo?.manual_review}/>
 </span>
 </div>}</article>); })}</div>
 </div>)}</section>)}</div>}</>;
 }
-function Trace({ trace, at }: {
+function Trace({ trace, at, reviewed }: {
     trace: D;
     at: string;
+    reviewed?: boolean;
 }) { const open = useContext(Open); const evidenceState=useData('evidence'); const original=evidenceState.data?.[trace.evidence_id]; const fallbackAt=childRef('evidence.json#',trace.evidence_id||''); return <button className="trace" onClick={() => open({ kind: 'evidence', id: trace.evidence_id, quote: trace.quote })}>
 <span className="trace-meta">
 <Text value={trace.date??original?.date} at={trace.date!=null?`${at}/date`:`${fallbackAt}/date`}/>
@@ -211,7 +213,7 @@ function Trace({ trace, at }: {
 <span>阶段 {stages[trace.stage] || trace.stage || '未提供'} · 规则 {stages[trace.rule_stage] || trace.rule_stage || '未提供'} · LLM {stages[trace.llm_stage] || trace.llm_stage || '未提供'}</span>
 <span>规则等级 <Text value={trace.grade} at={`${at}/grade`}/>{trace.llm_grade && <> · LLM 建议等级 <Text value={trace.llm_grade} at={`${at}/llm_grade`}/></>}</span>
 {trace.llm_reason && <span>LLM 理由：<Text value={trace.llm_reason} at={`${at}/llm_reason`}/></span>}
-{(trace.review || (trace.llm_grade && trace.grade && trace.llm_grade !== trace.grade)) && <span className="flag">待复核 · 待人工复核，以规则为准</span>}
+{(trace.review || (trace.llm_grade && trace.grade && trace.llm_grade !== trace.grade)) && (reviewed ? <span className="flag reviewed">已人工复核 · 见上方复核结论</span> : <span className="flag">待复核 · 待人工复核，以规则为准</span>)}
 <blockquote>
 <Text value={trace.quote} at={`${at}/quote`}/>
 </blockquote>{trace.review && <span className="flag" data-ref={`${at}/review`}>{trace.review}</span>}<span className="link">查看原文与调用记录 →</span>
@@ -220,12 +222,15 @@ function GradeCard({ grade, name, at }: {
     grade: D;
     name: string;
     at: string;
-}) { return <section className="panel">
+}) { const mr = grade.manual_review; const done = mr?.status === 'applied'; return <section className="panel">
 <div className="section-heading">
 <h2>{name}</h2>
-<Badge grade={grade.grade} review={grade.needs_review} conflict={grade.conflict}/>
+<Badge grade={grade.grade} review={grade.needs_review} conflict={grade.conflict} mr={grade.manual_review}/>
 </div>
-<p>{grade.basis}</p>{grade.a_detail && <div className="inset">
+<p>{grade.basis}</p>{mr && <div className={mr.status === 'applied' ? 'inset' : 'notice'}>
+<h3>{mr.status === 'applied' ? '人工复核结论' : '人工复核已过期'}</h3>
+<p>复核人 <Text value={mr.reviewer} at={`${at}/manual_review/reviewer`}/> · <Text value={mr.reviewed_at} at={`${at}/manual_review/reviewed_at`}/> · 规则等级 <Text value={mr.rule_grade} at={`${at}/manual_review/rule_grade`}/> → 复核等级 <Text value={mr.final_grade} at={`${at}/manual_review/final_grade`}/></p>
+<p><Text value={mr.reason} at={`${at}/manual_review/reason`}/></p>{mr.status === 'stale' && <p>过期原因：<Text value={mr.stale_reason} at={`${at}/manual_review/stale_reason`}/>；展示规则等级，等待重新复核。</p>}</div>}{grade.a_detail && <div className="inset">
 <h3>收入命中依据</h3>
 <div className="metric-grid">
 <div>金额<Value data={grade.a_detail.amount} unit="CNY" at={`${at}/a_detail/amount`}/>
@@ -241,12 +246,12 @@ function GradeCard({ grade, name, at }: {
 </details>
 </div>}{grade.best && <>
 <h3>最强证据</h3>
-<Trace trace={grade.best} at={`${at}/best`}/>
+<Trace trace={grade.best} at={`${at}/best`} reviewed={done}/>
 </>}{grade.conflict && <div className="conflict">
 <h3>证据冲突 · 否认引文</h3>
 <Tree data={grade.conflict} at={`${at}/conflict`}/>{grade.trace?.map((t:D,i:number)=>t.stage==='deny'?<Trace key={i} trace={t} at={`${at}/trace/${i}`}/>:null)}</div>}{grade.grade === 'E' && (grade.basis === '无证据' || grade.search_scope?.length) && <div className="inset">
 <h3>已执行检索与时间窗</h3>{grade.search_scope?.length ? <Tree data={grade.search_scope} at={`${at}/search_scope`}/> : <p>快照未提供检索范围，待补充；无证据不代表不存在业务。</p>}</div>}<details>
-<summary>全部证据轨迹</summary>{grade.trace?.length ? grade.trace.map((t: D, i: number) => <Trace key={i} trace={t} at={`${at}/trace/${i}`}/>) : <p className="muted">暂无证据轨迹</p>}</details>
+<summary>全部证据轨迹</summary>{grade.trace?.length ? grade.trace.map((t: D, i: number) => <Trace key={i} trace={t} at={`${at}/trace/${i}`} reviewed={done}/>) : <p className="muted">暂无证据轨迹</p>}</details>
 </section>; }
 function Sparkline({ quarters, at }: {
     quarters: D[];
@@ -408,7 +413,7 @@ function Concepts({ meta }: {
 <Text value={c.code} at={`companies.json#/${i}/code`}/> · {c.role === 'core' ? '核心研究' : '概念观察'}</small>
 </td>{Object.keys(conceptNames).map(k => <td key={k} data-label={labels[k] || k}>
 <a href={`#/company/${c.code}`}>
-<Badge grade={c.grades[k]?.grade} review={c.grades[k]?.needs_review} conflict={c.grades[k]?.conflict}/>
+<Badge grade={c.grades[k]?.grade} review={c.grades[k]?.needs_review} conflict={c.grades[k]?.conflict} mr={c.grades[k]?.manual_review}/>
 </a>
 <p className="small muted">{c.grades[k]?.basis}</p>
 </td>)}</tr>)}</tbody>
@@ -425,7 +430,7 @@ function Concepts({ meta }: {
     }) => <article key={c.entity}>
 <strong>{c.name}</strong>
 <Text value={c.entity} at={`cpo_universe.json#/${i}/entity`}/>
-<Badge grade={c.grade} review={c.needs_review}/>
+<Badge grade={c.grade} review={c.needs_review} mr={c.manual_review}/>
 <p>{c.basis}</p>{c.single_source && <span className="flag">单一来源：iFinD 概念解析</span>}{companies.data?.some((x: D) => x.code === c.entity) && <a href={`#/company/${c.entity}`}>公司研究 →</a>}{c.trace?.map((t: D, j: number) => <button key={j} onClick={() => open({ kind: 'evidence', id: t.evidence_id, quote: t.quote })}>查看证据</button>)}</article>)}</div>
 </section>
 </> : <Pending state={universe}/>}</>;
@@ -476,10 +481,14 @@ function Compare() { const state = useData('comparables'), open = useContext(Ope
 <Text value={r.code} at={`comparables.json#/${i}/table/${j}/code`}/>
 </small>
 </td>
-<td>
-<Tree data={{ fye: r.fye, accounting: r.accounting, currency: r.currency, ttm_window: r.ttm_window }} at={`comparables.json#/${i}/table/${j}`}/>
+<td className="acct-cell">
+<Tree data={{ fye: r.fye, accounting: r.accounting, currency: r.currency }} at={`comparables.json#/${i}/table/${j}`}/>
+<div className="tree"><div className="tree-row">
+<span className="tree-key">{labels.ttm_window}</span>
+<div>{Array.isArray(r.ttm_window) && r.ttm_window.length === 2 ? <span className="ttm-window"><Text value={r.ttm_window[0]} at={`comparables.json#/${i}/table/${j}/ttm_window/0`}/> ~ <Text value={r.ttm_window[1]} at={`comparables.json#/${i}/table/${j}/ttm_window/1`}/></span> : <Tree data={r.ttm_window} at={`comparables.json#/${i}/table/${j}/ttm_window`}/>}</div>
+</div></div>
 </td>{['revenue_ttm_usd', 'gross_margin_ttm', 'net_margin_ttm', 'pe_ttm', 'ps_ttm', 'market_cap_usd', 'focus_share'].map(k => <td key={k} data-label={labels[k] || k}>
-<Value data={r[k]} unit={k==='pe_ttm'?'':undefined} at={`comparables.json#/${i}/table/${j}/${k}`}/>{k === 'net_margin_ttm' && r.net_margin_note && <p><Text value={r.net_margin_note} at={`comparables.json#/${i}/table/${j}/net_margin_note`}/></p>}{k === 'focus_share' && <p data-ref={r.focus_share_note?`comparables.json#/${i}/table/${j}/focus_share_note`:undefined}>{r.focus_share_note}</p>}</td>)}<td data-label="汇率口径">{r.fx_basis ? <details><summary><Text value={r.fx_basis.text} at={`comparables.json#/${i}/table/${j}/fx_basis/text`}/></summary><Tree data={Object.fromEntries(Object.entries(r.fx_basis).filter(([k]) => k !== 'text'))} at={`comparables.json#/${i}/table/${j}/fx_basis`}/></details> : <span className="muted">未提供</span>}</td></tr>)}</tbody>
+<Value data={r[k]} unit={k==='pe_ttm'?'':undefined} at={`comparables.json#/${i}/table/${j}/${k}`}/>{k === 'net_margin_ttm' && r.net_margin_note && <p><Text value={r.net_margin_note} at={`comparables.json#/${i}/table/${j}/net_margin_note`}/></p>}{k === 'focus_share' && <p data-ref={r.focus_share_note?`comparables.json#/${i}/table/${j}/focus_share_note`:undefined}>{r.focus_share_note}</p>}</td>)}<td className="fx-cell" data-label="汇率口径">{r.fx_basis ? <details><summary><Text value={r.fx_basis.text} at={`comparables.json#/${i}/table/${j}/fx_basis/text`}/></summary><Tree data={Object.fromEntries(Object.entries(r.fx_basis).filter(([k]) => k !== 'text'))} at={`comparables.json#/${i}/table/${j}/fx_basis`}/></details> : <span className="muted">未提供</span>}</td></tr>)}</tbody>
 </table>
 </div>
 <h3>口径调整步骤</h3>
@@ -692,7 +701,7 @@ function Method({ taxonomy, meta }: {
 ['D', '仅表态', '只在互动平台 / 调研中口头提及；依据为互动易 / e互动问答。'],
 ['E', '无证据 / 否认', '没检索到证据或公司明确否认；记录检索范围与时间。']
 ].map(([g, meaning, basis]) => <tr key={g}><td><Badge grade={g}/></td><td data-label="含义">{meaning}</td><td data-label="判定依据（示例）">{basis}</td></tr>)}</tbody></table></div>
-<ul className="method-rules"><li>非正式来源上限 D：互动平台、媒体转述均适用。</li><li>证据冲突时保留双方证据、降一级展示（A 也降），并标待复核。</li><li>LLM 给出建议等级和理由，最终等级由规则函数裁定；两者不一致时标“待人工复核”。</li></ul>
+<ul className="method-rules"><li>非正式来源上限 D：互动平台、媒体转述均适用。</li><li>证据冲突时保留双方证据、降一级展示（A 也降），并标待复核。</li><li>LLM 给出建议等级和理由，最终等级由规则函数裁定；两者不一致时标“待人工复核”。</li><li>人工复核结论写在 config/manual_review.yaml（复核人、日期、理由），页面同时展示规则等级；规则等级或待复核证据变化后复核自动作废。</li></ul>
 <p className="muted">等级表示证据阶段，不表示企业质量。</p>
 <Tree data={taxonomy.grade_rules} at="taxonomy.json#/grade_rules"/>
 </section>

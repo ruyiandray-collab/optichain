@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from pipeline import grade, attribution, extract
+from pipeline import grade, attribution, extract, manual_review
 from pipeline.evidence import WINDOW, CPO_SLICES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -75,6 +75,7 @@ def run(use_llm: bool = False) -> dict:
         for c in extra:
             f.write(json.dumps(c, ensure_ascii=False) + "\n")
 
+    reviews = manual_review.load()
     links, members = [], []
     for c in UNIVERSE["cn"]:
         evs = [e for e in evidences if e["entity"] == c["code"]]
@@ -83,6 +84,7 @@ def run(use_llm: bool = False) -> dict:
         for concept in grade.CONCEPTS:
             r = grade.grade_entity(c["code"], concept, evs, cls, records, search_scope(c))
             r.update(name=c["name"], role=c["role"], extractor=extractor)
+            manual_review.apply(r, reviews)
             links.append(r)
         # 泛口径分部的文本佐证：正式来源里“光互联 + 量产/订单”的已校验引文
         oi = next(l for l in links if l["entity"] == c["code"] and l["concept"] == "optical_interconnect")
@@ -116,7 +118,7 @@ def run(use_llm: bool = False) -> dict:
             r = next(l for l in links if l["entity"] == code and l["concept"] == "cpo")
             cpo_all.append({"entity": code, "name": info["name"], "grade": r["grade"], "basis": r["basis"],
                             "in_universe": True, "single_source": False, "needs_review": r["needs_review"],
-                            "search_scope": r.get("search_scope")})
+                            "manual_review": r.get("manual_review"), "search_scope": r.get("search_scope")})
             continue
         evs = [e for e in evidences if e["entity"] == code]
         ids = {e["evidence_id"] for e in evs}
@@ -129,8 +131,10 @@ def run(use_llm: bool = False) -> dict:
                           "called_at": hit[0] if hit else None, "call_id": hit[1] if hit else None,
                           "note": "仅 iFinD 概念解析单一来源；未对全集外公司检索公告与资讯"})
         r = grade.grade_entity(code, "cpo", evs, [x for x in claims if x["evidence_id"] in ids], [], scope)
+        manual_review.apply(r, reviews)
         cpo_all.append({"entity": code, "name": info["name"], "grade": r["grade"], "basis": r["basis"],
                         "in_universe": False, "single_source": True, "needs_review": r["needs_review"],
+                        "manual_review": r.get("manual_review"),
                         "trace": r["trace"], "concept_call_id": info["call_id"],
                         "search_scope": r.get("search_scope")})
     (STAGING / "cpo_all_grades.json").write_text(json.dumps(cpo_all, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -143,7 +147,9 @@ def run(use_llm: bool = False) -> dict:
         dist.setdefault(l["concept"], {}).setdefault(l["grade"], 0)
         dist[l["concept"]][l["grade"]] += 1
     stats.update(extractor=extractor, claims=len(claims), grade_distribution=dist,
-                 needs_review=sum(l["needs_review"] for l in links), conflicts=sum(bool(l["conflict"]) for l in links))
+                 needs_review=sum(l["needs_review"] for l in links),
+                 manual_reviewed=sum((l.get("manual_review") or {}).get("status") == "applied" for l in links),
+                 manual_review_stale=sum((l.get("manual_review") or {}).get("status") == "stale" for l in links), conflicts=sum(bool(l["conflict"]) for l in links))
     return stats
 
 

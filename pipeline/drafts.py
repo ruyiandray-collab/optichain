@@ -237,7 +237,12 @@ def jobs() -> list[tuple]:
                                   + (f"，收入占比 {_pct(ms['share'])}" if ms.get("share") is not None else "") + "）"})
         for l in links:
             if l["entity"] == c["code"]:
-                facts.append({"text": f"{names[l['concept']]}可信度等级 {l['grade']}（规则裁定，依据：{l['basis']}）"})
+                mr = l.get("manual_review") or {}
+                if mr.get("status") == "applied" and mr["final_grade"] != mr["rule_grade"]:
+                    why = f"人工复核改定，规则等级 {mr['rule_grade']}；复核理由：{mr['reason']}"
+                else:
+                    why = f"{'规则裁定，已人工复核' if mr.get('status') == 'applied' else '规则裁定'}，依据：{l['basis']}"
+                facts.append({"text": f"{names[l['concept']]}可信度等级 {l['grade']}（{why}）"})
                 b = l.get("best")
                 if b:
                     facts.append({"text": f"引文（{b.get('source_name', '')}，{b.get('date')}）：{b['quote']}", "ref": {"evidence_id": b["evidence_id"]}})

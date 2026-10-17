@@ -41,7 +41,7 @@ def _profile(recs, code):
 
 
 def _slim_grade(l: dict) -> dict:
-    keep = ("grade", "basis", "needs_review", "review_items", "conflict", "a_detail", "best", "search_scope", "extractor")
+    keep = ("grade", "basis", "needs_review", "review_items", "conflict", "a_detail", "best", "search_scope", "extractor", "rule_grade", "manual_review")
     out = {k: l.get(k) for k in keep if l.get(k) is not None}
     out["trace"] = [t for t in l["trace"] if t.get("grade") or t.get("stage") == "deny"]
     return out
