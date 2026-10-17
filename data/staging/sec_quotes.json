@@ -1,0 +1,877 @@
+[
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_fa3a8eb150",
+  "topic": "products",
+  "quote": "develops, manufactures, and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials, for use in the data center, communications and industrial markets.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_fa3a8eb150",
+  "topic": "model",
+  "quote": "is a vertically integrated manufacturing company",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_fa3a8eb150",
+  "topic": "datacom",
+  "quote": "for use in the data center, communications and industrial markets",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_13fafb412f",
+  "topic": "datacom",
+  "quote": "co-packaged optics (CPO); datacenter interconnect (DCI);",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_b008bffea9",
+  "topic": "products",
+  "quote": "lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials,",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_b008bffea9",
+  "topic": "model",
+  "quote": "Coherent develops, manufactures, and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials,",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_b008bffea9",
+  "topic": "datacom",
+  "quote": "for use in datacenter & communications, as well as industrial applications",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_0b755d871b",
+  "topic": "products",
+  "quote": "We generate nearly all of our revenues, earnings, and cash flows from developing, manufacturing, and marketing a wide range of products and services for our end markets.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_0b755d871b",
+  "topic": "datacom",
+  "quote": "lasers including semiconductor and high power lasers, passive optics including isolators, transceivers, transport equipment",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_c33bf77f75",
+  "topic": "products",
+  "quote": "Previously, financial results had been reported in the following three segments: (i) Networking, (ii) Materials, and (iii) Lasers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_c33bf77f75",
+  "topic": "datacom",
+  "quote": "Effective July 1, 2025, the Company realigned its organizational structure and now identifies multiple operating segments, which are aggregated into two reportable segments: (i) Datacenter & Communications, and (ii) Industrial.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "COHR.N",
+  "evidence_id": "ev_0b07c23f3e",
+  "topic": "model",
+  "quote": "We also utilize contract manufacturers and strategic suppliers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_b23b3df5d3",
+  "topic": "products",
+  "quote": "We disaggregate revenue by type of product, which are Components and Systems, and by geography.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_b23b3df5d3",
+  "topic": "model",
+  "quote": "We operate in one reportable segment as a single, integrated enterprise.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_b23b3df5d3",
+  "topic": "datacom",
+  "quote": "Our products are essential to a range of cloud, artificial intelligence and machine learning (“AI/ML”), telecommunications, consumer, and industrial end-market applications.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_a867449e56",
+  "topic": "products",
+  "quote": "This includes semiconductor laser chips, laser sub-assemblies, line subsystems and wavelength management systems.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_a867449e56",
+  "topic": "products",
+  "quote": "This includes optical modules, optical circuit switches, and industrial lasers such as short-pulse solid-state lasers and kilowatt-class fiber lasers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_a867449e56",
+  "topic": "model",
+  "quote": "These are supplied to customers who then integrate them into their own full system solutions.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_a867449e56",
+  "topic": "customers",
+  "quote": "Components represent foundational parts that support or enable that system’s operation and include optical chips and subsystems that are supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_a867449e56",
+  "topic": "datacom",
+  "quote": "Components represent foundational parts that support or enable that system’s operation and include optical chips and subsystems that are supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_15ae83dbdc",
+  "topic": "products",
+  "quote": "Our offerings support access (local), metro (intracity), long-haul (intercity and global), and submarine (undersea) network infrastructure.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_15ae83dbdc",
+  "topic": "datacom",
+  "quote": "Our products enable high-capacity optical links for cloud computing, AI/ML workloads, and data center interconnect (“DCI”) applications, as well as for communications service provider networks.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_b384263bd9",
+  "topic": "products",
+  "quote": "In addition, our industrial laser products are used for precision material processing across diverse industries",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_b384263bd9",
+  "topic": "datacom",
+  "quote": "Demand for our products is fueled by the ongoing expansion of network capacity required to support cloud services, AI/ML processing, streaming video, video conferencing, wireless and mobile connectivity, and the internet of things (“IoT”).",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_6a33614811",
+  "topic": "products",
+  "quote": "Our business is driven by end-market applications leveraging the performance advantages of advanced optical and photonic solutions.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_6a33614811",
+  "topic": "datacom",
+  "quote": "The convergence of factors including the growing reliance on data transmission, the rapid adoption of AI/ML, and the increasing digitalization of society is driving expansion in cloud data centers and the demand for higher-bandwidth network solutions.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_72ea37920d",
+  "topic": "products",
+  "quote": "Our products and technologies are at the forefront of these trends, engineered to support increased data volumes and computational loads while meeting the industry's need for advanced network capabilities.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_72ea37920d",
+  "topic": "products",
+  "quote": "Lumentum is well-positioned to capitalize on this trend through the provision of ultrafast lasers for micromachining and advanced material processing.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_72ea37920d",
+  "topic": "products",
+  "quote": "In addition, we also produce laser emitters for 3D sensing applications in consumer electronics.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_72ea37920d",
+  "topic": "datacom",
+  "quote": "Our products and technologies are at the forefront of these trends, engineered to support increased data volumes and computational loads while meeting the industry's need for advanced network capabilities.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_ddc9952d7f",
+  "topic": "model",
+  "quote": "We are investing in manufacturing capacity, both internally and with contract manufacturers, to meet demand.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_ddc9952d7f",
+  "topic": "customers",
+  "quote": "and since then, we have seen increasing demand from AI and cloud customers as they continue to expand their data centers, driven in part by the continued advances in cloud and AI infrastructure.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "LITE.O",
+  "evidence_id": "ev_ddc9952d7f",
+  "topic": "datacom",
+  "quote": "and since then, we have seen increasing demand from AI and cloud customers as they continue to expand their data centers, driven in part by the continued advances in cloud and AI infrastructure.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_07751c267b",
+  "topic": "customers",
+  "quote": "Our sales depend on a small number of customers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_91419a8bbf",
+  "topic": "customers",
+  "quote": "A reduction in orders from any of these customers, the loss of any of these customers, or a customer exerting significant pricing and margin pressures on us could harm our business, financial condition and operating results.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_91419a8bbf",
+  "topic": "datacom",
+  "quote": "If the data center and communications infrastructure markets do not expand as we expect, our business may not grow as fast as we expect, which could adversely impact our business, financial condition and operating results.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_fe75fd5751",
+  "topic": "products",
+  "quote": "precision optical and electro-mechanical manufacturing services across other markets within the optics industry, such as the semiconductor processing, biotechnology, metrology and material processing markets",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_fe75fd5751",
+  "topic": "customers",
+  "quote": "Cancellations, delays or reductions of customer orders and the relatively short-term nature of the commitments of our customers could harm our business, financial condition and operating results.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_3d36d5079f",
+  "topic": "customers",
+  "quote": "Any failure to protect our customers’ intellectual property that we use in the products we manufacture for them could harm our customer relationships and subject us to liability.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_3658c9b3b8",
+  "topic": "products",
+  "quote": "complex products such as optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices and sensors.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_3658c9b3b8",
+  "topic": "model",
+  "quote": "We provide advanced optical packaging and precision optical, electro-mechanical and electronic manufacturing services to original equipment manufacturers (“OEMs”)",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "FN.N",
+  "evidence_id": "ev_3658c9b3b8",
+  "topic": "datacom",
+  "quote": "optical communication components, modules and sub-systems",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_bee30b493c",
+  "topic": "customers",
+  "quote": "the Company’s reliance on a small number of customers for a substantial portion of its revenues",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_bee30b493c",
+  "topic": "datacom",
+  "quote": "general conditions in the internet data center, cable television or CATV, telecommunications or telecom and fiber-to-the-home or FTTH",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_e3df3ea269",
+  "topic": "products",
+  "quote": "We design and manufacture a range of optical communications products at varying levels of integration, from components, subassemblies and modules to complete turn-key equipment.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_e3df3ea269",
+  "topic": "model",
+  "quote": "Applied Optoelectronics, Inc. (the \"Company\" or \"AOI\") is a leading, vertically integrated provider of fiber-optic networking products, primarily for four networking end-markets: internet data center, cable television (\"CATV\"), telecommunications, (\"telecom\"), and fiber-to-the-home (\"FTTH\").",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_e3df3ea269",
+  "topic": "datacom",
+  "quote": "Applied Optoelectronics, Inc. (the \"Company\" or \"AOI\") is a leading, vertically integrated provider of fiber-optic networking products, primarily for four networking end-markets: internet data center, cable television (\"CATV\"), telecommunications, (\"telecom\"), and fiber-to-the-home (\"FTTH\").",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_308f8417ff",
+  "topic": "datacom",
+  "quote": "Within the internet data center market, we benefit from the increasing use of higher-capacity optical networking technology as a replacement for older, lower-speed optical interconnects",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_f7d774a98c",
+  "topic": "products",
+  "quote": "The CATV market is our most established business, for which we supply a broad array of products, including lasers, transmitters and transceivers, and turn-key equipment.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7dfb96ca26",
+  "topic": "products",
+  "quote": "Sales of headend, node and distribution equipment, including amplifiers, have contributed significantly to our revenue in recent years",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7dfb96ca26",
+  "topic": "model",
+  "quote": "In 2023, we began offering many of our CATV products directly to MSO customers, under Quantum Bandwidth™ brand name.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7dfb96ca26",
+  "topic": "customers",
+  "quote": "We made this strategic decision in order to better address the needs of our MSO customers",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_d48dc608b7",
+  "topic": "products",
+  "quote": "In both cases, we supply optical transceivers that plug into switches and servers within the data center and allow these network devices to send and receive data over fiber optic cables.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_d48dc608b7",
+  "topic": "model",
+  "quote": "By selling products directly to these customers, we believe that we will be able to address these needs more efficiently and will improve our time to market for these new innovations, which MSOs have indicated will be critical to timely rollout of their planned network upgrades.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_d48dc608b7",
+  "topic": "customers",
+  "quote": "Our customers in this market are generally large internet-based (\"hyperscale\") data center operators, along with equipment suppliers who supply our products along with others to our hyperscale data center operator customers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_d48dc608b7",
+  "topic": "datacom",
+  "quote": "The internet data center market is currently our fastest-growing business.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_4ee3ce04dd",
+  "topic": "products",
+  "quote": "The majority of the data center optical transceivers that we sell utilize our own lasers and subassemblies",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_4ee3ce04dd",
+  "topic": "model",
+  "quote": "we believe that our in-house technology and manufacturing capability for these lasers and subassemblies gives us an advantage over many of our competitors",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_4ee3ce04dd",
+  "topic": "customers",
+  "quote": "investment by hyperscale data center operators",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_4ee3ce04dd",
+  "topic": "datacom",
+  "quote": "the rapid adoption of artificial intelligence (\"AI\") is fueling a new wave of investment by hyperscale data center operators, as AI computing is very compute and bandwidth intensive.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7a2f5126dd",
+  "topic": "products",
+  "quote": "the capability to design and manufacture various network equipment or subassemblies",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7a2f5126dd",
+  "topic": "model",
+  "quote": "This outsourcing trend has been a significant contributor to the revenue we derive from the CATV market.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_7a2f5126dd",
+  "topic": "customers",
+  "quote": "equipment vendors, many of whom are our customers, have been under pressure to supply a wider variety of increasingly complex equipment to MSOs.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_9acec146e8",
+  "topic": "products",
+  "quote": "In the telecom market we supply lasers and laser subassemblies as well as transceivers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_9acec146e8",
+  "topic": "model",
+  "quote": "Our recent launch of our own branded line of equipment offers an additional growth opportunity for us, enabling us to sell directly to MSOs in certain cases rather than to CATV equipment vendors.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_9acec146e8",
+  "topic": "customers",
+  "quote": "Our customers in this segment consist mostly of network equipment manufacturers (\"NEMs\") and other manufacturers of optical transceivers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_9839386ba6",
+  "topic": "model",
+  "quote": "Our vertically integrated manufacturing model provides us several advantages, including rapid product development, fast response times to customer requests and greater control over product quality and manufacturing costs.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AAOI.O",
+  "evidence_id": "ev_9839386ba6",
+  "topic": "products",
+  "quote": "We manufacture the majority of the laser chips and optical components that are used in our products.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_03c8e78abf",
+  "topic": "products",
+  "quote": "We combine global scale, engineering depth, broad product portfolio, superior execution and operational focus to deliver category-leading semiconductor and infrastructure software solutions.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_03c8e78abf",
+  "topic": "model",
+  "quote": "This strategy results in a robust business model designed to drive diversified and sustainable operating and financial results.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_03c8e78abf",
+  "topic": "customers",
+  "quote": "Our strategy is focused on sustained technology leadership and developing category-leading solutions to deliver a comprehensive suite of innovative infrastructure technology products to the world’s leading business and government customers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_aaaaa7d476",
+  "topic": "products",
+  "quote": "Our semiconductor and semiconductor-based solutions include a broad portfolio of complex digital and mixed signal devices based on silicon wafers",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_aaaaa7d476",
+  "topic": "datacom",
+  "quote": "enterprise and artificial intelligence (“AI”) data centers, servers and networking and connectivity equipment",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_61efe781ea",
+  "topic": "products",
+  "quote": "We differentiate ourselves through our high-performance design and integration capabilities, and focus on developing semiconductor products for markets that require our high quality, leading technology and integrated performance semiconductor and semiconductor-based solutions.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_61efe781ea",
+  "topic": "datacom",
+  "quote": "Our semiconductor and semiconductor-based solutions also enable our customers to build and deploy AI data center infrastructure for their training and inference workloads and manage the movement of data across their AI network infrastructure based on open, flexible, standards-based Ethernet.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_7ead8d6c4f",
+  "topic": "products",
+  "quote": "We offer our semiconductor and semiconductor-based solutions in five major end markets: Networking Connectivity, Wireless Device Connectivity, Servers and Storage Systems, Broadband and Industrial.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_7ead8d6c4f",
+  "topic": "customers",
+  "quote": "Customers of these solutions are hyperscalers and companies with AI frontier models, as well as original equipment manufacturers (“OEMs”) and system integrators that develop servers, switches and racks deployed in large-scale AI data centers to run training and inference workloads.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_7ead8d6c4f",
+  "topic": "datacom",
+  "quote": "Our AI semiconductor solutions include custom accelerators or XPUs, Ethernet switching and routing silicon, Ethernet NICs, physical layer devices (“PHYs”) and optical components, as well as racks and systems based on our XPUs.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_fca44f0a91",
+  "topic": "products",
+  "quote": "We develop semiconductor products that enable accelerated compute and networking connectivity deployed in enterprise and AI data centers and service providers for their workloads.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_fca44f0a91",
+  "topic": "model",
+  "quote": "We provide advanced technology and intellectual property (“IP”) platforms for customers to design and develop application specific integrated circuits (“ASICs”) for AI and high-performance computing, networking and storage applications.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_fca44f0a91",
+  "topic": "datacom",
+  "quote": "Our products offer an open, flexible, standards-based Ethernet NIC and switching solution to resolve connectivity bottlenecks in data centers, particularly in AI data centers where compute bandwidth and cluster sizes grow rapidly.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_0ed28d0baa",
+  "topic": "products",
+  "quote": "Our custom silicon solutions provide the platform to integrate embedded logic, high-bandwidth memory, serializer/deserializer technology, IP cores and processor cores using advanced packaging technologies.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_0ed28d0baa",
+  "topic": "model",
+  "quote": "ASICs are custom products built to our individual customers’ specifications, such as our custom accelerators or XPUs, for hyperscalers, companies with AI frontier models and system integrators, and in some cases used in racks or systems.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_0ed28d0baa",
+  "topic": "customers",
+  "quote": "ASICs are custom products built to our individual customers’ specifications, such as our custom accelerators or XPUs, for hyperscalers, companies with AI frontier models and system integrators, and in some cases used in racks or systems.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_0ed28d0baa",
+  "topic": "datacom",
+  "quote": "We offer a broad set of Ethernet switching and routing products that are optimized for enterprise and AI data center, service provider and enterprise networks.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_67f57422c5",
+  "topic": "products",
+  "quote": "Our Ethernet switching fabric technologies provide the ability to build highly scalable flat networks supporting tens of thousands of servers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_67f57422c5",
+  "topic": "products",
+  "quote": "For enterprise networks, we offer product families with secure, encrypted switching capabilities and support lower power modes that comply with industry standards around energy efficient Ethernet.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_67f57422c5",
+  "topic": "datacom",
+  "quote": "For our hyperscaler and other customers with AI frontier models, our high capacity, low-latency, switching silicon supports advanced protocols around virtualization and multi-pathing for data centers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_2cc5aea3df",
+  "topic": "products",
+  "quote": "Our Ethernet NIC controllers are designed for high-performance virtualization, intelligent flow processing, secure data center connectivity and machine learning.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_2cc5aea3df",
+  "topic": "products",
+  "quote": "These devices are transceivers that enable the reception and transmission of Ethernet data packets over a physical medium such as copper wire or optical fibers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_2cc5aea3df",
+  "topic": "datacom",
+  "quote": "Our Ethernet NIC controllers are designed for high-performance virtualization, intelligent flow processing, secure data center connectivity and machine learning.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_9d9e73a7b5",
+  "topic": "products",
+  "quote": "We supply a wide array of optical components for the Ethernet networking, storage, and access, metro- and long-haul telecommunication markets.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_9d9e73a7b5",
+  "topic": "products",
+  "quote": "Our products include radio frequency (“RF”) front-end modules and filters, Wi-Fi/Bluetooth combination chips, custom touch controllers and inductive charging devices.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_9d9e73a7b5",
+  "topic": "datacom",
+  "quote": "Our optical components enable the high-speed reception and transmission of data through optical fibers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "AVGO.O",
+  "evidence_id": "ev_5bd6a26bfd",
+  "topic": "products",
+  "quote": "Our RF devices include multi-chip front-end modules that integrate transmit/receive switching and filtering functions for multiple frequency bands, filter modules and discrete filters, all using our proprietary commercial film bulk acoustic resonator (“FBAR”) filter technology.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_09db17319f",
+  "topic": "products",
+  "quote": "risks related to our ability to design, develop and introduce new and enhanced products, in particular in the Data Center and Communications markets",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_09db17319f",
+  "topic": "customers",
+  "quote": "risks related to our dependence on a few customers for a significant portion of our revenue, particularly as our major customers comprise an increasing percentage of our revenue",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_09db17319f",
+  "topic": "datacom",
+  "quote": "as well as risks related to a significant portion of our sales being concentrated in the data center end market",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_57e565c85f",
+  "topic": "model",
+  "quote": "risks related to the potential impact of AI on our business model and products",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_57e565c85f",
+  "topic": "datacom",
+  "quote": "risks related to the potential impact of AI on our business model and products",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_b58fcfc22c",
+  "topic": "customers",
+  "quote": "risks related to cancellations, rescheduling or deferrals of significant customer orders or shipments, as well as the ability of our customers to manage inventory;",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_f4df0194ea",
+  "topic": "products",
+  "quote": "component shortages that impact the costs and production of our products and kitting process",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_f4df0194ea",
+  "topic": "model",
+  "quote": "our reliance on third parties to produce our products",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_f4df0194ea",
+  "topic": "customers",
+  "quote": "impacting our customers’ ability to ship their products, which in turn may adversely impact our sales to those customers",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_c36d1894a3",
+  "topic": "customers",
+  "quote": "risks related to failures of our customers to agree to pay for NRE (non-recurring engineering) costs, failure to pay enough to cover the costs we incur in connection with NREs or non-payment of previously agreed NRE costs due to us.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_d5b746f603",
+  "topic": "products",
+  "quote": "high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_d5b746f603",
+  "topic": "model",
+  "quote": "We are a fabless supplier of high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_d5b746f603",
+  "topic": "datacom",
+  "quote": "data infrastructure semiconductor solutions, spanning the data center core to network edge.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_ff2fc725df",
+  "topic": "datacom",
+  "quote": "Leveraging leading intellectual property and deep system-level expertise, as well as highly innovative security firmware, our solutions are empowering the data economy and enabling the data center and communications and other end markets.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_0b644f61bd",
+  "topic": "products",
+  "quote": "Celestial AI, Inc. (“Celestial”), a provider of a Photonic Fabric TM technology platform purpose-built for next-generation scale-up interconnect.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_0b644f61bd",
+  "topic": "datacom",
+  "quote": "The acquisition of Celestial is expected to accelerate our connectivity strategy for next-generation AI and cloud data centers.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_77dfe3c30f",
+  "topic": "products",
+  "quote": "Our product solutions serve two end markets: (i) data center and (ii) communications and other.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "MRVL.O",
+  "evidence_id": "ev_77dfe3c30f",
+  "topic": "datacom",
+  "quote": "Our product solutions serve two end markets: (i) data center and (ii) communications and other.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_a5e781c61e",
+  "topic": "products",
+  "quote": "our expectations regarding the success, cost and timing of new products;",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_a5e781c61e",
+  "topic": "customers",
+  "quote": "our expectations regarding dependence on a limited number of customers and end customers;",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_a5e781c61e",
+  "topic": "customers",
+  "quote": "our customer relationships and our ability to retain and expand our customer relationships and to achieve design wins;",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_a112a95d71",
+  "topic": "customers",
+  "quote": "We depend on a limited number of customers for a substantial portion of our revenue.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_565a266050",
+  "topic": "products",
+  "quote": "We may incur substantial expenses to develop, market and qualify products that may not generate any revenue.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_565a266050",
+  "topic": "model",
+  "quote": "We rely on a limited number of third parties to manufacture, assemble and test our products.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_48c4072b7a",
+  "topic": "customers",
+  "quote": "Our target customers and product markets may not grow or develop as we currently expect.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_48c4072b7a",
+  "topic": "datacom",
+  "quote": "The general compute and Artificial Intelligence and Machine Learning (AI/ML) infrastructure market is an emerging market that will depend on the success of generative AI technologies, and this market may not develop as we currently expect, including due to regulatory uncertainty.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_2c81a3afec",
+  "topic": "products",
+  "quote": "The Company’s product portfolio includes ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers, OmniConnect memory solutions and a suite of retimers and DSPs for optical and copper Ethernet and PCIe, all leveraging the Company’s PILOT diagnostic and analytics software platform.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_2c81a3afec",
+  "topic": "datacom",
+  "quote": "The Company’s highspeed copper and optical interconnect products deliver industry-leading power and performance at up to 1.6T to meet the ever-expanding data infrastructure demands of AI.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_42307c9eac",
+  "topic": "products",
+  "quote": "Our product families include integrated circuits (ICs), Active Electrical Cables (AECs) and SerDes Chiplets. Our intellectual property (IP) solutions consist primarily of SerDes IP licensing.",
+  "model": "deepseek-flash"
+ },
+ {
+  "entity": "CRDO.O",
+  "evidence_id": "ev_42307c9eac",
+  "topic": "datacom",
+  "quote": "Artificial Intelligence (AI) has bred a new generation of data centers over the past 5 years that depend much more heavily on high speed, reliable communications for Front End, Scale Out, Scale Up and emerging Scale In Networks.",
+  "model": "deepseek-flash"
+ }
+]

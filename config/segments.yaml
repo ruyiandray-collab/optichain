@@ -1,4 +1,17 @@
 # 产业链分层口径（自建，见 docs/proposal.md 第 1 节）。
+source_note: >-
+  口径来源：iFinD 主营构成（按产品）＞ 年报 / 投资者关系记录原文 ＞ 申万三级 / 中信行业 ＞ iFinD 概念。
+  iFinD 的 8 个 MCP 服务都没有产业链接口（data_probe.md），所以分层口径是自建的。
+adjustments:
+  - {what: "按“收入来自什么产品”归属，不按行业代码", why: "例：中际旭创申万三级为“通信网络设备及器件”，但 iFinD 分产品收入中光通信收发模块占 99.0%，归入中游光模块"}
+  - {what: "把 CPO / NPO 从光模块里单列为子环节", why: "CPO 是概念炒作的焦点，但多数公司只处于研发或送样阶段，单列才能看清真实进展"}
+  - {what: "交换机 / AI 服务器、云厂商作为下游", why: "云厂商 Capex 是需求源头，传导分析需要这个节点"}
+  - {what: "泛口径分部（如“电子陶瓷材料及元件”“企业通讯市场板”）不直接算作该环节收入", why: "其中光互联相关部分没有拆分，只给出占比上限，并要求正式文本佐证"}
+evidence_tiers:
+  1: 年报 / 半年报分产品收入（iFinD 主营构成）
+  2: 公告 / 投资者关系记录中的产品与客户（正式来源）
+  3: 研报 / 资讯（转载或媒体报道）
+  4: 公司官网（本版未采集）
 # product_keywords：iFinD 主营构成（按产品）的“项目名称”命中这些词，才算该环节的“有收入”证据（A 级）。
 # generic_items：口径太宽的项目名，命中也不能单独判 A，需要文本证据说明其中用于光互联的部分。
 # 词表由 AI 起草、人工审核；每次修改都在 ai_log 里记录。
@@ -8,30 +21,35 @@ layers:
     name: 上游
     segments:
       - id: optical_chip
+        sub_segments: [{id: eml, name: EML, keywords: [EML]}, {id: dfb_cw, name: DFB / CW 光源, keywords: [DFB, CW, 连续波]}, {id: vcsel, name: VCSEL, keywords: [VCSEL]}, {id: detector, name: 探测器芯片, keywords: [探测器, APD]}, {id: plc_awg, name: PLC / AWG 无源芯片, keywords: [AWG, PLC, 分路器]}]
         name: 光芯片
         desc: 激光器芯片（EML / DFB / CW / VCSEL）、探测器芯片（PD / APD）
         text_keywords: [光芯片, 激光器芯片, EML, DFB, CW光源, 探测器芯片, VCSEL]
         product_keywords: [光芯片, 光通信芯片, 激光器芯片, 探测器芯片, EML, DFB, VCSEL, CW光源, AWG芯片]
         generic_items: [激光器, 芯片]
       - id: electrical_chip
+        sub_segments: [{id: power_analog, name: 光模块电源 / 模拟芯片, keywords: [电源, DCDC, 模拟, TEC, AFE, 信号链]}, {id: dsp_serdes, name: DSP / SerDes / CDR, keywords: [DSP, SerDes, CDR]}]
         name: 电芯片
         desc: DSP、Driver、TIA、CDR、光模块电源和模拟芯片
         text_keywords: [DSP, TIA, Driver, 驱动芯片, 光模块电源, 光模块专用, 光模块客户, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [DSP, TIA, 驱动芯片, CDR, 光模块专用]
         generic_items: [模拟芯片, 集成电路, 电源管理, 信号链]
       - id: optical_component
+        sub_segments: [{id: passive, name: 无源器件（FAU / 透镜 / MPO 等）, keywords: [无源, FAU, 透镜, MPO, 隔离器, 光纤连接器, 光纤器件]}, {id: active, name: 有源器件 / 光引擎, keywords: [有源, 光引擎, ELS, TOSA, ROSA]}]
         name: 光器件 / 光引擎组件
         desc: 光有源和无源器件、FAU、透镜、隔离器、MPO 连接器
         text_keywords: [FAU, 透镜, 隔离器, 光引擎, 无源器件, 有源器件, MPO, 光纤连接器, 光器件, ELS, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [光有源器件, 光无源器件, 光器件, 光通讯器件, 光纤连接器, 光引擎, 无源器件, 有源器件, 光纤器件, 光组件]
         generic_items: [连接器, 光学元件, 光学元器件]
       - id: substrate
+        sub_segments: [{id: ceramic, name: 陶瓷外壳 / 基板, keywords: [陶瓷]}, {id: pcb, name: 高速 PCB, keywords: [PCB, 电路板, 高多层, HDI, 企业通讯市场板]}]
         name: 封装材料与基板
         desc: 陶瓷外壳 / 基板、高速 PCB
         text_keywords: [陶瓷外壳, 陶瓷基板, 光模块用陶瓷, 高速PCB, 交换机板, 服务器板, 高多层, HDI, 光模块PCB, 应用于光模块, 用于光模块, 光模块中的产品]
         product_keywords: [光通信器件外壳, 光模块陶瓷]
         generic_items: [电子陶瓷材料及元件, 印制电路板, PCB, 企业通讯市场板]
       - id: equipment
+        sub_segments: [{id: coupling_test, name: 耦合 / 测试设备, keywords: [耦合, 测试]}]
         name: 设备
         desc: 耦合、贴片、测试设备
         text_keywords: [耦合设备, 光模块测试, 光模块自动测试, 贴片设备, 光模块设备, 应用于光模块, 用于光模块, 光模块中的产品]
@@ -41,12 +59,14 @@ layers:
     name: 中游
     segments:
       - id: module
+        sub_segments: [{id: datacom, name: 数通高速模块（400G / 800G / 1.6T）, keywords: [800G, 1.6T, 400G, 数通]}, {id: telecom, name: 电信 / 接入模块, keywords: [电信, PON, 5G, 接入, 传输]}, {id: lpo, name: LPO / LRO, keywords: [LPO, LRO]}]
         name: 光模块（可插拔 / LPO）
         desc: 400G / 800G / 1.6T 数通光模块，电信光模块
         text_keywords: [光模块, 收发模块, 800G, 1.6T, 硅光模块, LPO]
         product_keywords: [光模块, 光通信收发模块, 光互联产品, 收发模块, 光通信模块, 数通]
         generic_items: [光通信, 组件, 通信设备, 接入和数据, 传输, 数据通信, 电信市场, 光电器件]
       - id: cpo
+        sub_segments: [{id: cpo_npo, name: CPO / NPO 光引擎, keywords: [CPO, NPO, 共封装]}]
         name: CPO / NPO 光引擎
         desc: 共封装光学，目前多处于研发或送样阶段
         text_keywords: [CPO, NPO, 共封装]
@@ -56,6 +76,7 @@ layers:
     name: 下游
     segments:
       - id: switch_server
+        sub_segments: [{id: switch, name: 交换机, keywords: [交换机]}, {id: server, name: AI 服务器, keywords: [服务器]}]
         name: 交换机 / AI 服务器 / GPU
         desc: 光模块的直接采购方或系统方
         text_keywords: [交换机, 服务器, AI服务器, 算力服务器]
@@ -67,6 +88,10 @@ layers:
         text_keywords: []
         product_keywords: []
         generic_items: []
+
+# 排除词：项目名含这些词时不归入任何光互联环节（审查发现：“光纤激光器件”因含“光器件”子串被算进光器件，
+# 光库科技的光器件占比因此从约 58% 虚高到 95%；光纤激光器属于工业激光，不是光通信）
+exclude_item_keywords: [激光器件, 光纤激光, 激光加工, 激光设备]
 
 # 单公司映射：项目名本身不含产品词，但可以由公司主营确定。每条都要写理由和依据字段。
 item_overrides:

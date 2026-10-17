@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 STAGING = ROOT / "data" / "staging"
 UNIVERSE = yaml.safe_load((ROOT / "config" / "universe.yaml").read_text(encoding="utf-8"))
 KEY_COLS = {"证券代码", "证券简称", "日期"}
+HISTORY_CODES = {"300308.SZ", "300502.SZ", "300394.SZ", "688498.SH", "002281.SZ"}
 
 # 海外公司标签要覆盖到未来财年（财年标签领先自然年，见 fiscal.py）
 GLOBAL_LABELS = ["20250331", "20250630", "20250930", "20251231", "20260331",
@@ -126,6 +127,14 @@ def jobs(only: set[str] | None = None) -> list[Job]:
             J.append(Job("cn_quarterly", "stock", "get_stock_financials",
                          lambda e, m=metric: f"{_names(e)}在{_d(periods)}的{m}", [c], "CNY",
                          expect=field_, need_label=True))
+    # 传导分析的历史对照：核心公司 2023–2024 单季度序列（逐家、逐指标）
+    hist_periods = [f"{y}{q}" for y in (2023, 2024) for q in ("0331", "0630", "0930", "1231")]
+    for c in [x for x in cn if x["code"] in HISTORY_CODES]:
+        for metric, field_ in (("单季度营业收入", "单季度.营业收入"), ("单季度营业成本", "单季度.营业成本"),
+                               ("单季度归属于母公司所有者的净利润", "单季度.归属于母公司所有者的净利润")):
+            J.append(Job("cn_quarterly", "stock", "get_stock_financials",
+                         lambda e, m=metric: f"{_names(e)}在{_d(hist_periods)}的{m}", [c], "CNY",
+                         expect=field_, need_label=True))
     for period in ("20251231", "20260630"):
         for grp in _chunks(cn, 4):
             J.append(Job("cn_mainbiz_product", "stock", "get_stock_financials",
@@ -160,7 +169,9 @@ def jobs(only: set[str] | None = None) -> list[Job]:
 
     for q in ("平均汇率:中间价:美元兑人民币 月度 202401-202609",
               "光通信设备的激光收发模块(85177950):出口金额:当月值 202301-202609",
-              "激光器,激光二极管除外(901320):出口金额:当月值 202301-202609"):
+              "激光器,激光二极管除外(901320):出口金额:当月值 202301-202609",
+              # 原材料（铜）：日度价格超过 100 行会被静默截断（“数据被截断”），所以用世界银行月度值
+              "商品价格:铜:当月值 202301-202609"):
         J.append(Job("edb", "edb", "get_edb_data", lambda e, q=q: q, []))
     return [j for j in J if not only or j.dataset in only]
 

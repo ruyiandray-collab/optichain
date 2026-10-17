@@ -11,3 +11,13 @@ __pycache__/
 node_modules/
 web/dist/
 .wrangler/
+
+# 本地 Pages Functions 密钥
+.dev.vars
+
+# 本地环境文件（保留示例）
+.env.*
+!.env.example
+
+# 快照存档只在本机保留（生成 diff 时使用）；线上只需要 web/public/data
+data/snapshots/

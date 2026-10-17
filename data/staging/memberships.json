@@ -81,7 +81,36 @@
       "share": 0.9898834497999658
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_4a1ee79ecb",
+     "ev_a8e84d8b87",
+     "ev_fa42c7ce5c",
+     "ev_985ca743e1",
+     "ev_624384f73e",
+     "ev_eff513651a",
+     "ev_f783947b45",
+     "ev_0eeb8f75e8",
+     "ev_2e830e25c6",
+     "ev_4e75dfecee"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_4a1ee79ecb",
+      "basis": "引文含“800G”：报告期内，公司海外客户订单需求旺盛，800G、1.6T等高速率光模块产品持续放量，公司继续为全球大多数头部云服务厂商及A"
+     },
+     {
+      "id": "lpo",
+      "name": "LPO / LRO",
+      "tier": 2,
+      "evidence_id": "ev_2e830e25c6",
+      "basis": "引文含“LPO”：截至最后实际可行日期，我们自LPO及LRO解决方案产生收入人民币11亿元，并自XPO、NPO及CPO解决方案产生收入人民"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -170,7 +199,24 @@
       "share": 0.9987035162486401
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_21886ab7a7",
+     "ev_a86274d4be",
+     "ev_e0f2129d9e",
+     "ev_9409e71d70",
+     "ev_97daed4be5"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_21886ab7a7",
+      "basis": "引文含“800G”：公司自成立以来一直专注于光模块的研发、生产和销售，公司是国内少数批量交付运用于数据中心市场的 100G、200G、400"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -278,10 +324,17 @@
     "segment": "module",
     "share": null,
     "share_upper": 0.652090510181295,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
      "ev_1ab200837a",
-     "ev_b6a382b20f"
+     "ev_a3f5c409ef",
+     "ev_9ccae41646",
+     "ev_5607ac4d75",
+     "ev_75358af93d",
+     "ev_19428dcf71",
+     "ev_28ede2f797",
+     "ev_ac48a6d7c9"
     ],
     "items": [
      {
@@ -307,7 +360,22 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_1ab200837a",
+      "basis": "引文含“1.6T”：公司1.6T光模块产品已具备批量交付能力，具体放量进度取决于市场拓展及客户的需求情况。"
+     },
+     {
+      "id": "telecom",
+      "name": "电信 / 接入模块",
+      "tier": 2,
+      "basis": "分产品项目“接入和数据”含“接入”（泛口径项目，按归属档位）"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -363,8 +431,9 @@
      "row": 2
     },
     "segment": null,
-    "kind": "none",
-    "keyword": null,
+    "kind": "excluded",
+    "keyword": "激光加工",
+    "reason": "项目名含排除词“激光加工”（工业激光等，不属光互联）",
     "share": 0.24665290673454568
    },
    {
@@ -415,20 +484,18 @@
     "segment": "module",
     "share": null,
     "share_upper": 0.486186070574909,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
      "ev_7d575ee8eb",
-     "ev_7d575ee8eb",
-     "ev_7d575ee8eb",
      "ev_498a731c06",
-     "ev_498a731c06",
-     "ev_1cb48efa0f",
      "ev_1cb48efa0f",
      "ev_83ff506682",
+     "ev_e570192efd",
      "ev_8e8a28bb0b",
      "ev_53ae987527",
-     "ev_53ae987527",
      "ev_e13f2fc1f0",
+     "ev_d2f5f12160",
      "ev_1541406bfc",
      "ev_1fb006561c"
     ],
@@ -456,7 +523,23 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_498a731c06",
+      "basis": "引文含“1.6T”：公司1.6T光模块产品在海内外集成商、渠道商批量交付"
+     },
+     {
+      "id": "lpo",
+      "name": "LPO / LRO",
+      "tier": 2,
+      "evidence_id": "ev_1cb48efa0f",
+      "basis": "引文含“LPO”：公司下半年国内在手订单已超过60亿元人民币，目前还在增加中，海外800G LPO、1.6T订单超过2亿美金"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -587,13 +670,33 @@
       "share": 0.3473441020875273
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_ee40a4981c",
+     "ev_4afae20041",
+     "ev_b6a1f6a766",
+     "ev_2ae22f7a60",
+     "ev_3b9a347a7e",
+     "ev_b6acb6dcb9",
+     "ev_3abd28b780"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_ee40a4981c",
+      "basis": "引文含“800G”：在产品开发方面，公司已成功研发并在多地量产800G及400G系列新产品，实现更低功耗和成本。"
+     }
+    ]
    },
    {
     "segment": "switch_server",
     "share": null,
     "share_upper": 0.23924198410875291,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -619,7 +722,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": "module",
@@ -708,7 +812,29 @@
       "share": 0.9911318601631622
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_c80dc534f9",
+     "ev_72990a9a56",
+     "ev_4767173e0f"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "datacom",
+      "name": "数通高速模块（400G / 800G / 1.6T）",
+      "tier": 2,
+      "evidence_id": "ev_c80dc534f9",
+      "basis": "引文含“800G”：拥有光芯片集成、光器件以及光模块的设计、生产能力，是国内少数可以批量交付涵盖从 10G到 800G 多种速率"
+     },
+     {
+      "id": "telecom",
+      "name": "电信 / 接入模块",
+      "tier": 2,
+      "evidence_id": "ev_72990a9a56",
+      "basis": "引文含“5G”：同意公司将募投项目“高速光模块及5G通信光模块建设项目”及“联特科技研发中心建设项目”部分变更为由全资孙公司LINKTE"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -795,9 +921,9 @@
     "segment": "module",
     "share": null,
     "share_upper": 0.8766531661820013,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
-     "ev_e1fef978e5",
      "ev_e1fef978e5"
     ],
     "items": [
@@ -824,7 +950,16 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "telecom",
+      "name": "电信 / 接入模块",
+      "tier": 2,
+      "evidence_id": "ev_e1fef978e5",
+      "basis": "引文含“PON”：目前10G PON OLT光模块出货量处于国内领先，50G PON已实现批量交付，DWDM器件产品在国内主要通信设备商中"
+     }
+    ]
    }
   ],
   "primary": "module",
@@ -980,7 +1115,24 @@
       "share": 0.16044636970221046
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_356d35c52e",
+     "ev_77df913d8b",
+     "ev_058d131be3",
+     "ev_f203296bfe",
+     "ev_f060613fd9"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "dfb_cw",
+      "name": "DFB / CW 光源",
+      "tier": 2,
+      "evidence_id": "ev_356d35c52e",
+      "basis": "引文含“CW”：针对400G/800G光模块需求，成功量产CW70mW激光器芯片，并在多家客户实现批量交付，报告期内该产品实现百万颗以上"
+     }
+    ]
    }
   ],
   "primary": "optical_chip",
@@ -1132,7 +1284,21 @@
       "share": 0.42541338243568105
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_92bc81ce4e",
+     "ev_3e43001ebd"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "eml",
+      "name": "EML",
+      "tier": 2,
+      "evidence_id": "ev_92bc81ce4e",
+      "basis": "引文含“EML”：在光通信领域中，公司的100G EML已实现量产，订单从今年二季度开始在持续批量且顺利的交付中，客户反响非常好。200G"
+     }
+    ]
    }
   ],
   "primary": "optical_chip",
@@ -1284,7 +1450,24 @@
       "share": 0.5092215974964728
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_cb52e619dd",
+     "ev_7e55219de9",
+     "ev_1c451667fd",
+     "ev_8be4e5b1af",
+     "ev_4a95e86ead",
+     "ev_1e0382efc2"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "passive",
+      "name": "无源器件（FAU / 透镜 / MPO 等）",
+      "tier": 1,
+      "basis": "分产品项目“光纤连接器”含“光纤连接器”"
+     }
+    ]
    },
    {
     "segment": "optical_chip",
@@ -1334,7 +1517,33 @@
       "share": 0.03269928435496058
      }
     ],
-    "role": "次"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_f0cba3a3a1",
+     "ev_2c889776ff",
+     "ev_cb52e619dd",
+     "ev_7e55219de9",
+     "ev_1c451667fd",
+     "ev_efb7ec4ba6",
+     "ev_8be4e5b1af",
+     "ev_4a95e86ead",
+     "ev_1e0382efc2"
+    ],
+    "role": "次",
+    "sub_segments": [
+     {
+      "id": "dfb_cw",
+      "name": "DFB / CW 光源",
+      "tier": 1,
+      "basis": "分产品项目“DFB激光器芯片系列产品”含“DFB”"
+     },
+     {
+      "id": "plc_awg",
+      "name": "PLC / AWG 无源芯片",
+      "tier": 1,
+      "basis": "分产品项目“AWG芯片系列产品”含“AWG”"
+     }
+    ]
    }
   ],
   "primary": "optical_component",
@@ -1463,10 +1672,14 @@
     "segment": "optical_chip",
     "share": null,
     "share_upper": 0.4798458783266023,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
      "ev_4a40485e81",
-     "ev_2444aa1b20"
+     "ev_2444aa1b20",
+     "ev_884a47ec68",
+     "ev_127e4a5127",
+     "ev_8a39a0d3a9"
     ],
     "items": [
      {
@@ -1492,7 +1705,37 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "eml",
+      "name": "EML",
+      "tier": 2,
+      "evidence_id": "ev_2444aa1b20",
+      "basis": "引文含“EML”：在AI算力应用，公司可提供用于光模块的CW光源、VCSEL、EML、PD等激光器、探测器芯片，应用于400G、800G光"
+     },
+     {
+      "id": "dfb_cw",
+      "name": "DFB / CW 光源",
+      "tier": 2,
+      "evidence_id": "ev_2444aa1b20",
+      "basis": "引文含“CW”：在AI算力应用，公司可提供用于光模块的CW光源、VCSEL、EML、PD等激光器、探测器芯片，应用于400G、800G光"
+     },
+     {
+      "id": "vcsel",
+      "name": "VCSEL",
+      "tier": 2,
+      "evidence_id": "ev_2444aa1b20",
+      "basis": "引文含“VCSEL”：在AI算力应用，公司可提供用于光模块的CW光源、VCSEL、EML、PD等激光器、探测器芯片，应用于400G、800G光"
+     },
+     {
+      "id": "detector",
+      "name": "探测器芯片",
+      "tier": 2,
+      "evidence_id": "ev_2444aa1b20",
+      "basis": "引文含“探测器”：在AI算力应用，公司可提供用于光模块的CW光源、VCSEL、EML、PD等激光器、探测器芯片，应用于400G、800G光"
+     }
+    ]
    }
   ],
   "primary": "optical_chip",
@@ -1623,7 +1866,31 @@
       "share": 0.44552679433792797
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_5c7685d7ba",
+     "ev_d08226144e",
+     "ev_cc4c22b6f4",
+     "ev_34eef6deea",
+     "ev_f8763c92cb",
+     "ev_03543251a6",
+     "ev_cf018b9c79"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "passive",
+      "name": "无源器件（FAU / 透镜 / MPO 等）",
+      "tier": 1,
+      "basis": "分产品项目“光无源器件”含“无源”"
+     },
+     {
+      "id": "active",
+      "name": "有源器件 / 光引擎",
+      "tier": 1,
+      "basis": "分产品项目“光有源器件”含“有源”"
+     }
+    ]
    }
   ],
   "primary": "optical_component",
@@ -1678,9 +1945,10 @@
      "table": 0,
      "row": 1
     },
-    "segment": "optical_component",
-    "kind": "specific",
-    "keyword": "光器件",
+    "segment": null,
+    "kind": "excluded",
+    "keyword": "激光器件",
+    "reason": "项目名含排除词“激光器件”（工业激光等，不属光互联）",
     "share": 0.36715610880522653
    },
    {
@@ -1708,7 +1976,7 @@
   "memberships": [
    {
     "segment": "optical_component",
-    "share": 0.9505094397572843,
+    "share": 0.5833533309520578,
     "basis": "分产品收入",
     "items": [
      {
@@ -1731,30 +1999,12 @@
       "kind": "specific",
       "keyword": "光通讯器件",
       "share": 0.5833533309520578
-     },
-     {
-      "name": "光纤激光器件",
-      "revenue": 378780271.21,
-      "rank": 2,
-      "source": {
-       "call_id": "cf329facb8a6",
-       "column": "主营构成-项目收入(按产品)（排名：第2名）",
-       "table": 1,
-       "row": 1
-      },
-      "name_source": {
-       "call_id": "cf329facb8a6",
-       "column": "主营构成-项目名称(按产品)（排名：第2名）",
-       "table": 0,
-       "row": 1
-      },
-      "segment": "optical_component",
-      "kind": "specific",
-      "keyword": "光器件",
-      "share": 0.36715610880522653
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [],
+    "role": "主",
+    "sub_segments": []
    }
   ],
   "primary": "optical_component",
@@ -1864,7 +2114,20 @@
       "share": 0.9580280807265388
      }
     ],
-    "role": "主"
+    "evidence_tier": 1,
+    "evidence": [
+     "ev_9a167987c1"
+    ],
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "passive",
+      "name": "无源器件（FAU / 透镜 / MPO 等）",
+      "tier": 3,
+      "evidence_id": "ev_9a167987c1",
+      "basis": "引文含“无源”：公司800g光模块已有供货。但公司业务优势主要体现在光无源产品。"
+     }
+    ]
    }
   ],
   "primary": "optical_component",
@@ -1951,12 +2214,13 @@
     "segment": "substrate",
     "share": null,
     "share_upper": 0.7466049356115434,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
      "ev_d8b89c6873",
-     "ev_4ced661400",
-     "ev_4ced661400",
-     "ev_794bdab793"
+     "ev_794bdab793",
+     "ev_cadbe7596c",
+     "ev_54bb7be862"
     ],
     "items": [
      {
@@ -1982,7 +2246,15 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "ceramic",
+      "name": "陶瓷外壳 / 基板",
+      "tier": 2,
+      "basis": "分产品项目“电子陶瓷材料及元件”含“陶瓷”（泛口径项目，按归属档位）"
+     }
+    ]
    }
   ],
   "primary": "substrate",
@@ -2111,7 +2383,8 @@
     "segment": "substrate",
     "share": null,
     "share_upper": 0.8276558967027846,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -2137,7 +2410,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -2203,7 +2477,8 @@
     "segment": "substrate",
     "share": null,
     "share_upper": 0.9373522034105818,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -2229,7 +2504,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -2337,7 +2613,8 @@
     "segment": "equipment",
     "share": null,
     "share_upper": 0.8508665338605281,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -2363,7 +2640,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -2471,8 +2749,13 @@
     "segment": "switch_server",
     "share": null,
     "share_upper": 0.8018052546400251,
-    "basis": "泛口径分部（无文本佐证，待验证）",
-    "evidence": [],
+    "basis": "泛口径分部 + 仅研报 / 资讯佐证（较弱）",
+    "evidence_tier": 3,
+    "evidence": [
+     "ev_41035cbe91",
+     "ev_926a20c082",
+     "ev_8df23ceec9"
+    ],
     "items": [
      {
       "name": "ICT基础设施及服务(原数字化基础设施及服务)",
@@ -2497,7 +2780,16 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": [
+     {
+      "id": "switch",
+      "name": "交换机",
+      "tier": 3,
+      "evidence_id": "ev_41035cbe91",
+      "basis": "引文含“交换机”：基于自研CPO/NPO光引擎技术的51.2T CPO硅光数据中心交换机，已于2025年在客户侧实现批量交付部署，具备商业"
+     }
+    ]
    }
   ],
   "primary": null,
@@ -2604,11 +2896,14 @@
    {
     "segment": "switch_server",
     "share": null,
-    "basis": "仅配置假设（无证据）",
+    "share_upper": null,
+    "basis": "无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -2716,7 +3011,8 @@
     "segment": "electrical_chip",
     "share": null,
     "share_upper": 0.9934085701556107,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -2742,7 +3038,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -2829,7 +3126,8 @@
     "segment": "electrical_chip",
     "share": null,
     "share_upper": 0.6051583259777147,
-    "basis": "泛口径分部 + 文本佐证",
+    "basis": "泛口径分部 + 公告 / IR 文本佐证",
+    "evidence_tier": 2,
     "evidence": [
      "ev_393c868d69"
     ],
@@ -2857,7 +3155,15 @@
      }
     ],
     "verified": true,
-    "role": "主"
+    "role": "主",
+    "sub_segments": [
+     {
+      "id": "power_analog",
+      "name": "光模块电源 / 模拟芯片",
+      "tier": 2,
+      "basis": "分产品项目“电源管理”含“电源”（泛口径项目，按归属档位）"
+     }
+    ]
    }
   ],
   "primary": "electrical_chip",
@@ -2964,11 +3270,14 @@
    {
     "segment": "optical_component",
     "share": null,
-    "basis": "仅配置假设（无证据）",
+    "share_upper": null,
+    "basis": "无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -3076,7 +3385,8 @@
     "segment": "module",
     "share": null,
     "share_upper": 0.4182622121769162,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -3102,7 +3412,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -3210,7 +3521,8 @@
     "segment": "equipment",
     "share": null,
     "share_upper": 0.4174997194788483,
-    "basis": "泛口径分部（无文本佐证，待验证）",
+    "basis": "泛口径分部 + 无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [
      {
@@ -3236,7 +3548,8 @@
      }
     ],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,
@@ -3322,11 +3635,14 @@
    {
     "segment": "equipment",
     "share": null,
-    "basis": "仅配置假设（无证据）",
+    "share_upper": null,
+    "basis": "无文本佐证（仅配置假设，待验证）",
+    "evidence_tier": null,
     "evidence": [],
     "items": [],
     "verified": false,
-    "role": "候选"
+    "role": "候选",
+    "sub_segments": []
    }
   ],
   "primary": null,

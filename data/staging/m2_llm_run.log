@@ -1,36 +1,41 @@
 {
  "extract": {
-  "sent": 564,
-  "skipped_no_keyword": 97,
-  "claims": 1074,
-  "rejects": 15,
+  "sent": 571,
+  "skipped_no_keyword": 129,
+  "claims": 802,
+  "rejects": 3,
   "usage": {
-   "prompt_tokens": 351720,
-   "completion_tokens": 617543
+   "prompt_tokens": 471467,
+   "completion_tokens": 843609
   },
   "reject_reasons": {
-   "LLM 判断与该公司自身业务无关": 5,
-   "LLM 判断与概念无关": 5,
-   "引文不在原文中（疑似改写或幻觉）": 5
+   "引文不在原文中（疑似改写或幻觉）": 3
   }
  },
+ "cpo_all_distribution": {
+  "A": 0,
+  "B": 6,
+  "C": 5,
+  "D": 21,
+  "E": 193
+ },
  "extractor": "llm",
- "claims": 1074,
+ "claims": 802,
  "grade_distribution": {
   "optical_interconnect": {
    "A": 10,
-   "B": 9,
+   "B": 7,
    "E": 1,
-   "C": 5,
-   "D": 1
+   "C": 4,
+   "D": 4
   },
   "cpo": {
-   "B": 8,
-   "C": 6,
-   "D": 5,
-   "E": 7
+   "B": 5,
+   "C": 4,
+   "D": 8,
+   "E": 9
   }
  },
- "needs_review": 30,
+ "needs_review": 15,
  "conflicts": 0
 }

@@ -36,6 +36,9 @@ def match_item(entity: str, item: str) -> dict:
     o = OVERRIDES.get((entity, item))
     if o:
         return {"segment": o["segment"], "kind": "override", "keyword": None, "reason": o["reason"]}
+    ex = next((k for k in SEG.get("exclude_item_keywords", []) if k in item), None)
+    if ex:
+        return {"segment": None, "kind": "excluded", "keyword": ex, "reason": f"项目名含排除词“{ex}”（工业激光等，不属光互联）"}
     for s in SEGMENTS:
         for k in s["product_keywords"]:
             if k in item:
@@ -70,18 +73,25 @@ def attribute(entity: str, items_by_label: dict, revenue_lookup, text_support: d
     for seg_id, sh in sorted(shares.items(), key=lambda x: -x[1]):
         memberships.append({"segment": seg_id, "share": sh, "basis": "分产品收入",
                             "items": [r for r in rows if r["segment"] == seg_id and r["kind"] in ("specific", "override")]})
-    # 泛口径项目：有正式文本佐证才归属，占比给上限
+    for m in memberships:
+        m["evidence_tier"] = 1
+        m["evidence"] = [x["evidence_id"] for x in text_support.get(m["segment"], [])]
+    # 泛口径项目 / 无分产品数据：按证据优先级取最高档（2 公告·IR ＞ 3 研报·资讯；4 官网未采集）
+    def text_membership(seg, items, share_upper=None):
+        sup = text_support.get(seg, [])
+        tier = min((x["tier"] for x in sup), default=None)
+        basis = {2: "公告 / IR 文本佐证", 3: "仅研报 / 资讯佐证（较弱）"}.get(tier, "无文本佐证（仅配置假设，待验证）")
+        if items:
+            basis = "泛口径分部 + " + basis
+        return {"segment": seg, "share": None, "share_upper": share_upper, "basis": basis, "evidence_tier": tier,
+                "evidence": [x["evidence_id"] for x in sorted(sup, key=lambda x: x["tier"])], "items": items,
+                "verified": tier is not None and tier <= 2}
     for r in rows:
         if r["kind"] == "generic" and r["segment"] not in shares:
-            sup = text_support.get(r["segment"], [])
-            memberships.append({"segment": r["segment"], "share": None, "share_upper": r["share"],
-                                "basis": "泛口径分部 + 文本佐证" if sup else "泛口径分部（无文本佐证，待验证）",
-                                "evidence": sup, "items": [r], "verified": bool(sup)})
+            memberships.append(text_membership(r["segment"], [r], r["share"]))
             shares.setdefault(r["segment"], -1)  # 同一环节只记一次
     if not memberships and seed:
-        sup = text_support.get(seed, [])
-        memberships.append({"segment": seed, "share": None, "basis": "文本证据" if sup else "仅配置假设（无证据）",
-                            "evidence": sup, "items": [], "verified": bool(sup)})
+        memberships.append(text_membership(seed, []))
 
     confirmed = [m for m in memberships if m.get("share") is not None]
     primary = confirmed[0]["segment"] if confirmed else next(
@@ -94,7 +104,28 @@ def attribute(entity: str, items_by_label: dict, revenue_lookup, text_support: d
         elif m.get("share") is not None:
             m["role"] = "minor"
         else:
-            m["role"] = "候选" if not m.get("verified") else "次"
+            m["role"] = "次" if m.get("verified") else "候选"
+        exact = m.get("share") is not None  # 分产品收入确定匹配
+        m["sub_segments"] = sub_segments(m["segment"], [str(i["name"]) for i in m["items"]],
+                                         text_support.get(m["segment"], []), 1 if exact else m.get("evidence_tier"))
     return {"entity": entity, "label": label, "revenue": total,
             "revenue_source": rev["source"] if rev else None, "items": rows,
             "memberships": memberships, "primary": primary}
+
+
+def sub_segments(seg_id: str, item_names: list[str], support: list[dict], item_tier: int | None = 1) -> list[dict]:
+    """子环节：先看分产品项目名，再看已校验引文（第 2 / 3 档）。
+    只有确定性匹配的分产品项目（产品词 / 单公司映射）才能给第 1 档；泛口径项目按所属归属的档位
+    （审查发现：泛口径的“企业通讯市场板”“电源管理”被标成了第 1 档）。"""
+    out = []
+    for sub in SEG_BY_ID.get(seg_id, {}).get("sub_segments", []) or []:
+        hit = next(((n, k) for n in item_names for k in sub["keywords"] if k in n), None)
+        if hit and item_tier is not None:
+            out.append({"id": sub["id"], "name": sub["name"], "tier": item_tier,
+                        "basis": f"分产品项目“{hit[0]}”含“{hit[1]}”" + ("" if item_tier == 1 else "（泛口径项目，按归属档位）")})
+            continue
+        q = next(((x, k) for x in sorted(support, key=lambda x: x["tier"]) for k in sub["keywords"] if k in x["quote"]), None)
+        if q:
+            out.append({"id": sub["id"], "name": sub["name"], "tier": q[0]["tier"], "evidence_id": q[0]["evidence_id"],
+                        "basis": f"引文含“{q[1]}”：{q[0]['quote'][:60]}"})
+    return out

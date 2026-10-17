@@ -1,0 +1,28 @@
+# 中外可比组（AI 起草、人工审核）。成员选择依据：
+#  - A 股：分产品收入归属的主环节（memberships.json）
+#  - 海外：10-K Item 1 原文引文（sec_quotes.json）+ iFinD 可比公司字段（中际旭创的可比公司字段列出了 Applied Optoelectronics、Lumentum 等）
+groups:
+  - id: module
+    name: 数通光模块
+    segment: module
+    cn: [300308.SZ, 300502.SZ, 002281.SZ]
+    global: [COHR.N, AAOI.O, FN.N]
+    note: Fabrinet 是代工厂（为 OEM 提供光学封装与制造服务），放进来作为“商业模式不可比”的对照
+  - id: optical_chip
+    name: 光芯片 / 激光器
+    segment: optical_chip
+    cn: [688498.SH, 688048.SH, 688313.SH]
+    global: [LITE.O, COHR.N]
+    note: Lumentum、Coherent 的光芯片收入没有单独披露（Lumentum 按 Components / Systems 披露），只能做业务层面的对照
+  - id: optical_component
+    name: 光器件 / 光引擎组件
+    segment: optical_component
+    cn: [300394.SZ, 300570.SZ, 300620.SZ]
+    global: [FN.N, LITE.O]
+    note: 天孚通信的光有源、无源器件与 Fabrinet 的光学封装制造服务在环节上相邻，但商业模式不同
+  - id: electrical_chip
+    name: 电芯片（DSP / SerDes / 连接）
+    segment: electrical_chip
+    cn: []
+    global: [AVGO.O, MRVL.O, CRDO.O]
+    note: A 股样本里没有能按收入拆分出 DSP 的公司（上海贝岭、帝奥微做的是光模块用电源 / 模拟芯片），所以这一组中外不可比

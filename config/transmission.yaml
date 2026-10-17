@@ -1,0 +1,78 @@
+# 外部变化 → 环节 → 公司业务 → 财务指标。
+# mechanism 文字由 AI 起草、人工审核；每条边的“支持证据”由 LLM 从证据池里摘引文（逐字校验），
+# 置信度由规则计算（transmission.py: confidence_of），数据对照由代码计算。不做预测。
+variables:
+  - id: capex
+    name: 北美云厂商资本开支
+    kind: demand
+    desc: Microsoft / Alphabet / Amazon / Meta 单季度资本性支出合计（SEC XBRL 现金流量表口径）
+  - id: nvidia
+    name: 英伟达产品节奏
+    kind: demand
+    desc: NVIDIA 单季度营收（SEC XBRL），作为 GPU 迭代与集群建设节奏的代理变量
+  - id: export_control
+    name: 美国出口管制 / 进口限制
+    kind: policy
+    desc: 美国对华光模块、光芯片相关的管制与进口限制事件；数据代理为海关 HS 85177950 光模块月度出口额
+  - id: tariff
+    name: 美国关税
+    kind: policy
+    desc: 对华加征关税和豁免事件；国内厂商的应对是海外产能（泰国、马来西亚等）
+  - id: chip_supply
+    name: 光芯片供需
+    kind: supply
+    desc: EML / CW 光源等高速光芯片的供需。iFinD 指标库里没有价格数据，用上游公司毛利率和公告文本作代理
+  - id: copper
+    name: 原材料：铜价
+    kind: supply
+    desc: 世界银行铜价月度值（美元/吨，iFinD EDB）。铜是覆铜板 / 高速 PCB 的主要原材料
+  - id: fx
+    name: 美元兑人民币汇率
+    kind: fx
+    desc: 月均中间价（中国外汇交易中心）。境外收入占比越高，人民币升值时折算收入越少
+
+edges:
+  - {id: e_capex_module, must_keywords: [资本开支, 资本性支出, Capex, capex, CapEx], from: capex, to: seg:module, sign: "+", lag: "0–2 个季度",
+     mechanism: "云厂商上调资本开支 → AI 集群建设加速 → 800G/1.6T 光模块采购增加",
+     support_keywords: [资本开支, Capex, capex, 光模块, 上调]}
+  - {id: e_nvidia_module, must_keywords: [英伟达, NVIDIA, Rubin, GB300, GB200], from: nvidia, to: seg:module, sign: "+", lag: "0–1 个季度",
+     mechanism: "GPU 平台迭代（GB300 / Rubin）提高单集群光连接速率和数量 → 1.6T 光模块需求增加",
+     support_keywords: [英伟达, NVIDIA, Rubin, GB300, 1.6T]}
+  - {id: e_export_module, must_keywords: [管制, 限制, FCC, 禁令, 禁入, 禁止], from: export_control, to: seg:module, sign: "-", lag: "事件后 1–3 个月",
+     mechanism: "美方限制中国产光模块进入美国市场 → 对美直接出口受阻 → 境外收入占比高的公司营收承压，或转向海外产能交付",
+     support_keywords: [管制, 限制, FCC, 禁入, 出口]}
+  - {id: e_tariff_module, must_keywords: [关税, 豁免], from: tariff, to: seg:module, sign: "-", lag: "1–2 个季度",
+     mechanism: "对华关税提高 → 国内直接出口的成本上升 → 已布局海外产能的公司受影响较小，毛利率分化",
+     support_keywords: [关税, 豁免, 泰国, 海外产能, 越南]}
+  - {id: e_chip_module, must_keywords: [光芯片, EML, CW, 激光器芯片], from: chip_supply, to: seg:module, sign: "-", lag: "0–2 个季度",
+     mechanism: "高速光芯片（EML / CW 光源）紧缺 → 光模块厂商交付受限、物料成本上升 → 出货节奏和毛利率承压",
+     support_keywords: [光芯片, EML, CW, 短缺, 紧缺, 资源约束, 供不应求]}
+  - {id: e_chip_chipmaker, must_keywords: [光芯片, EML, CW, 激光器芯片], from: chip_supply, to: seg:optical_chip, sign: "+", lag: "0–2 个季度",
+     mechanism: "高速光芯片供不应求 → 国产光芯片厂商导入加速、议价能力提升 → 营收和毛利率上行",
+     support_keywords: [光芯片, 国产替代, CW, EML, 量产, 供不应求]}
+  - {id: e_copper_substrate, must_keywords: [铜, 覆铜板], from: copper, to: seg:substrate, sign: "-", lag: "0–2 个季度",
+     mechanism: "铜价上涨 → 覆铜板 / PCB 原材料成本上升 → 若不能及时向客户传导，PCB 厂商毛利率承压",
+     support_keywords: [铜价, 铜, 覆铜板, 原材料, 成本]}
+  - {id: e_fx_module, must_keywords: [汇率, 汇兑, 人民币升值, 升值], from: fx, to: seg:module, sign: "-", lag: "当期",
+     mechanism: "人民币升值（美元兑人民币下行）→ 以美元计价的境外收入折算成人民币变少，并产生汇兑损失 → 营收和利润承压",
+     support_keywords: [汇率, 汇兑, 人民币升值, 美元]}
+
+# 段 → 公司：边的终点按环节展开到公司，公司层的“暴露度”用代码计算
+segment_companies:
+  module: [300308.SZ, 300502.SZ, 002281.SZ, 301205.SZ]
+  optical_chip: [688498.SH, 688048.SH, 688313.SH]
+  substrate: [002463.SZ, 300476.SZ]
+
+history:
+  - {id: h_capex_zjxc, title: "北美云厂商季度 Capex vs 中际旭创单季营收", x: capex_sum, y: "300308.SZ:revenue"}
+  - {id: h_capex_xys, title: "北美云厂商季度 Capex vs 新易盛单季营收", x: capex_sum, y: "300502.SZ:revenue"}
+  - {id: h_export_fx, title: "光模块月度出口额（HS 85177950）vs 美元兑人民币", x: export_8517, y: fx}
+  - {id: h_copper_pcb, title: "铜价（世界银行月度）vs 沪电股份单季毛利率", x: copper, y: "002463.SZ:gross_margin"}
+  - {id: h_chip_gm, title: "源杰科技 vs 中际旭创 单季毛利率（光芯片供需的代理）", x: "688498.SH:gross_margin", y: "300308.SZ:gross_margin"}
+
+# 事件窗口：识别“Capex 加速”的季度，列出之后各公司营收 / 毛利率的实际变化（代码计算，不做预测）
+event_windows:
+  capex_accel_qoq: 0.15        # 四家云厂商 Capex 合计环比增速 ≥ 15% 视为加速
+  companies: [300308.SZ, 300502.SZ, 300394.SZ, 688498.SH, 002281.SZ]
+  policy_variables: [export_control, tariff]
+  latest_financial_period: "2026-06-30"

@@ -1,7 +1,7 @@
 {
  "summary": {
   "cn_single_sum_eq_cumulative": {
-   "pass": 156
+   "pass": 196
   },
   "segment_产品_sum_eq_revenue": {
    "pass": 46,
@@ -4698,6 +4698,1286 @@
      "column": "营业收入（单位：元）",
      "table": 0,
      "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20241231",
+   "status": "pass",
+   "lhs": 23862170000.0,
+   "rhs": 23862160000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20240930",
+   "status": "pass",
+   "lhs": 17312610000.0,
+   "rhs": 17312600000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20240630",
+   "status": "pass",
+   "lhs": 10798600000.0,
+   "rhs": 10798590000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20240331",
+   "status": "pass",
+   "lhs": 4842550000.0,
+   "rhs": 4842550000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20231231",
+   "status": "pass",
+   "lhs": 10717980000.0,
+   "rhs": 10717980000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20230930",
+   "status": "pass",
+   "lhs": 7030290000.0,
+   "rhs": 7030290000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20230630",
+   "status": "pass",
+   "lhs": 4003980000.0,
+   "rhs": 4003980000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300308.SZ",
+   "label": "20230331",
+   "status": "pass",
+   "lhs": 1837160000.0,
+   "rhs": 1837160000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "1b5e9960ad86",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20241231",
+   "status": "pass",
+   "lhs": 8646830000.0,
+   "rhs": 8646830000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20240930",
+   "status": "pass",
+   "lhs": 5130430000.0,
+   "rhs": 5130440000.0,
+   "diff": -10000.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20240630",
+   "status": "pass",
+   "lhs": 2727670000.0,
+   "rhs": 2727670000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20240331",
+   "status": "pass",
+   "lhs": 1112850000.0,
+   "rhs": 1112850000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20231231",
+   "status": "pass",
+   "lhs": 3097600000.0,
+   "rhs": 3097610000.0,
+   "diff": -10000.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20230930",
+   "status": "pass",
+   "lhs": 2087040000.0,
+   "rhs": 2087050000.0,
+   "diff": -10000.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20230630",
+   "status": "pass",
+   "lhs": 1304680000.0,
+   "rhs": 1304680000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300502.SZ",
+   "label": "20230331",
+   "status": "pass",
+   "lhs": 600220000.0,
+   "rhs": 600220000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "b53007f3e073",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "b53007f3e073",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20241231",
+   "status": "pass",
+   "lhs": 8272310000.0,
+   "rhs": 8272310000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20240930",
+   "status": "pass",
+   "lhs": 5377790000.0,
+   "rhs": 5377790000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20240630",
+   "status": "pass",
+   "lhs": 3109950000.0,
+   "rhs": 3109940000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20240331",
+   "status": "pass",
+   "lhs": 1291010000.0,
+   "rhs": 1291010000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20231231",
+   "status": "pass",
+   "lhs": 6060950000.0,
+   "rhs": 6060940000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20230930",
+   "status": "pass",
+   "lhs": 4326840000.0,
+   "rhs": 4326830000.0,
+   "diff": 10000.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20230630",
+   "status": "pass",
+   "lhs": 2814880000.0,
+   "rhs": 2814880000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "002281.SZ",
+   "label": "20230331",
+   "status": "pass",
+   "lhs": 1268270000.0,
+   "rhs": 1268270000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "687eafadc5d6",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "687eafadc5d6",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20241231",
+   "status": "pass",
+   "lhs": 252172674.0,
+   "rhs": 252170000.0,
+   "diff": 2674.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20240930",
+   "status": "pass",
+   "lhs": 178177811.0,
+   "rhs": 178180000.0,
+   "diff": -2189.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20240630",
+   "status": "pass",
+   "lhs": 120158867.0,
+   "rhs": 120160000.0,
+   "diff": -1133.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20240331",
+   "status": "pass",
+   "lhs": 60063176.0,
+   "rhs": 60063176.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20231231",
+   "status": "pass",
+   "lhs": 144403649.0,
+   "rhs": 144400000.0,
+   "diff": 3649.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20230930",
+   "status": "pass",
+   "lhs": 93190192.0,
+   "rhs": 93190192.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20230630",
+   "status": "pass",
+   "lhs": 61319058.0,
+   "rhs": 61319058.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "688498.SH",
+   "label": "20230331",
+   "status": "pass",
+   "lhs": 34853815.0,
+   "rhs": 34853815.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "be2157d010d3",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "be2157d010d3",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20241231",
+   "status": "pass",
+   "lhs": 3251700000.0,
+   "rhs": 3251710000.0,
+   "diff": -10000.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20240930",
+   "status": "pass",
+   "lhs": 2394700000.0,
+   "rhs": 2394710000.0,
+   "diff": -10000.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 1
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20240630",
+   "status": "pass",
+   "lhs": 1555950000.0,
+   "rhs": 1555950000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 2
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20240331",
+   "status": "pass",
+   "lhs": 731670000.0,
+   "rhs": 731670000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 3
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20231231",
+   "status": "pass",
+   "lhs": 1938600000.0,
+   "rhs": 1938600000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 4
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20230930",
+   "status": "pass",
+   "lhs": 1206110000.0,
+   "rhs": 1206110000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 5
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20230630",
+   "status": "pass",
+   "lhs": 664170000.0,
+   "rhs": 664170000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 6
+    }
+   ]
+  },
+  {
+   "check": "cn_single_sum_eq_cumulative",
+   "entity": "300394.SZ",
+   "label": "20230331",
+   "status": "pass",
+   "lhs": 286990000.0,
+   "rhs": 286990000.0,
+   "diff": 0.0,
+   "sources": [
+    {
+     "call_id": "c46624645938",
+     "column": "单季度.营业收入（单位：元）",
+     "table": 0,
+     "row": 7
+    },
+    {
+     "call_id": "c46624645938",
+     "column": "营业收入（单位：元）",
+     "table": 0,
+     "row": 7
     }
    ]
   },
