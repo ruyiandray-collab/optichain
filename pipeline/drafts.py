@@ -81,10 +81,10 @@ def tokens(s: str) -> list[dict]:
         um = UNIT.match(t, m.end())
         u = um.group(1) if um else ""
         unit = UNIT_CANON.get(u, u.lower())
-        before = re.split(r"[，,；;。：:、（(/]", t[max(0, m.start() - 14):m.start()])[-1]  # 只在同一分句内找修饰词 / 指标
+        before = re.split(r"[，,；;。：:、（()）【】\[\]/]", t[max(0, m.start() - 14):m.start()])[-1]  # 只在同一分句内找修饰词 / 指标
         mm = MODIFIER.search(before)
         out.append({"raw": m.group(0), "value": float(m.group(2)), "sign": m.group(1) or "", "unit": unit,
-                    "family": UNIT_FAMILY.get(u, unit), "modifier": mm.group(1) if mm else "", "metric": _metric(before),
+                    "family": UNIT_FAMILY.get(u, unit), "modifier": mm.group(1) if mm else "", "metric": _metric(before[-8:]),  # 指标词须紧挨数字
                     "count": bool(re.fullmatch(r"\d", m.group(2)) and (COUNT_AFTER.match(t, m.end()) or before.endswith("第")))})
     return out
 

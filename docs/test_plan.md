@@ -8,7 +8,8 @@
 | 管道（Python） | `python -m pytest -q` | `tests/` |
 | 前端（Vitest，SSR 渲染真实快照） | `cd web && npx vitest run` | `web/src/*.test.ts` |
 | 问答后端（Node 内置 test） | `cd web && node --test functions-tests/qa.test.mjs` | `web/functions-tests/` |
-| 问答端到端（本地 Pages + 真实 DeepSeek，手动） | `node web/scripts/pages-dev.mjs`，再按第 3 节逐条提问 | 结果记录在第 3 节 |
+| 问答端到端（本地 Pages + 真实 DeepSeek，手动） | `node web/scripts/pages-dev.mjs`，再按第 3 节逐条提问 | 结果记录在第 3、6 节 |
+| 线上问答稳定性（生产环境） | `python scripts/live_qa_check.py` | 结果自动生成到 [`docs/live_qa_results.md`](live_qa_results.md) |
 
 需要 iFinD / SEC 原始缓存（`data/cache/`，不进公开仓库）的用例，在缓存不存在时会 skip 并写明原因。所以公开仓库的 CI 只验证“快照 ↔ staging 记录”这一层，本地再多验证一层“staging ↔ iFinD 原始返回”。
 

@@ -68,7 +68,7 @@
 | 要求 | 现状 |
 |---|---|
 | Python 管道；Vite + React 前端 | ✅ |
-| Cloudflare Pages + Functions | ✅ 本地 `wrangler pages dev` 已验证；**线上部署等待确认** |
+| Cloudflare Pages + Functions | ✅ 已部署到 Pages 项目 `optichain`；DeepSeek key 设为 Pages secret |
 | DeepSeek，key 走环境变量，不进仓库 | ✅（运行时从注册表读取，不落盘） |
 | README、.env.example、tests、docs | ✅ / README 在 M6 补全 |
 
@@ -85,7 +85,7 @@
 ## 8–9. 记录与交付
 | 交付项 | 状态 |
 |---|---|
-| Web URL | ⏳ 等待部署确认 |
+| Web URL | ✅ https://optichain.pages.dev（2026-10-17 部署，线上问答检查 14 / 14 通过） |
 | 源码仓库 + README | ⚠️ README 已完成；本地 git；GitHub 远程仓库没建（需要你确认仓库名和公开范围） |
 | 演示视频脚本 + 分镜 | ✅ `docs/demo_script.md`（旁白里的数字由脚本从快照读出） |
 | ai_log.md | ✅ 持续维护（每个里程碑一段草稿） |

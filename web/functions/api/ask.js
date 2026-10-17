@@ -1,6 +1,6 @@
 // Cloudflare Pages Function：POST /api/ask {question}
 // 流程：合规拦截（确定性规则）→ 快照内检索 → DeepSeek 作答（只能用上下文）→ 引用与数字校验 → 返回。
-import { compliance, buildIndex, search, coverage, uncheckedNumbers, uncitedNumbers, uncitedSentences, SYSTEM } from "../_lib/qa.js";
+import { compliance, buildIndex, search, coverage, uncheckedNumbers, uncitedNumbers, uncitedSentences, isNoInfoAnswer, SYSTEM } from "../_lib/qa.js";
 
 const MIN_COVERAGE = 0.3; // 问题实词被最佳文档命中的比例下限；低于它直接拒答，高于它交给 LLM（“上下文没有就说没有”）兜底
 
@@ -85,6 +85,9 @@ export async function onRequestPost({ request, env }) {
   const inline = [...answer.matchAll(/\[([^\]]+)\]/g)].map((x) => x[1]);
   let cites = [...new Set([...(out.citations || []), ...inline].map(resolve).filter(Boolean))];
   // 不再替模型补引用（交叉核对发现：无引用的回答会被自动配上检索结果当依据）
+  if (isNoInfoAnswer(answer)) {  // 模型判断快照里没有：返回统一的“没有证据”话术，不展示模型的附带说明
+    return json({ refused: true, reason: "no_evidence", answer: rules.no_evidence_reply, citations: [], version });
+  }
   const noCite = uncitedSentences(answer, resolve);
   if (!cites.length || noCite.length) {
     return json({ refused: true, reason: "answer_blocked_uncited_claims", uncited_sentences: noCite.map((x) => x.slice(0, 80)),

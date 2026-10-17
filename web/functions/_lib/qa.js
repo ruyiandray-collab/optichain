@@ -131,10 +131,11 @@ function tokens(text) {
     if (/^-[KQF](?![A-Za-z])/.test(after) || (/^[A-Za-z]/.test(after) && /[A-Za-z]$/.test(t.slice(0, m.index)))) continue;
     const u = (after.match(UNIT) || [""])[0].trim();
     // 修饰词与指标只在同一分句内找（实测发现：跨过逗号把“B 订单/量产 3 只”的 3 认成了“收入”）
-    const before = t.slice(Math.max(0, m.index - 14), m.index).split(/[，,；;。：:、（(/]/).pop();
+    const before = t.slice(Math.max(0, m.index - 14), m.index).split(/[，,；;。：:、（()）【】\[\]/]/).pop();
     const unit = UNIT_CANON[u] || u.toLowerCase();
     out.push({ raw: m[0], value: parseFloat(m[2]), sign: m[1] || "", unit, family: UNIT_FAMILY[u] || unit,
-               modifier: (before.match(MODIFIER) || [])[1] || "", metric: metricOf(before),
+               // 指标词必须紧挨数字（结尾距数字 ≤ 6 字）：线上实测“订单/量产/收入表述的 B 级为 3 只”被误绑到“收入”
+               modifier: (before.match(MODIFIER) || [])[1] || "", metric: metricOf(before.slice(-8)),
                isCount: /^\d$/.test(m[2]) && (COUNT_AFTER.test(after) || before.endsWith("第")) });
   }
   return out;
@@ -214,6 +215,12 @@ export function uncitedNumbers(answer, resolve, docText) {
 
 // 每个实质性句子都要有引用（交叉核对发现：不含数字的断言“全球行业龙头”也能通过；接口还会替无引用答案补引用）
 const NO_INFO = /快照中没有|没有检索到|无法回答|事实不足|不提供|不构成投资建议|未给出|未提供|没有给出|未披露|没有相关/;
+// 模型自己表示“快照里没有”：以第一句为准（线上实测：这类回答常因附带说明没标引用被拦，用户只看到“已拦截”）
+export function isNoInfoAnswer(answer) {
+  const first = (sentences(answer)[0] || "").trim();
+  // 必须是“快照中没有相关信息 / 没有检索到 / 无法回答”这类完整说法；“快照中没有 A 级公司”这种是正常结论（线上实测误判）
+  return /^(快照(中|里)?没有(相关|这方面的?)?(信息|数据|证据|内容)|没有检索到|无法回答)/.test(first);
+}
 export function uncitedSentences(answer, resolve) {
   return sentences(answer).map((s) => s.trim()).filter((s) => {
     const plain = s.replace(/\[[^\]]*\]/g, "").replace(/[。；;！!？?\s]/g, "");

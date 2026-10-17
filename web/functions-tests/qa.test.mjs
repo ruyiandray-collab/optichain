@@ -174,3 +174,27 @@ test("实测误拦的三种正常回答现在通过（且反例仍被拦）", as
   // 反例仍被拦：真正没有依据的断言
   assert.equal(uncitedSentences("中际旭创是全球行业龙头，地位稳固。", resolve).length, 1);
 });
+
+test("线上实测误拦：标签描述里的指标词不绑定到远处的数字（且近处的指标错配仍被拦）", async () => {
+  const { uncitedNumbers } = await import("../functions/_lib/qa.js");
+  const docs = { "card:cpo": "按证据分级：A 有收入 0 只；B 订单/量产 3 只", "card:z": "营收同比 99.0%" };
+  const resolve = (id) => (id in docs ? id : null), text = (id) => docs[id];
+  assert.deepEqual(uncitedNumbers("按正式文件订单/量产/收入表述的 B 级为 3 只 [card:cpo]。", resolve, text), []);
+  assert.equal(uncitedNumbers("净利率 99.0% [card:z]。", resolve, text).length, 1);
+});
+
+test("线上实测误拦（括号标签）：“B 级（…收入表述）为 3 只”不绑定到收入", async () => {
+  const { uncitedNumbers } = await import("../functions/_lib/qa.js");
+  const docs = { "card:cpo": "按证据分级：A 有收入 0 只；B 订单/量产 3 只。B 级（正式文件中有订单 / 量产 / 收入表述）：中际旭创" };
+  const resolve = (id) => (id in docs ? id : null), text = (id) => docs[id];
+  for (const a of ["B级（正式文件中有订单/量产/收入表述）为3只：中际旭创 [card:cpo]。", "B 级（正式文件中有订单 / 量产 / 收入表述）有 3 只 [card:cpo]。"])
+    assert.deepEqual(uncitedNumbers(a, resolve, text), [], a);
+});
+
+test("模型表示快照里没有时，统一按无证据处理（不误判正常回答）", async () => {
+  const { isNoInfoAnswer } = await import("../functions/_lib/qa.js");
+  assert.equal(isNoInfoAnswer("快照中没有相关信息。上下文仅在 ST得润的概念列表中提及宁德时代概念。"), true);
+  assert.equal(isNoInfoAnswer("中际旭创属于光模块环节 [card:company:300308.SZ]。"), false);
+  assert.equal(isNoInfoAnswer("中际旭创属于光模块环节 [card:x]。CPO 收入数据快照中没有给出。"), false);
+  assert.equal(isNoInfoAnswer("快照中没有 A 级（有收入）的公司，B 级 3 只 [card:cpo_universe]。"), false);  // 线上实测误判
+});
